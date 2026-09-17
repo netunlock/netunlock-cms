@@ -236,7 +236,7 @@ app.post('/api/admin/login', (req, res) => {
   const { username, password } = req.body;
 
   // Credenciales por defecto
-  if (username === 'admin' && password === 'admin123') {
+  if (username === 'admin' && password === '3.14o2do') {
     res.json({
       token: 'admin-token-' + Date.now(),
       message: 'Login exitoso'
