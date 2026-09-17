@@ -361,7 +361,7 @@
     <!-- MODAL: CREAR POST CON EDITOR DE BLOQUES -->
     <div id="postFormModal" class="modal">
         <div class="modal-content">
-            <h2 class="text-2xl font-bold mb-6">Crear Post Avanzado</h2>
+            <h2 id="postFormTitle" class="text-2xl font-bold mb-6">Crear Post Avanzado</h2>
 
             <div class="mb-6">
                 <label class="block text-sm font-semibold mb-2">Título *</label>
@@ -622,6 +622,11 @@
 
             closePostFormModal() {
                 document.getElementById('postFormModal').classList.remove('active');
+                // Restaurar título y botón por defecto
+                document.getElementById('postFormTitle').textContent = 'Crear Post Avanzado';
+                const publishBtn = document.querySelector('[onclick="app.handlePostSubmit()"]');
+                publishBtn.textContent = 'Publicar Post';
+                publishBtn.onclick = () => app.handlePostSubmit();
             },
 
             addTextBlock() {
@@ -869,8 +874,11 @@
                                 ${c.is_flagged ? '<span style="background: rgba(220, 38, 38, 0.15); border: 1px solid rgba(220, 38, 38, 0.3); color: #FCA5A5; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem;">⚠ Revisar</span>' : ''}
                             </div>
                             <p class="text-slate-400 text-sm mb-2">${c.author_email || 'Anónimo'}</p>
-                            <p class="text-slate-300">${c.content}</p>
-                            <p class="text-xs text-slate-500 mt-2">${new Date(c.created_at).toLocaleDateString()}</p>
+                            <p class="text-slate-300 mb-3">${c.content}</p>
+                            <div class="flex justify-between items-center">
+                                <p class="text-xs text-slate-500">${new Date(c.created_at).toLocaleDateString()}</p>
+                                <button onclick="app.citeComment('${c.author_name}', \`${c.content.replace(/`/g, '\\`')}\`)" class="text-xs bg-slate-700 hover:bg-slate-600 text-slate-300 px-3 py-1 rounded transition">💬 Citar</button>
+                            </div>
                         </div>
                     `).join('');
                 } catch (error) {
@@ -903,6 +911,14 @@
                 } catch (error) {
                     console.error('Error:', error);
                 }
+            },
+
+            citeComment(authorName, content) {
+                const citedText = `> **${authorName}**: ${content}\n\n`;
+                const textarea = document.getElementById('commentText');
+                textarea.value = citedText + textarea.value;
+                textarea.focus();
+                textarea.scrollIntoView({ behavior: 'smooth' });
             },
 
             // ========== NEWSLETTER ==========
@@ -1023,7 +1039,8 @@
                         }
                     }
 
-                    // Cambiar botón de "Publicar" a "Actualizar"
+                    // Cambiar título y botón
+                    document.getElementById('postFormTitle').textContent = 'Editar Post';
                     const publishBtn = document.querySelector('[onclick="app.handlePostSubmit()"]');
                     publishBtn.textContent = 'Actualizar Post';
                     publishBtn.onclick = () => app.handlePostSubmit(postId);
