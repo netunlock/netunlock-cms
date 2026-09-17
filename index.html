@@ -438,6 +438,12 @@
 
             init() {
                 this.loadPosts();
+
+                // Detectar si viene del link /admin o ?admin
+                if (window.location.search.includes('admin') || window.location.pathname.includes('admin')) {
+                    this.toggleAdminLogin();
+                }
+
                 if (this.adminToken) {
                     this.showAdminPanel();
                 }
