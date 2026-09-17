@@ -438,14 +438,23 @@
 
             init() {
                 this.loadPosts();
-
-                // Detectar si viene del link /admin o ?admin
-                if (window.location.search.includes('admin') || window.location.pathname.includes('admin')) {
-                    this.toggleAdminLogin();
-                }
+                this.handleRoute();
 
                 if (this.adminToken) {
                     this.showAdminPanel();
+                }
+
+                window.addEventListener('hashchange', () => this.handleRoute());
+            },
+
+            handleRoute() {
+                const hash = window.location.hash.slice(1);
+
+                if (hash === 'admin') {
+                    this.toggleAdminLogin();
+                } else if (hash.startsWith('post/')) {
+                    const postSlug = hash.split('/')[1];
+                    this.loadPostBySlug(postSlug);
                 }
             },
 
@@ -481,7 +490,9 @@
                         return;
                     }
 
-                    grid.innerHTML = posts.map(post => `
+                    grid.innerHTML = posts.map(post => {
+                        const slug = this.generateSlug(post.title);
+                        return `
                         <div class="card p-6 rounded-2xl cursor-pointer" onclick="app.openPostModal(${post.id})">
                             <h3 class="text-xl font-bold mb-2">${post.title}</h3>
                             <p class="text-slate-400 text-sm mb-4">${post.description || post.content.substring(0, 80) + '...'}</p>
@@ -489,8 +500,9 @@
                                 <span>👁 ${post.views} vistas</span>
                                 <span>${new Date(post.created_at).toLocaleDateString('es-ES')}</span>
                             </div>
+                            <a href="#post/${slug}" class="text-indigo-400 text-xs hover:text-indigo-300 mt-3 inline-block">Compartir enlace →</a>
                         </div>
-                    `).join('');
+                    `}).join('');
                 } catch (error) {
                     console.error('Error:', error);
                 }
@@ -503,8 +515,26 @@
                     const response = await fetch(`${this.API_BASE}/posts/${postId}`);
                     const post = await response.json();
 
+                    const postUrl = window.location.origin + window.location.pathname + '#post/' + this.generateSlug(post.title);
+                    const shareText = encodeURIComponent(`Mira esto: ${post.title}`);
+                    const shareUrl = encodeURIComponent(postUrl);
+
                     let content = `<h1>${post.title}</h1>
-                        <p class="text-slate-400 mb-6">${new Date(post.created_at).toLocaleDateString('es-ES')} · ${post.views} vistas</p>`;
+                        <p class="text-slate-400 mb-4">${new Date(post.created_at).toLocaleDateString('es-ES')} · ${post.views} vistas</p>
+                        <div class="flex gap-3 mb-6 flex-wrap">
+                            <a href="https://wa.me/?text=${shareText}%20${shareUrl}" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm transition">
+                                💬 WhatsApp
+                            </a>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=${shareUrl}" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm transition">
+                                👍 Facebook
+                            </a>
+                            <a href="https://twitter.com/intent/tweet?text=${shareText}&url=${shareUrl}" target="_blank" class="bg-sky-500 hover:bg-sky-600 text-white px-4 py-2 rounded-lg text-sm transition">
+                                𝕏 Twitter
+                            </a>
+                            <button onclick="navigator.clipboard.writeText('${postUrl}'); alert('Enlace copiado')" class="bg-slate-600 hover:bg-slate-700 text-white px-4 py-2 rounded-lg text-sm transition">
+                                🔗 Copiar
+                            </button>
+                        </div>`;
 
                     // Si hay bloques, renderizarlos
                     if (post.blocks) {
@@ -553,6 +583,31 @@
 
             closePostModal() {
                 document.getElementById('postModal').classList.remove('active');
+            },
+
+            generateSlug(title) {
+                return title
+                    .toLowerCase()
+                    .replace(/[^\w\s-]/g, '')
+                    .trim()
+                    .replace(/\s+/g, '-')
+                    .replace(/-+/g, '-');
+            },
+
+            async loadPostBySlug(slug) {
+                try {
+                    const response = await fetch(`${this.API_BASE}/posts`);
+                    const posts = await response.json();
+                    const post = posts.find(p => this.generateSlug(p.title) === slug);
+
+                    if (post) {
+                        this.openPostModal(post.id);
+                    } else {
+                        console.error('Post no encontrado');
+                    }
+                } catch (error) {
+                    console.error('Error:', error);
+                }
             },
 
             // ========== EDITOR DE BLOQUES ==========
