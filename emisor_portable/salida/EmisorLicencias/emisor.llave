@@ -1,0 +1,14 @@
+{
+  "formato": 1,
+  "kdf": "scrypt",
+  "n": 131072,
+  "r": 8,
+  "p": 1,
+  "cifrado": "AES-256-GCM",
+  "sal": "497ea1b7623e21f225aa4ecc3aaee7a2",
+  "nonce": "86fa6361200bf8c48275883d",
+  "secreto": "30ead16400f351b24c4ef8ae20b65b4d9ea870498515bd52582bc75168b27b381921459f5fa630da714ea877e60a4aa2",
+  "publica": "30ccd4d861520dae54a911ab2806ae0c20389412525f758351422b343b7fd8a0",
+  "emitida": "2026-09-08",
+  "nota": "Emisor portable del Cotizador de Aberturas"
+}

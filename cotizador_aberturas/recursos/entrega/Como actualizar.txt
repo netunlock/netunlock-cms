@@ -1,0 +1,49 @@
+CÓMO ACTUALIZAR EL COTIZADOR DE ABERTURAS
+=========================================
+
+Tus datos no viven adentro de la carpeta del programa. La base con los
+presupuestos, las listas de precios, las fórmulas y la licencia están en:
+
+    C:\Users\<tu usuario>\AppData\Local\CotizadorAberturas\
+
+Por eso podés reemplazar el programa tranquilo: no se pierde nada.
+
+
+FORMA 1 — DESDE EL PROGRAMA (la recomendada)
+--------------------------------------------
+1. Guardá el .zip que te mandamos en cualquier carpeta (por ejemplo, Descargas).
+   NO hace falta descomprimirlo.
+2. Abrí el Cotizador y andá a  Ajustes  ->  "Instalar actualización desde
+   archivo .zip…".
+3. Elegí el .zip. El programa te muestra qué versión tenés y a cuál vas a pasar.
+4. Aceptá. El Cotizador se cierra, aparece una ventanita negra unos segundos
+   mientras se instala, y el programa se vuelve a abrir solo con la versión
+   nueva.
+5. Verificá en Ajustes que diga la versión nueva.
+
+Si algo sale mal, el programa NO se toca: se queda como estaba y la ventanita
+te avisa el motivo.
+
+
+FORMA 2 — A MANO (si venís de una versión vieja)
+------------------------------------------------
+Las versiones anteriores a la 2.2.0 no saben instalar este tipo de paquete.
+Se hace una sola vez, así:
+
+1. Cerrá el Cotizador.
+2. Descomprimí el .zip. Adentro hay una carpeta llamada "CotizadorAberturas".
+3. Buscá la carpeta donde tenés instalado el programa hoy (la que contiene
+   CotizadorAberturas.exe). Renombrala a "CotizadorAberturas_viejo".
+4. Poné la carpeta nueva en ese mismo lugar.
+5. Abrí CotizadorAberturas.exe. Tenés que ver todos tus presupuestos y precios
+   como los dejaste.
+6. Cuando compruebes que anda bien, borrá "CotizadorAberturas_viejo".
+
+De acá en adelante alcanza con la Forma 1.
+
+
+SI NO PODÉS ACTUALIZAR
+----------------------
+Si el programa está instalado en "C:\Program Files" o en otra carpeta del
+sistema, Windows no lo deja reemplazarse a sí mismo. Movelo a una carpeta tuya
+(el Escritorio o Documentos sirven) y volvé a intentar.

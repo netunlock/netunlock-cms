@@ -1,0 +1,13 @@
+datos/
+salidas/
+licencias/
+__pycache__/
+*.pyc
+*.db
+*.lic
+instalado.flag
+
+# Artefactos de compilación
+build/
+dist/
+*.spec

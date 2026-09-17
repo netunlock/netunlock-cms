@@ -1,0 +1,44 @@
+COTIZADOR DE ABERTURAS — versión portable 3.2.0
+==============================================================
+
+Uso personal. NO distribuir: esta compilación no lleva control de licencia.
+
+Cómo se usa
+-----------
+Copiá la carpeta entera al pendrive y ejecutá CotizadorAberturas.exe.
+No hay que instalar nada ni pide activación.
+
+Dónde quedan los datos
+----------------------
+Junto al programa, dentro de esta misma carpeta:
+
+    datos\cotizador.db          la base (presupuestos, precios, catálogos)
+    datos\copias\              respaldos automáticos
+    datos\imagenes_perfiles\   dibujos de sección
+    salidas\                    los PDF que generes
+
+O sea que todo viaja en el pendrive. Lo podés enchufar en otra PC y seguir
+donde lo dejaste.
+
+Si el pendrive está protegido contra escritura, o copiás el programa a una
+carpeta sin permisos, cae solo a %LOCALAPPDATA%\CotizadorAberturas y sigue
+funcionando (pero ahí los datos ya no viajan).
+
+Llevarte los datos que ya tenés
+-------------------------------
+Copiá el contenido de:
+
+    %LOCALAPPDATA%\CotizadorAberturas\datos
+
+adentro de la carpeta "datos" de acá. Cerrá el programa antes de copiar.
+
+Forzar otra ubicación
+---------------------
+Si querés que los datos vayan a una carpeta fija, definí la variable de
+entorno COTIZADOR_DATOS con la ruta antes de abrir el programa.
+
+Ojo
+---
+Un pendrive es más lento y más frágil que un disco. Hacé copia de
+datos\cotizador.db cada tanto — el programa ya guarda respaldos automáticos
+en datos\copias antes de cada actualización de esquema.

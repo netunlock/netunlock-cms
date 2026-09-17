@@ -1,0 +1,826 @@
+{
+  "catalogo": "Aluar — Sistema Herrero",
+  "version": "cat. técnico + descuentos de taller",
+  "lineas": [
+    {
+      "nombre": "Herrero",
+      "extrusora": "Aluar",
+      "modo_costeo": "kg",
+      "colores": [
+        {
+          "color": "Natural",
+          "precio_kg": 0
+        },
+        {
+          "color": "Blanco",
+          "precio_kg": 0
+        },
+        {
+          "color": "Negro",
+          "precio_kg": 0
+        },
+        {
+          "color": "Bronce",
+          "precio_kg": 0
+        }
+      ],
+      "perfiles": [
+        {
+          "codigo": "1",
+          "descripcion": "Marco - Ventana Y Puerta Corrediza",
+          "peso_kg_m": 0.921,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "2",
+          "descripcion": "Zocalo Y Cabezal -  Hoja Corrediza",
+          "peso_kg_m": 0.521,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "3",
+          "descripcion": "Parante Lateral - Hoja Corrediza",
+          "peso_kg_m": 0.577,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "4",
+          "descripcion": "Parante Central - Hoja Corrediza",
+          "peso_kg_m": 0.518,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "5",
+          "descripcion": "Mosquitero",
+          "peso_kg_m": 0.392,
+          "largo_barra_mm": 6000,
+          "familia": "Mosquitero"
+        },
+        {
+          "codigo": "6",
+          "descripcion": "Mosquitero Chico",
+          "peso_kg_m": 0.199,
+          "largo_barra_mm": 6000,
+          "familia": "Mosquitero"
+        },
+        {
+          "codigo": "7",
+          "descripcion": "Marco -  Paño Fijo",
+          "peso_kg_m": 0.683,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "8",
+          "descripcion": "Contravidrio",
+          "peso_kg_m": 0.16,
+          "largo_barra_mm": 6000,
+          "familia": "Contravidrios"
+        },
+        {
+          "codigo": "10",
+          "descripcion": "Marco",
+          "peso_kg_m": 0.788,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "11",
+          "descripcion": "Travesaño Hoja",
+          "peso_kg_m": 1.671,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "17",
+          "descripcion": "Umbral - Puerta Corrediza",
+          "peso_kg_m": 1.05,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "19",
+          "descripcion": "Corrediza 4 Hojas",
+          "peso_kg_m": 0.389,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "21",
+          "descripcion": "Guia De Cortina Barrios",
+          "peso_kg_m": 0.926,
+          "largo_barra_mm": 6000,
+          "familia": "Cortina"
+        },
+        {
+          "codigo": "23",
+          "descripcion": "Porta Burlete Y Porta Contravidrio",
+          "peso_kg_m": 0.394,
+          "largo_barra_mm": 6000,
+          "familia": "Contravidrios"
+        },
+        {
+          "codigo": "24",
+          "descripcion": "Marco - Puerta Vaiven",
+          "peso_kg_m": 0.73,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "37",
+          "descripcion": "Escuadra De Armado Parte  A  B Y C",
+          "peso_kg_m": 0.745,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "38",
+          "descripcion": "Para Masilla",
+          "peso_kg_m": 0.156,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "39",
+          "descripcion": "Parante Hoja",
+          "peso_kg_m": 1.364,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "40",
+          "descripcion": "Tapacanto - Puerta Vaiven",
+          "peso_kg_m": 0.14,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "41",
+          "descripcion": "Tapacanto",
+          "peso_kg_m": 0.232,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "42",
+          "descripcion": "Tapacanto Con Tope Para Batiente",
+          "peso_kg_m": 0.481,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "44",
+          "descripcion": "Puerta Corrediza",
+          "peso_kg_m": 0.848,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "46",
+          "descripcion": "Tapajunta",
+          "peso_kg_m": 0.224,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "51",
+          "descripcion": "Premarco Standard",
+          "peso_kg_m": 0.883,
+          "largo_barra_mm": 6000,
+          "familia": "Premarcos"
+        },
+        {
+          "codigo": "53",
+          "descripcion": "Parante Lateral Reforzado Hoja",
+          "peso_kg_m": 0.712,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "54",
+          "descripcion": "Parante Central Reforzado Hoja",
+          "peso_kg_m": 0.729,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "78",
+          "descripcion": "Contravidrio 6 Mm.",
+          "peso_kg_m": 0.151,
+          "largo_barra_mm": 6000,
+          "familia": "Contravidrios"
+        },
+        {
+          "codigo": "90",
+          "descripcion": "Travesaño -  Mosquitero",
+          "peso_kg_m": 0.55,
+          "largo_barra_mm": 6000,
+          "familia": "Mosquitero"
+        },
+        {
+          "codigo": "94",
+          "descripcion": "Travesaño -  Paño Fijo",
+          "peso_kg_m": 0.975,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "126",
+          "descripcion": "Distanciador De Tablilla",
+          "peso_kg_m": 0.138,
+          "largo_barra_mm": 6000,
+          "familia": "Postigón"
+        },
+        {
+          "codigo": "127",
+          "descripcion": "Tablilla Postigon 100 Mm.",
+          "peso_kg_m": 0.375,
+          "largo_barra_mm": 6000,
+          "familia": "Postigón"
+        },
+        {
+          "codigo": "148",
+          "descripcion": "Soporte Tablilla De Postigon",
+          "peso_kg_m": 0.34,
+          "largo_barra_mm": 6000,
+          "familia": "Postigón"
+        },
+        {
+          "codigo": "153",
+          "descripcion": "Tablilla Postigon De 46,6 Mm.",
+          "peso_kg_m": 0.186,
+          "largo_barra_mm": 6000,
+          "familia": "Postigón"
+        },
+        {
+          "codigo": "173",
+          "descripcion": "Travesaño De Hoja",
+          "peso_kg_m": 0.71,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "174",
+          "descripcion": "Batiente De Hoja",
+          "peso_kg_m": 0.713,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "185",
+          "descripcion": "Columna De Acople",
+          "peso_kg_m": 1.35,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "186",
+          "descripcion": "Acople En Esquina",
+          "peso_kg_m": 1.202,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "187",
+          "descripcion": "Perfil Rotula",
+          "peso_kg_m": 0.678,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "205",
+          "descripcion": "Contravidrio",
+          "peso_kg_m": 0.199,
+          "largo_barra_mm": 6000,
+          "familia": "Contravidrios"
+        },
+        {
+          "codigo": "206",
+          "descripcion": "Contravidrio",
+          "peso_kg_m": 0.119,
+          "largo_barra_mm": 6000,
+          "familia": "Contravidrios"
+        },
+        {
+          "codigo": "207",
+          "descripcion": "Tablilla",
+          "peso_kg_m": 0.967,
+          "largo_barra_mm": 6000,
+          "familia": "Postigón"
+        },
+        {
+          "codigo": "208",
+          "descripcion": "Travesaño Intermedio",
+          "peso_kg_m": 1.369,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "211",
+          "descripcion": "Marco",
+          "peso_kg_m": 0.78,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "212",
+          "descripcion": "Travesaño Superior E Inferior",
+          "peso_kg_m": 1.436,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "213",
+          "descripcion": "Batiente De Hoja",
+          "peso_kg_m": 1.226,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "214",
+          "descripcion": "Tapacanto Central Hoja",
+          "peso_kg_m": 0.275,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "215",
+          "descripcion": "Bisagra",
+          "peso_kg_m": 0.338,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "216",
+          "descripcion": "Marco",
+          "peso_kg_m": 0.826,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "217",
+          "descripcion": "Hoja Banderola",
+          "peso_kg_m": 0.548,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "218",
+          "descripcion": "Hoja Ventiluz",
+          "peso_kg_m": 0.548,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "219",
+          "descripcion": "Umbral Con Caja De Agua Corrediza",
+          "peso_kg_m": 1.369,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "224",
+          "descripcion": "Puerta Corrediza",
+          "peso_kg_m": 0.915,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "507",
+          "descripcion": "Contravidrio Interno",
+          "peso_kg_m": 0.108,
+          "largo_barra_mm": 6000,
+          "familia": "Contravidrios"
+        },
+        {
+          "codigo": "509",
+          "descripcion": "Batiente De Hoja",
+          "peso_kg_m": 0.821,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "510",
+          "descripcion": "Travesaño De Hoja",
+          "peso_kg_m": 1.246,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "511",
+          "descripcion": "Tapacanto",
+          "peso_kg_m": 0.124,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "519",
+          "descripcion": "Tapacanto Con Tope",
+          "peso_kg_m": 0.262,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "521",
+          "descripcion": "Tapacinta",
+          "peso_kg_m": 0.427,
+          "largo_barra_mm": 6000,
+          "familia": "Cortina"
+        },
+        {
+          "codigo": "524",
+          "descripcion": "Marco",
+          "peso_kg_m": 0.745,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "527",
+          "descripcion": "Travesaño Intermedio",
+          "peso_kg_m": 0.586,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "681",
+          "descripcion": "Marco - Puerta Placa Simple Contacto",
+          "peso_kg_m": 0.699,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "687",
+          "descripcion": "Travesaño Chico - Paño Fijo",
+          "peso_kg_m": 0.745,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "690",
+          "descripcion": "Guia Con Escuadra Para Corrediza",
+          "peso_kg_m": 0.489,
+          "largo_barra_mm": 6000,
+          "familia": "Cortina"
+        },
+        {
+          "codigo": "691",
+          "descripcion": "Marco Corrediza De 3 Guias",
+          "peso_kg_m": 1.38,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "714",
+          "descripcion": "Marco Unificado Con Postigon Corredizo",
+          "peso_kg_m": 1.588,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "715",
+          "descripcion": "Complemento Tapacinta",
+          "peso_kg_m": 0.516,
+          "largo_barra_mm": 6000,
+          "familia": "Cortina"
+        },
+        {
+          "codigo": "718",
+          "descripcion": "Tubo De Acople A 45",
+          "peso_kg_m": 1.32,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "800",
+          "descripcion": "Bastidor Vidrio Repartido Corrediza",
+          "peso_kg_m": 0.305,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "801",
+          "descripcion": "Travesaño Vidrio Repartido",
+          "peso_kg_m": 0.434,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "802",
+          "descripcion": "Bastidor Vidrio Repartido Paño Fijo",
+          "peso_kg_m": 0.389,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "920",
+          "descripcion": "Guia Cortina De Enrollar",
+          "peso_kg_m": 0.456,
+          "largo_barra_mm": 6000,
+          "familia": "Cortina"
+        },
+        {
+          "codigo": "2500",
+          "descripcion": "Premarco Universal",
+          "peso_kg_m": 0.988,
+          "largo_barra_mm": 6000,
+          "familia": "Premarcos"
+        },
+        {
+          "codigo": "2501",
+          "descripcion": "Tapa Para Premarco Universal",
+          "peso_kg_m": 0.173,
+          "largo_barra_mm": 6000,
+          "familia": "Premarcos"
+        },
+        {
+          "codigo": "3792",
+          "descripcion": "Parante Mediano",
+          "peso_kg_m": 0.961,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "3938",
+          "descripcion": "Parante",
+          "peso_kg_m": 1.12,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "3939",
+          "descripcion": "Marco",
+          "peso_kg_m": 0.715,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "3940",
+          "descripcion": "Doble Contacto",
+          "peso_kg_m": 0.284,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "3941",
+          "descripcion": "Travesaño/ Zocalo/ Cabezal Hoja",
+          "peso_kg_m": 1.039,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "5588",
+          "descripcion": "Contravidrio 12 Mm.",
+          "peso_kg_m": 0.146,
+          "largo_barra_mm": 6000,
+          "familia": "Contravidrios"
+        },
+        {
+          "codigo": "5596",
+          "descripcion": "Contravidrio 8 Mm.",
+          "peso_kg_m": 0.14,
+          "largo_barra_mm": 6000,
+          "familia": "Contravidrios"
+        },
+        {
+          "codigo": "5746",
+          "descripcion": "Bota Agua",
+          "peso_kg_m": 0.124,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "5800",
+          "descripcion": "Tablilla Postigon",
+          "peso_kg_m": 0.27,
+          "largo_barra_mm": 6000,
+          "familia": "Postigón"
+        },
+        {
+          "codigo": "6348",
+          "descripcion": "Marco Unificado Con Postigon De Rebatir",
+          "peso_kg_m": 1.45,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "6350",
+          "descripcion": "Batiente Sin Contravidrios",
+          "peso_kg_m": 0.977,
+          "largo_barra_mm": 6000,
+          "familia": "Contravidrios"
+        },
+        {
+          "codigo": "6565",
+          "descripcion": "Marco 31,5 Mm.",
+          "peso_kg_m": 0.556,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "6567",
+          "descripcion": "Guia Corrediza Simple",
+          "peso_kg_m": 0.383,
+          "largo_barra_mm": 6000,
+          "familia": "Cortina"
+        },
+        {
+          "codigo": "6568",
+          "descripcion": "Guia Corrediza Con Mosquitero",
+          "peso_kg_m": 0.54,
+          "largo_barra_mm": 6000,
+          "familia": "Mosquitero"
+        },
+        {
+          "codigo": "6569",
+          "descripcion": "Perfil De Acople 75 Mm.",
+          "peso_kg_m": 0.416,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "6571",
+          "descripcion": "Travesaño Vidrio Repartido",
+          "peso_kg_m": 0.359,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6572",
+          "descripcion": "Bastidor Vidrio Repartido Corrediza",
+          "peso_kg_m": 0.243,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "6575",
+          "descripcion": "Marco Unificado Con Postigon De Rebatir",
+          "peso_kg_m": 1.145,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "6669",
+          "descripcion": "Marco Unificado Con Postigon Corredizo",
+          "peso_kg_m": 1.266,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "6765",
+          "descripcion": "Bastidor Vidrio Repartido Paño Fijo",
+          "peso_kg_m": 0.316,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "6901",
+          "descripcion": "Premarco 80 Mm",
+          "peso_kg_m": 0.71,
+          "largo_barra_mm": 6000,
+          "familia": "Premarcos"
+        },
+        {
+          "codigo": "7020",
+          "descripcion": "Regulador 95 A 115 Mm.",
+          "peso_kg_m": 0.659,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "7021",
+          "descripcion": "Regulador 115 A 135 Mm.",
+          "peso_kg_m": 0.791,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "7022",
+          "descripcion": "Regulador 135 A 155 Mm.",
+          "peso_kg_m": 0.921,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "7023",
+          "descripcion": "Marco Puerta Placa",
+          "peso_kg_m": 0.956,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "7149",
+          "descripcion": "Tapajunta Curvo",
+          "peso_kg_m": 0.194,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        }
+      ],
+      "formulas": [
+        {
+          "tipologia": "HE-COR2",
+          "perfil": "1",
+          "funcion": "MARCO_HORIZONTAL",
+          "largo": "A",
+          "cantidad": "2",
+          "nota": "Umbral y dintel de marco"
+        },
+        {
+          "tipologia": "HE-COR2",
+          "perfil": "1",
+          "funcion": "MARCO_VERTICAL",
+          "largo": "H",
+          "cantidad": "2",
+          "nota": "Jambas de marco"
+        },
+        {
+          "tipologia": "HE-COR2",
+          "perfil": "2",
+          "funcion": "HOJA_HORIZONTAL",
+          "largo": "(A/2) - 2.5",
+          "cantidad": "4",
+          "nota": "Zócalo y cabezal de hoja"
+        },
+        {
+          "tipologia": "HE-COR2",
+          "perfil": "3",
+          "funcion": "HOJA_VERTICAL",
+          "largo": "H - 45",
+          "cantidad": "2",
+          "nota": "Parante lateral de hoja"
+        },
+        {
+          "tipologia": "HE-COR2",
+          "perfil": "4",
+          "funcion": "HOJA_VERTICAL",
+          "largo": "H - 45",
+          "cantidad": "2",
+          "nota": "Parante central de hoja"
+        },
+        {
+          "tipologia": "HE-PREB1",
+          "perfil": "524",
+          "funcion": "MARCO_HORIZONTAL",
+          "largo": "A",
+          "cantidad": "2",
+          "nota": "Umbral y dintel de marco"
+        },
+        {
+          "tipologia": "HE-PREB1",
+          "perfil": "524",
+          "funcion": "MARCO_VERTICAL",
+          "largo": "H",
+          "cantidad": "2",
+          "nota": "Jambas de marco"
+        },
+        {
+          "tipologia": "HE-PREB1",
+          "perfil": "509",
+          "funcion": "HOJA_VERTICAL",
+          "largo": "H - 35",
+          "cantidad": "2",
+          "nota": "Parante de hoja"
+        },
+        {
+          "tipologia": "HE-PREB1",
+          "perfil": "510",
+          "funcion": "HOJA_HORIZONTAL",
+          "largo": "A - 70",
+          "cantidad": "2",
+          "nota": "Zócalo y cabezal de hoja"
+        }
+      ],
+      "formulas_vidrio": [
+        {
+          "tipologia": "HE-COR2",
+          "ancho": "AH - 50",
+          "alto": "HH - 50",
+          "cantidad": "N"
+        },
+        {
+          "tipologia": "HE-PREB1",
+          "ancho": "AH - 20",
+          "alto": "HH - 40",
+          "cantidad": "1"
+        }
+      ]
+    }
+  ],
+  "tipologias": [
+    {
+      "codigo": "HE-COR2",
+      "nombre": "Corrediza 2 hojas",
+      "hojas": 2,
+      "esquema": "corrediza"
+    },
+    {
+      "codigo": "HE-PREB1",
+      "nombre": "Puerta rebatir 1 hoja",
+      "hojas": 1,
+      "esquema": "puerta_batiente"
+    }
+  ]
+}

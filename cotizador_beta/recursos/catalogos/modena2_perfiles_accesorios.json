@@ -1,0 +1,1411 @@
+{
+  "catalogo": "Aluar — Sistema Módena 2",
+  "version": "V1118",
+  "lineas": [
+    {
+      "nombre": "Modena 2",
+      "extrusora": "Aluar",
+      "modo_costeo": "kg",
+      "colores": [
+        {
+          "color": "Natural",
+          "precio_kg": 0
+        },
+        {
+          "color": "Blanco",
+          "precio_kg": 0
+        },
+        {
+          "color": "Negro",
+          "precio_kg": 0
+        },
+        {
+          "color": "Bronce",
+          "precio_kg": 0
+        },
+        {
+          "color": "Anodizado natural",
+          "precio_kg": 0
+        }
+      ],
+      "perfiles": [
+        {
+          "codigo": "6204",
+          "descripcion": "Zócalo y cabezal hoja vidrio simple vent. y pta. corrediza",
+          "peso_kg_m": 0.721,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6206",
+          "descripcion": "Tapa premarco curvo para clip plástico",
+          "peso_kg_m": 0.186,
+          "largo_barra_mm": 6000,
+          "familia": "Premarcos"
+        },
+        {
+          "codigo": "6209",
+          "descripcion": "Zócalo alto hoja vidrio simple puerta corrediza",
+          "peso_kg_m": 1.266,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6217",
+          "descripcion": "Contravidrio recto 29 mm",
+          "peso_kg_m": 0.294,
+          "largo_barra_mm": 6000,
+          "familia": "Contravidrios"
+        },
+        {
+          "codigo": "6220",
+          "descripcion": "Contravidrio recto 5 mm",
+          "peso_kg_m": 0.176,
+          "largo_barra_mm": 6000,
+          "familia": "Contravidrios"
+        },
+        {
+          "codigo": "6221",
+          "descripcion": "Travesaño angosto paño fijo",
+          "peso_kg_m": 0.767,
+          "largo_barra_mm": 6000,
+          "familia": "Travesaños"
+        },
+        {
+          "codigo": "6222",
+          "descripcion": "Travesaño ancho paño fijo",
+          "peso_kg_m": 0.842,
+          "largo_barra_mm": 6000,
+          "familia": "Travesaños"
+        },
+        {
+          "codigo": "6223",
+          "descripcion": "Encuentro central vent. de abrir de 2 hojas con cámara compensadora",
+          "peso_kg_m": 0.918,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6224",
+          "descripcion": "Encuentro central vent. de abrir de 2 hojas DC/pta. rebatir",
+          "peso_kg_m": 0.794,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6225",
+          "descripcion": "Contravidrio recto 22 mm",
+          "peso_kg_m": 0.257,
+          "largo_barra_mm": 6000,
+          "familia": "Contravidrios"
+        },
+        {
+          "codigo": "6226",
+          "descripcion": "Contravidrio recto 15 mm",
+          "peso_kg_m": 0.211,
+          "largo_barra_mm": 6000,
+          "familia": "Contravidrios"
+        },
+        {
+          "codigo": "6228",
+          "descripcion": "Tope de mosquitero ventana y puerta corrediza",
+          "peso_kg_m": 0.186,
+          "largo_barra_mm": 6000,
+          "familia": "Mosquitero"
+        },
+        {
+          "codigo": "6230",
+          "descripcion": "Contravidrio curvo 29 mm",
+          "peso_kg_m": 0.213,
+          "largo_barra_mm": 6000,
+          "familia": "Contravidrios"
+        },
+        {
+          "codigo": "6231",
+          "descripcion": "Contravidrio curvo 15 mm",
+          "peso_kg_m": 0.159,
+          "largo_barra_mm": 6000,
+          "familia": "Contravidrios"
+        },
+        {
+          "codigo": "6232",
+          "descripcion": "Contravidrio curvo 22 mm",
+          "peso_kg_m": 0.181,
+          "largo_barra_mm": 6000,
+          "familia": "Contravidrios"
+        },
+        {
+          "codigo": "6233",
+          "descripcion": "Contravidrio curvo 8 mm",
+          "peso_kg_m": 0.135,
+          "largo_barra_mm": 6000,
+          "familia": "Contravidrios"
+        },
+        {
+          "codigo": "6234",
+          "descripcion": "Hoja curva ventana de abrir con cámara compensadora",
+          "peso_kg_m": 0.888,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6237",
+          "descripcion": "mm Contravidrio curvo 12",
+          "peso_kg_m": 0.176,
+          "largo_barra_mm": 6000,
+          "familia": "Contravidrios"
+        },
+        {
+          "codigo": "6238",
+          "descripcion": "Contravidrio recto 8 mm",
+          "peso_kg_m": 0.189,
+          "largo_barra_mm": 6000,
+          "familia": "Contravidrios"
+        },
+        {
+          "codigo": "6239",
+          "descripcion": "Travesaño hoja vidrio simple puerta corrediza",
+          "peso_kg_m": 0.748,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6243",
+          "descripcion": "Guía de cortina común",
+          "peso_kg_m": 0.548,
+          "largo_barra_mm": 6000,
+          "familia": "Cortina"
+        },
+        {
+          "codigo": "6244",
+          "descripcion": "Guía de cortina barrio",
+          "peso_kg_m": 0.913,
+          "largo_barra_mm": 6000,
+          "familia": "Cortina"
+        },
+        {
+          "codigo": "6245",
+          "descripcion": "Tapa cinta",
+          "peso_kg_m": 0.629,
+          "largo_barra_mm": 6000,
+          "familia": "Cortina"
+        },
+        {
+          "codigo": "6246",
+          "descripcion": "Encuentro central 4 hojas vent. y pta. corrediza",
+          "peso_kg_m": 0.292,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6249",
+          "descripcion": "Zócalo y cabezal de hoja DVH vent. y pta. corrediza",
+          "peso_kg_m": 0.689,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6252",
+          "descripcion": "Zócalo alto hoja DVH puerta corrediza",
+          "peso_kg_m": 1.237,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6253",
+          "descripcion": "Travesaño hoja DVH puerta corrediza",
+          "peso_kg_m": 0.689,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6254",
+          "descripcion": "Bisagra tapa cinta",
+          "peso_kg_m": 0.302,
+          "largo_barra_mm": 6000,
+          "familia": "Cortina"
+        },
+        {
+          "codigo": "6255",
+          "descripcion": "Bastidor mosquitero",
+          "peso_kg_m": 0.424,
+          "largo_barra_mm": 6000,
+          "familia": "Mosquitero"
+        },
+        {
+          "codigo": "6256",
+          "descripcion": "Travesaño mosquitero",
+          "peso_kg_m": 0.543,
+          "largo_barra_mm": 6000,
+          "familia": "Mosquitero"
+        },
+        {
+          "codigo": "6266",
+          "descripcion": "Bastidor vidrio repartido vent. de abrir y paño fijo",
+          "peso_kg_m": 0.383,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "6267",
+          "descripcion": "Bastidor vidrio repartido vent. y pta. corrediza",
+          "peso_kg_m": 0.383,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "6268",
+          "descripcion": "Travesaño vidrio repartido vent. y pta. corrediza",
+          "peso_kg_m": 0.429,
+          "largo_barra_mm": 6000,
+          "familia": "Travesaños"
+        },
+        {
+          "codigo": "6275",
+          "descripcion": "Hoja postigón de rebatir",
+          "peso_kg_m": 0.88,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6276",
+          "descripcion": "Travesaño postigón de rebatir",
+          "peso_kg_m": 1.301,
+          "largo_barra_mm": 6000,
+          "familia": "Travesaños"
+        },
+        {
+          "codigo": "6277",
+          "descripcion": "Tablilla regulable postigón de rebatir",
+          "peso_kg_m": 0.518,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "6278",
+          "descripcion": "Compensador corto postigón de rebatir",
+          "peso_kg_m": 0.319,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "6279",
+          "descripcion": "Compensador largo postigón de rebatir",
+          "peso_kg_m": 0.392,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "6280",
+          "descripcion": "Soporte de compensador postigón de rebatir",
+          "peso_kg_m": 0.367,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "6281",
+          "descripcion": "Zócalo alto postigón de rebatir",
+          "peso_kg_m": 1.76,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6293",
+          "descripcion": "Parante central externo ventana guillotina",
+          "peso_kg_m": 0.724,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6294",
+          "descripcion": "Parante central interno ventana guillotina",
+          "peso_kg_m": 0.724,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6295",
+          "descripcion": "Zócalo y cabezal de hoja ventana guillotina",
+          "peso_kg_m": 0.783,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6296",
+          "descripcion": "Jamba de marco ventana guillotina",
+          "peso_kg_m": 1.636,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "6297",
+          "descripcion": "Umbral de marco ventana guillotina",
+          "peso_kg_m": 1.002,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "6298",
+          "descripcion": "Dintel de marco ventana guillotina",
+          "peso_kg_m": 1.077,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "6299",
+          "descripcion": "Tapa de resortes ventana guillotina",
+          "peso_kg_m": 0.119,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "6900",
+          "descripcion": "Parante lateral de hoja ventana guillotina",
+          "peso_kg_m": 0.551,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6901",
+          "descripcion": "Premarco ventana guillotina/3 guias",
+          "peso_kg_m": 0.71,
+          "largo_barra_mm": 6000,
+          "familia": "Premarcos"
+        },
+        {
+          "codigo": "6903",
+          "descripcion": "Acople marco guillotina",
+          "peso_kg_m": 0.462,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "6907",
+          "descripcion": "Suplemento parante central corrediza corte a 45°",
+          "peso_kg_m": 0.338,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6908",
+          "descripcion": "Hoja corrediza corte a 45° p/vidrio simple",
+          "peso_kg_m": 0.894,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6909",
+          "descripcion": "Hoja corrediza corte a 45° DVH",
+          "peso_kg_m": 0.84,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6910",
+          "descripcion": "Parante central reforzado corrediza corte a 45°",
+          "peso_kg_m": 1.183,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "6911",
+          "descripcion": "Parante central ref. DVH corrediza corte a 45°",
+          "peso_kg_m": 1.126,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "7705",
+          "descripcion": "Marco curvo para PF-VA-VB-W-PR",
+          "peso_kg_m": 0.821,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "7706",
+          "descripcion": "Hoja curva ventana de abrir DC y ventana banderola",
+          "peso_kg_m": 0.909,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "7707",
+          "descripcion": "Marco coplanar vent. abrir DC, vent. banderola, pta. de rebatir y vent. ventiluz",
+          "peso_kg_m": 0.772,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "7708",
+          "descripcion": "Hoja curva ventiluz",
+          "peso_kg_m": 0.902,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "7709",
+          "descripcion": "Marco ventana desplazable",
+          "peso_kg_m": 0.724,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "7710",
+          "descripcion": "Hoja ventana desplazable curva",
+          "peso_kg_m": 1.083,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "7711",
+          "descripcion": "Tapa premarco Módena",
+          "peso_kg_m": 0.243,
+          "largo_barra_mm": 6000,
+          "familia": "Premarcos"
+        },
+        {
+          "codigo": "7712",
+          "descripcion": "Perfil de acople",
+          "peso_kg_m": 0.284,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "7713",
+          "descripcion": "Umbral y dintel de ventana y puerta corrediza",
+          "peso_kg_m": 1.31,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "7714",
+          "descripcion": "Jamba de marco de ventana y puerta corrediza",
+          "peso_kg_m": 0.724,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "7715",
+          "descripcion": "Parante lateral hoja vidrio simple vent. y pta. corrediza",
+          "peso_kg_m": 0.678,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "7716",
+          "descripcion": "Parante central hoja vidrio simple vent. y pta. corrediza",
+          "peso_kg_m": 0.71,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "7717",
+          "descripcion": "Marco coplanar vent. de abrir con cámara compensadora",
+          "peso_kg_m": 0.834,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "7718",
+          "descripcion": "Perfil de acople a 90°",
+          "peso_kg_m": 0.774,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "7719",
+          "descripcion": "Suplemento parante central corrediza corte a 45°",
+          "peso_kg_m": 0.632,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "7720",
+          "descripcion": "Columna de acople reforzada",
+          "peso_kg_m": 1.277,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "7721",
+          "descripcion": "Umbral y dintel de marco de 3 guías vent. y pta. corrediza",
+          "peso_kg_m": 1.866,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "7722",
+          "descripcion": "Jamba de marco de 3 guías vent. y pta. corrediza",
+          "peso_kg_m": 1.112,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "7723",
+          "descripcion": "Parante lateral de hoja DVH vent. y pta. corrediza",
+          "peso_kg_m": 0.643,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "7724",
+          "descripcion": "Parante central hoja DVH vent. y pta. corrediza",
+          "peso_kg_m": 0.675,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "7725",
+          "descripcion": "Parante central con tirador hoja DVH pta. corrediza",
+          "peso_kg_m": 0.964,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "7726",
+          "descripcion": "Jamba y cabezal de hoja puerta de rebatir",
+          "peso_kg_m": 1.193,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "7727",
+          "descripcion": "Premarco Módena",
+          "peso_kg_m": 0.448,
+          "largo_barra_mm": 6000,
+          "familia": "Premarcos"
+        },
+        {
+          "codigo": "7728",
+          "descripcion": "Parante central con tirador hoja vidrio simple pta. corrediza",
+          "peso_kg_m": 0.999,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "7729",
+          "descripcion": "Travesaño hoja pta. de rebatir",
+          "peso_kg_m": 1.261,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "7730",
+          "descripcion": "Zócalo hoja puerta de rebatir",
+          "peso_kg_m": 1.688,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "7731",
+          "descripcion": "Marco corrediza corte a 45°",
+          "peso_kg_m": 1.21,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "7732",
+          "descripcion": "Tapajunta ancho Módena",
+          "peso_kg_m": 0.316,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        },
+        {
+          "codigo": "7877",
+          "descripcion": "Jamba y cabezal de hoja puerta de rebatir hacia afuera",
+          "peso_kg_m": 1.185,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "7878",
+          "descripcion": "Marco puerta de rebatir coplanar para bisagra de aplica",
+          "peso_kg_m": 0.896,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "7879",
+          "descripcion": "Umbral corrediza con caja de agua reforzada",
+          "peso_kg_m": 1.55,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "7880",
+          "descripcion": "Parante central reforzado para pta. corrediza vidrio simple",
+          "peso_kg_m": 1.223,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "7918",
+          "descripcion": "Parante central reforzado para pta, corrediza DVH",
+          "peso_kg_m": 1.195,
+          "largo_barra_mm": 6000,
+          "familia": "Hojas"
+        },
+        {
+          "codigo": "8008",
+          "descripcion": "Jamba de marco de 94 mm para corrediza",
+          "peso_kg_m": 1.066,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "8009",
+          "descripcion": "Marco de 94 mm para ventana de abrir con cámara compensadora",
+          "peso_kg_m": 1.35,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "8010",
+          "descripcion": "Marco de 94mm para ventana de abrir y paño fijo",
+          "peso_kg_m": 1.291,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "8011",
+          "descripcion": "Perfil de acople para marcos de 94 mm",
+          "peso_kg_m": 0.705,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "8012",
+          "descripcion": "Umbral y dintel de marco 94 mm para corrediza",
+          "peso_kg_m": 1.534,
+          "largo_barra_mm": 6000,
+          "familia": "Marcos"
+        },
+        {
+          "codigo": "8062",
+          "descripcion": "Tapa premarco recto para fijar con clip plástico",
+          "peso_kg_m": 0.167,
+          "largo_barra_mm": 6000,
+          "familia": "Premarcos"
+        },
+        {
+          "codigo": "8063",
+          "descripcion": "Tapa premarco recto para fijar con tornillo",
+          "peso_kg_m": 0.23,
+          "largo_barra_mm": 6000,
+          "familia": "Premarcos"
+        },
+        {
+          "codigo": "8245",
+          "descripcion": "Adaptador DVH corrediza 90°",
+          "peso_kg_m": 0.374,
+          "largo_barra_mm": 6000,
+          "familia": "Varios"
+        }
+      ]
+    }
+  ],
+  "accesorios": [
+    {
+      "codigo": "B09",
+      "descripcion": "Burlete tela mosquitero",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "B29",
+      "descripcion": "Burlete cuña espesor 2 mm",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "B30",
+      "descripcion": "Burlete cuña espesor 3 mm",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "B31",
+      "descripcion": "Burlete cuña espesor 4 mm",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "B57",
+      "descripcion": "Burlete tapa premarco",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "B60",
+      "descripcion": "Burlete \"U\" para vidrio corrediza",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "B66",
+      "descripcion": "Burlete junta central cámara compensadora ventana de abrir",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "B67",
+      "descripcion": "Burlete exterior doble contacto",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "B68",
+      "descripcion": "Burlete exterior para vidrio (batientes)",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "B69",
+      "descripcion": "Burlete hermeticidad marco-premarco",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "B70",
+      "descripcion": "Burlete cierre mosquitero",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "B73",
+      "descripcion": "Burlete cierre tablillas postigón regulable",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "B76",
+      "descripcion": "Burlete cierre inferior ventana guillotina",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "B79",
+      "descripcion": "Burlete interior doble contacto",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "B80",
+      "descripcion": "Burlete exterior doble contacto BPV Burlete cierre superior ventana guillotina",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "C14",
+      "descripcion": "Felpa de polipropileno base 7x6 mm con fin-seal",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "C15",
+      "descripcion": "Felpa de polipropileno base 7x8 mm con fin-seal",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "C3",
+      "descripcion": "Felpa de polipropileno base 7x7 mm con fin-seal",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "C4",
+      "descripcion": "Felpa de polipropileno base 5x7 mm con fin-seal",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "C8",
+      "descripcion": "Felpa de polipropileno base 5x4 mm con fin-seal",
+      "unidad": "ml",
+      "precio": 0
+    },
+    {
+      "codigo": "E100",
+      "descripcion": "Escuadra suplementaria puerta de rebatir",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "E106",
+      "descripcion": "Escuadra de armado premarco",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "E62",
+      "descripcion": "Escuadra de alineamiento para tapa premarco 7149 (marcos 75 mm)",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "E66",
+      "descripcion": "Escuadra de alineamiento tapa premarco",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "E69",
+      "descripcion": "Escuadra de armado hojas y marcos vent.de abrir-banderola-ventiluz-desplazable Monticelli art. 0445B (pulsante 8 mm)",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "E70",
+      "descripcion": "Escuadra de armado hojas puerta de rebatir-desplazable Monticelli art. 0429 (pulsante 8 mm)",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "E71",
+      "descripcion": "Soporte travesaño paño fijo 6221",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "E72",
+      "descripcion": "Soporte travesaño paño fijo 6222",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "E73",
+      "descripcion": "Escuadra de armado mosquitero",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "E77",
+      "descripcion": "Escuadra de armado premarco 80 mm",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "E81",
+      "descripcion": "Escuadra de armado hoja ventana guillotina",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "E83",
+      "descripcion": "Escuadra de armado marco corrediza Monticelli art. 0421 (pulsante 8 mm)",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "E97",
+      "descripcion": "Escuadra de armado hojas corredizas Monticelli art. 0404 (pulsante 10 mm)",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "E98",
+      "descripcion": "Escuadra de alineamiento hojas corredizas a 45º",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H103",
+      "descripcion": "Bisagra de aplicar de 2 piezas para hoja coplanar-Tanit \"Mecanica\" art. 7561, Giesse \"Domina 2 alas\" o Mon-Pat \"Domus\" a",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H104",
+      "descripcion": "Bisagra de aplicar de 3 piezas para hoja coplanar Tanit \"Mecánica\" art. 7563, Giesse \"Domina 3 alas\"",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H107",
+      "descripcion": "Mecanismo básico para oscilobatiente hojas coplanares Tanit \"Ribanta 4\", Giesse \"Futura\" o Mon-Pat",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H116",
+      "descripcion": "Barra pivot ventana guillotina",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H117",
+      "descripcion": "Patín lateral ventana guillotina",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H118",
+      "descripcion": "Resortes compensadores diámetro 5/8\" para ventana guillotina",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H119",
+      "descripcion": "Trabas laterales de hoja ventana guillotina",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H120",
+      "descripcion": "Cierre central ventana guillotina",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H123",
+      "descripcion": "Cierre lateral con kit de enganche para hojas a 45º Tanit \"Milano\" art. 5099, Giesse \"Brio\" art. 02992+00789 o Mon-Pat \"",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H129",
+      "descripcion": "Mecanismo cierre bipunto con falleba para corrediza a 90º Tanit \"MEC-075\" o  Giesse \"Top Security\"",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H130",
+      "descripcion": "Mecanismo cierre bipunto con falleba para corrediza a 45º Tanit \"MEC-081\"",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H14",
+      "descripcion": "Cierre banderola H36/A Bisagra a fricción Securistyle \"Senator\" 250 o Cotswold HD10",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H42",
+      "descripcion": "Pasador puerta de rebatir de 2 hojas Tanit art. 4198, Giesse \"Supergiap\" art. 02153 o Mon-Pat art. 040506NN3",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H43",
+      "descripcion": "Traba varillas para terminal o pasador Tanit art. 4079, Giesse art. 01322 o Mon-Pat art. 060168NN4",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H44",
+      "descripcion": "Soporte hoja ventana de abrir Tanit art. 4080, Giesse art. 02390 o Mon-Pat art. 060469NN3 Código Descripción",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H45",
+      "descripcion": "Mecanismo básico para oscilobatiente Tanit \"Ribanta 4\" art. 4141, Giesse \"Futura\" art. 04704+04711 o Mon-Pat art. 100100",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H47",
+      "descripcion": "Falleba ventana de abrir con bloques de conexión Tanit \"Florencia\" art. 4661, Giesse \"Prima\" art. 01024+00826 o Mon-Pat ",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H48",
+      "descripcion": "Falleba ventana de abrir con bloques de conexión Tanit \"Manon\" art. 4022 o Giesse \"Euro\" art. 01000+00826",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H49",
+      "descripcion": "Pasador ventana de abrir de 2 hojas Tanit art. 4062, Giesse \"Giap\" art. 02111 o Mon-Pat \"Ciao\" art. 040502NN4",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H50",
+      "descripcion": "Manija doble balancín para puerta de rebatir Tanit \"Florencia\" art. 4241, Giesse \"Supermaster\" art. 02462 o Mon-Pat \"Sic",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H51",
+      "descripcion": "Cerradura puerta de rebatir Kallay 2006M H51/M Cerradura multipunto para puerta de rebatir Tanit \"H51Multipunto\", Giesse",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H52",
+      "descripcion": "Cierre banderola Tanit \"Sorrento\" art. 5145, Giesse \"Twin\" art. 01704 o Mon-Pat \"Certo\" art. 040106NE4",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H53",
+      "descripcion": "Brazo sostén banderola Tanit art. 3797, Giesse \"Rallenty\" art. 02040 o 02041 o Mon-Pat \"Rality\" art. 070201AI4",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H56",
+      "descripcion": "Cierre lateral con kit de enganche para corredizas hojas a 90º Tanit \"Milano\" art. 5075, Giesse \"Brio\" art. 02992+00802 ",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H61",
+      "descripcion": "Bisagra de 2 alas Tanit \"Roma\" art. 5143, Giesse \"Flash\" art. 00120 o Mon-Pat \"Plus\" art. 050140NE4",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H62",
+      "descripcion": "Bisagra de 3 alas Tanit \"Roma\" art. 5141, Giesse \"Bridge\" art. 00600 o Mon-Pat \"Plus\" art. 050142NE4",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H63",
+      "descripcion": "Brazo de empuje ventiluz Tanit art. 4158 o 4159, Giesse \"Ombu\" art. 00889 o 00890 o Mon-Pat \"Supremo\" art. 070307NE4 o 0",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H67",
+      "descripcion": "Falleba para postigón de rebatir Giesse \"Coupe\" o Tanit \"Fuori Bassa\"",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H68",
+      "descripcion": "Kit de movimiento para falleba H67 postigón de rebatir",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H79",
+      "descripcion": "Terminal de varillas Tanit art. 4028, Giesse art. 02114 o Mon-Pat art. 060171NN4",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H80",
+      "descripcion": "Trabas para tercer cierre de fallebas H81/H105 Bisagra de 2 piezas para hoja coplanar y tercer hoja Tanit \"Roma\" art.510",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H83",
+      "descripcion": "Pasador para segunda hoja ventana oscilobatiente Tanit art. 5650, Giesse art. 04274 o Mon-Pat art. 040506NN3",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H86",
+      "descripcion": "Conjunto cierre multipunto, falleba, caja y pernos para ventana desplazable",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H87",
+      "descripcion": "Limitador de apertura para banderola Tanit \"Piovra\" art. 4075 o Giesse \"Friz\" art. 02030",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H89",
+      "descripcion": "Tirador para hojas corredizas",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H90",
+      "descripcion": "Cierre banderola Tanit art. 199 o Mon-Pat art. 040101NE4",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H91",
+      "descripcion": "Aldaba para ventana desplazable Tanit \"Monaco\" art. 502, Giesse \"Bravo 1\" art. 01642 o Mon-Pat \"Minerva\" art. 040407NE1",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H92",
+      "descripcion": "Aldaba para ventana desplazable Tanit \"Florencia\" art. 512, Giesse \"Bravo 2\" art. 01652 o Mon-Pat \"Pronto\" art. 040401NE",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "H93",
+      "descripcion": "Manija doble balancín para puerta de rebatir Tanit \"Manon\" art.4117, Giesse \"Prima\" art. 02472 o Mon-Pat \"Pronto\" art. 0",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "R39",
+      "descripcion": "Rueda fija simple Tanit \"Ibiza\" art. 5039 o Mon-Pat \"Rapid\" art. 010301ZN1",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "R40",
+      "descripcion": "Rueda regulable simple Tanit \"Ibiza\" art. 5116, Giesse \"Carrera 1\" art. 00806 o Mon-Pat \"Roller\" art. 010302ZN1",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "R41",
+      "descripcion": "Rueda fija doble Tanit \"Ibiza\" art. 5040",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "R42",
+      "descripcion": "Rueda regulable doble Tanit \"Ibiza\" art. 5079, Giesse \"Carrera 2\" art. 00801 o Mon-Pat \"Roller\" art. 010303ZN1",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "R43",
+      "descripcion": "Patín deslizador mosquitero",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "R48",
+      "descripcion": "Rueda simple regulable Tanit \"Ibiza\" art. 5118, Giesse \"Carrera 1\" art. 03119X o Mon-Pat \"Roller\" art. 010311ZN1",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "R49",
+      "descripcion": "Rueda doble regulable Tanit \"Ibiza\" art. 5114, Giesse \"Carrera 2\" art. 03120 o Mon-Pat \"Roller\" art. 010312ZN1",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "S9",
+      "descripcion": "Grampa de amure",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T1",
+      "descripcion": "Tornillo Parker cabeza fijadora Nº10 x 1 1/2\" T15/F Tornillo Parker cabeza fresada Nº8 x 1 1/2\"",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T100",
+      "descripcion": "Tapa tornillo diámetro 13 mm (para T20)",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T104",
+      "descripcion": "Soporte tablillas postigón regulable",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T105",
+      "descripcion": "Bloque comando x1 para tablilla postigón regulable",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T106",
+      "descripcion": "Bloque libre x1 para tablilla postigón regulable",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T107",
+      "descripcion": "Bloque comando x3 para tablilla postigón regulable",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T108",
+      "descripcion": "Bloque libre x3 para tablilla postigón regulable Código Descripción",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T109",
+      "descripcion": "Bloque con comando a leva para tablilla postigón regulable",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T110",
+      "descripcion": "Bloque con manija margarita para tablilla postigón regulable",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T111",
+      "descripcion": "Compensador inicial y final para tablilla postigón regulable",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T126",
+      "descripcion": "Tapón cruce central de hojas para corrediza corte 45º",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T127",
+      "descripcion": "Conjunto tope lateral de hojas a 45º Tanit art. 5092, Giesse art. 03199X o Mon-Pat art. 060503ZN1",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T128",
+      "descripcion": "Tapón parante reforzado corrediza 45º",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T130",
+      "descripcion": "Boca desagüe caja de agua",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T131",
+      "descripcion": "Tapa desagote",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T139",
+      "descripcion": "Tapón plano guías laterales umbral alto corrediza (Perfil 7879)",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T140",
+      "descripcion": "Tapón plano guías laterales umbral y dintel corrediza",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T143",
+      "descripcion": "Junta de estanqueidad marco corrediza 2 guías",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T144",
+      "descripcion": "Tapón cruce central de hojas para corrediza corte 90º 2 guías",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T145",
+      "descripcion": "Tapón cruce central de hojas para corrediza corte 90º 3 guías",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T146",
+      "descripcion": "Junta de estanqueidad marco corrediza 3 guías",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T147",
+      "descripcion": "Tapón de hermeticidad caja de agua corrediza corte 45º",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T148",
+      "descripcion": "Junta de estanqueidad umbral alto corrediza (Perfil 7879)",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T151",
+      "descripcion": "Junta de estanqueidad marco corrediza 94 mm (Perfil 8012)",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T155",
+      "descripcion": "Clip para tapa premarcos 6206 y 8062 Los burletes a utilizar en la colocación de los vidrios se deben verificar de acuer",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T20",
+      "descripcion": "Tornillo Parker cabeza fijadora Nº12 x 1 1/2\"",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T21",
+      "descripcion": "Tornillo botón para fijación tope de mosquitero",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T88",
+      "descripcion": "Taco regulador para fijación de marco Tanit art. 5059, Giesse art. 06500 o Mon-Pat art. 0601036NN1",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T89",
+      "descripcion": "Tope guía parante lateral",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T90",
+      "descripcion": "Tope guía parante central",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T91",
+      "descripcion": "Tapón guías laterales umbral y dintel corrediza",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T95",
+      "descripcion": "Tapa tornillo diámetro 11 mm (para T1)",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T96",
+      "descripcion": "Clip para contravidrios curvos Tanit art. 5007, Giesse art. 00864 o Mon-Pat art. 060150NN1",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T97",
+      "descripcion": "Tapón encuentro central VA de 2 hojas cámara compensadora",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T98",
+      "descripcion": "Tapón encuentro central VA/PR 2 hojas doble contacto",
+      "unidad": "u",
+      "precio": 0
+    },
+    {
+      "codigo": "T99",
+      "descripcion": "Porta felpa jambas puerta de rebatir",
+      "unidad": "u",
+      "precio": 0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+name = "netunlock-api"
+main = "src/index.js"
+compatibility_date = "2024-12-19"
+
+# Cloudflare D1 Database
+[[d1_databases]]
+binding = "DB"
+database_name = "netunlock"
+database_id = "tu-database-id-aqui"
+
+# Variables de entorno
+[env.production]
+vars = { ADMIN_PASSWORD = "tu-password-seguro", SITE_URL = "tu-dominio.pages.dev" }
+
+[env.development]
+vars = { ADMIN_PASSWORD = "dev123", SITE_URL = "localhost:8787" }
+
+# CORS habilitado
+[env.production]
+routes = [
+  { pattern = "api/*", zone_name = "example.com" }
+]

@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetUnlock | Sistema de Gestión de Contenidos Avanzado</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+
+        :root {
+            --bg-dark: #0B0F19;
+            --bg-secondary: #1A1F2E;
+            --accent-indigo: #6366F1;
+            --accent-purple: #A855F7;
+            --accent-cyan: #06B6D4;
+            --text-primary: #F1F5F9;
+            --text-secondary: #CBD5E1;
+            --border-color: #334155;
+        }
+
+        body {
+            background: linear-gradient(135deg, var(--bg-dark) 0%, #1a1f3a 100%);
+            color: var(--text-primary);
+        }
+
+        .card {
+            border: 1px solid rgba(148, 163, 184, 0.1);
+            background: rgba(30, 41, 59, 0.4);
+            backdrop-filter: blur(8px);
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            border-color: rgba(148, 163, 184, 0.3);
+            background: rgba(30, 41, 59, 0.7);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(99, 102, 241, 0.15);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--accent-indigo) 0%, var(--accent-purple) 100%);
+            box-shadow: 0 4px 15px rgba(168, 85, 247, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(168, 85, 247, 0.4);
+        }
+
+        .text-glow {
+            background: linear-gradient(135deg, var(--accent-indigo) 0%, var(--accent-purple) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 50;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 1.5rem;
+            max-width: 800px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+            padding: 2rem;
+        }
+
+        .view {
+            display: none;
+        }
+
+        .view.active {
+            display: block;
+        }
+
+        /* Editor de bloques */
+        .block {
+            background: rgba(30, 41, 59, 0.5);
+            border: 1px solid var(--border-color);
+            border-radius: 0.75rem;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            position: relative;
+        }
+
+        .block-toolbar {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .block-button {
+            background: var(--accent-indigo);
+            color: white;
+            border: none;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.375rem;
+            cursor: pointer;
+            font-size: 0.75rem;
+            transition: all 0.2s;
+        }
+
+        .block-button:hover {
+            background: var(--accent-purple);
+        }
+
+        .text-editor {
+            min-height: 100px;
+            padding: 0.75rem;
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            color: var(--text-primary);
+            font-family: inherit;
+            resize: vertical;
+        }
+
+        .format-toolbar {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .format-btn {
+            padding: 0.375rem 0.75rem;
+            background: rgba(99, 102, 241, 0.2);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            color: var(--text-primary);
+            border-radius: 0.375rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .format-btn:hover {
+            background: rgba(99, 102, 241, 0.4);
+        }
+
+        .alert {
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .alert-success {
+            background: rgba(34, 197, 94, 0.15);
+            border: 1px solid rgba(34, 197, 94, 0.3);
+            color: #86EFAC;
+        }
+
+        .alert-error {
+            background: rgba(220, 38, 38, 0.15);
+            border: 1px solid rgba(220, 38, 38, 0.3);
+            color: #FCA5A5;
+        }
+
+        .loader {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Preview de contenido renderizado */
+        .post-preview {
+            line-height: 1.8;
+        }
+
+        .post-preview h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin: 1rem 0;
+        }
+
+        .post-preview h2 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0.75rem 0;
+        }
+
+        .post-preview h3 {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+
+        .post-preview strong {
+            font-weight: bold;
+        }
+
+        .post-preview em {
+            font-style: italic;
+        }
+
+        .post-preview u {
+            text-decoration: underline;
+        }
+
+        .post-preview blockquote {
+            border-left: 4px solid var(--accent-indigo);
+            padding-left: 1rem;
+            margin: 1rem 0;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        .post-preview img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.75rem;
+            margin: 1rem 0;
+        }
+
+        .post-preview a {
+            color: var(--accent-cyan);
+            text-decoration: underline;
+        }
+
+        .post-preview a:hover {
+            color: var(--accent-indigo);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- NAVIGATION -->
+    <nav class="fixed top-0 left-0 right-0 z-40 border-b border-slate-800 bg-slate-900/80 backdrop-blur">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-glow">NetUnlock CMS Pro</h1>
+            <div class="flex gap-4">
+                <button onclick="app.showView('posts')" class="px-4 py-2 rounded-lg hover:bg-slate-800 transition">Recursos</button>
+                <button onclick="app.toggleAdminLogin()" class="px-4 py-2 bg-indigo-600 rounded-lg hover:bg-indigo-700 transition">Admin</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- VISTA: POSTS PÚBLICOS -->
+    <div id="postsView" class="view active pt-20">
+        <div class="max-w-6xl mx-auto px-4 py-12">
+            <h1 class="text-5xl font-black mb-4">Centro de Recursos</h1>
+            <p class="text-xl text-slate-300 mb-12">Contenido profesional y personalizado para tu negocio.</p>
+
+            <div id="postsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+                <div class="col-span-full text-center text-slate-400">
+                    <div class="loader" style="margin: 0 auto;"></div>
+                    <p class="mt-4">Cargando recursos...</p>
+                </div>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="card p-8 rounded-2xl text-center">
+                <h2 class="text-4xl font-bold mb-4">¿Quieres recibir actualizaciones?</h2>
+                <p class="text-slate-400 mb-8">Suscríbete para notificaciones automáticas de nuevos posts.</p>
+                <form onsubmit="app.handleNewsletterSubmit(event)" class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <input
+                        type="email"
+                        id="newsletterEmail"
+                        placeholder="tu@email.com"
+                        class="px-6 py-3 rounded-lg bg-slate-800 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500"
+                        required
+                    >
+                    <button type="submit" class="btn-primary text-white px-8 py-3 rounded-lg font-semibold">Suscribirse</button>
+                </form>
+                <div id="newsletterMessage"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- VISTA: ADMIN LOGIN -->
+    <div id="adminLoginView" class="view pt-20">
+        <div class="max-w-md mx-auto px-4 py-12">
+            <div class="card p-8 rounded-2xl">
+                <h2 class="text-3xl font-bold mb-8 text-center">Panel Admin</h2>
+                <form onsubmit="app.handleAdminLogin(event)">
+                    <div class="mb-4">
+                        <label class="block text-sm font-semibold mb-2">Usuario</label>
+                        <input type="text" id="adminUsername" class="w-full px-4 py-2 rounded-lg bg-slate-800 border border-slate-700 text-white focus:outline-none" placeholder="admin" value="admin" required>
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-sm font-semibold mb-2">Contraseña</label>
+                        <input type="password" id="adminPassword" class="w-full px-4 py-2 rounded-lg bg-slate-800 border border-slate-700 text-white focus:outline-none" placeholder="admin123" required>
+                    </div>
+                    <div id="loginMessage"></div>
+                    <button type="submit" class="btn-primary text-white w-full py-3 rounded-lg font-semibold">Acceder</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- VISTA: ADMIN PANEL -->
+    <div id="adminView" class="view pt-20">
+        <div class="max-w-6xl mx-auto px-4 py-12">
+            <div class="flex justify-between items-center mb-8">
+                <h1 class="text-4xl font-bold">📊 Dashboard Admin</h1>
+                <button onclick="app.handleAdminLogout()" class="px-4 py-2 bg-red-600 rounded-lg hover:bg-red-700">Cerrar Sesión</button>
+            </div>
+
+            <div class="flex gap-4 mb-8 border-b border-slate-700">
+                <button onclick="app.switchAdminTab('posts')" class="px-4 py-2 border-b-2 border-indigo-500 font-semibold">📝 Posts</button>
+                <button onclick="app.switchAdminTab('comments')" class="px-4 py-2 border-b-2 border-transparent font-semibold hover:border-slate-700">💬 Comentarios</button>
+                <button onclick="app.switchAdminTab('newsletter')" class="px-4 py-2 border-b-2 border-transparent font-semibold hover:border-slate-700">📧 Newsletter</button>
+            </div>
+
+            <!-- TAB: POSTS -->
+            <div id="adminPostsTab" class="admin-tab active">
+                <button onclick="app.showCreatePostModal()" class="mb-8 btn-primary text-white px-6 py-3 rounded-lg font-semibold">+ Crear Nuevo Post</button>
+                <div id="adminPostsList" class="space-y-4">
+                    <div class="text-center text-slate-400">Cargando posts...</div>
+                </div>
+            </div>
+
+            <!-- TAB: COMENTARIOS -->
+            <div id="adminCommentsTab" class="admin-tab hidden">
+                <div id="adminCommentsList" class="space-y-4">
+                    <div class="text-center text-slate-400">Cargando comentarios...</div>
+                </div>
+            </div>
+
+            <!-- TAB: NEWSLETTER -->
+            <div id="adminNewsletterTab" class="admin-tab hidden">
+                <div class="card p-6 rounded-2xl">
+                    <h3 class="text-2xl font-bold mb-4">Suscriptores</h3>
+                    <p id="newsletterCount" class="text-lg text-slate-400 mb-4">Cargando...</p>
+                    <div id="newsletterList" class="space-y-2 max-h-96 overflow-y-auto"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: CREAR POST CON EDITOR DE BLOQUES -->
+    <div id="postFormModal" class="modal">
+        <div class="modal-content">
+            <h2 class="text-2xl font-bold mb-6">Crear Post Avanzado</h2>
+
+            <div class="mb-6">
+                <label class="block text-sm font-semibold mb-2">Título *</label>
+                <input type="text" id="postTitle" class="w-full px-4 py-2 rounded-lg bg-slate-800 border border-slate-700 text-white focus:outline-none" required>
+            </div>
+
+            <div class="mb-6">
+                <label class="block text-sm font-semibold mb-2">Descripción (para la tarjeta)</label>
+                <input type="text" id="postDescription" class="w-full px-4 py-2 rounded-lg bg-slate-800 border border-slate-700 text-white focus:outline-none">
+            </div>
+
+            <!-- EDITOR DE BLOQUES -->
+            <div class="mb-6">
+                <div class="flex justify-between items-center mb-4">
+                    <label class="block text-sm font-semibold">Contenido con Bloques</label>
+                    <div class="space-x-2">
+                        <button onclick="app.addTextBlock()" class="px-3 py-1 bg-blue-600 text-white text-xs rounded">+ Texto</button>
+                        <button onclick="app.addImageBlock()" class="px-3 py-1 bg-green-600 text-white text-xs rounded">+ Imagen</button>
+                        <button onclick="app.addVideoBlock()" class="px-3 py-1 bg-red-600 text-white text-xs rounded">+ Video</button>
+                        <button onclick="app.addQuoteBlock()" class="px-3 py-1 bg-yellow-600 text-white text-xs rounded">+ Cita</button>
+                        <button onclick="app.addDownloadBlock()" class="px-3 py-1 bg-purple-600 text-white text-xs rounded">+ Descarga</button>
+                        <button onclick="app.addHTMLBlock()" class="px-3 py-1 bg-gray-600 text-white text-xs rounded">+ HTML</button>
+                    </div>
+                </div>
+
+                <div id="blocksContainer" class="space-y-6">
+                    <!-- Los bloques se agregan aquí dinámicamente -->
+                </div>
+            </div>
+
+            <div id="postFormMessage"></div>
+
+            <div class="flex gap-4">
+                <button type="button" onclick="app.handlePostSubmit()" class="btn-primary text-white px-6 py-3 rounded-lg font-semibold">Publicar Post</button>
+                <button type="button" onclick="app.closePostFormModal()" class="px-6 py-3 rounded-lg border border-slate-700 font-semibold hover:bg-slate-800">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: VER POST -->
+    <div id="postModal" class="modal">
+        <div class="modal-content">
+            <button onclick="app.closePostModal()" class="float-right text-2xl mb-4">✕</button>
+            <div id="postModalContent" class="post-preview"></div>
+
+            <!-- COMENTARIOS -->
+            <div class="mt-8 pt-8 border-t border-slate-700">
+                <h3 class="text-2xl font-bold mb-6">Comentarios</h3>
+
+                <form onsubmit="app.handleCommentSubmit(event)" class="mb-8 p-4 bg-slate-800/50 rounded-lg">
+                    <input type="email" id="commentEmail" placeholder="tu@email.com (opcional)" class="w-full px-4 py-2 mb-2 rounded-lg bg-slate-700 border border-slate-600 text-white focus:outline-none">
+                    <textarea id="commentText" placeholder="Escribe tu comentario..." class="w-full px-4 py-2 rounded-lg bg-slate-700 border border-slate-600 text-white focus:outline-none" rows="3" required></textarea>
+                    <button type="submit" class="mt-3 btn-primary text-white px-6 py-2 rounded-lg">Publicar</button>
+                </form>
+
+                <div id="commentsList" class="space-y-4">
+                    <div class="text-center text-slate-400">Cargando comentarios...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ============================================
+        // APLICACIÓN PRINCIPAL
+        // ============================================
+
+        const app = {
+            API_BASE: 'http://localhost:5000/api',
+            adminToken: localStorage.getItem('adminToken') || null,
+            currentPostId: null,
+            blocks: [],
+            blockCounter: 0,
+
+            init() {
+                this.loadPosts();
+                if (this.adminToken) {
+                    this.showAdminPanel();
+                }
+            },
+
+            // ========== VISTAS ==========
+            showView(viewName) {
+                document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+                document.getElementById(viewName + 'View').classList.add('active');
+
+                if (viewName === 'admin') {
+                    this.loadAdminPosts();
+                    this.loadAdminComments();
+                    this.loadNewsletterList();
+                }
+            },
+
+            toggleAdminLogin() {
+                if (this.adminToken) {
+                    this.showAdminPanel();
+                } else {
+                    this.showView('adminLogin');
+                }
+            },
+
+            // ========== POSTS PÚBLICOS ==========
+            async loadPosts() {
+                try {
+                    const response = await fetch(`${this.API_BASE}/posts`);
+                    const posts = await response.json();
+
+                    const grid = document.getElementById('postsGrid');
+                    if (posts.length === 0) {
+                        grid.innerHTML = '<div class="col-span-full text-center text-slate-400">No hay posts aún</div>';
+                        return;
+                    }
+
+                    grid.innerHTML = posts.map(post => `
+                        <div class="card p-6 rounded-2xl cursor-pointer" onclick="app.openPostModal(${post.id})">
+                            <h3 class="text-xl font-bold mb-2">${post.title}</h3>
+                            <p class="text-slate-400 text-sm mb-4">${post.description || post.content.substring(0, 80) + '...'}</p>
+                            <div class="flex justify-between items-center text-xs text-slate-500">
+                                <span>👁 ${post.views} vistas</span>
+                                <span>${new Date(post.created_at).toLocaleDateString('es-ES')}</span>
+                            </div>
+                        </div>
+                    `).join('');
+                } catch (error) {
+                    console.error('Error:', error);
+                }
+            },
+
+            // ========== MODAL DE POST ==========
+            async openPostModal(postId) {
+                this.currentPostId = postId;
+                try {
+                    const response = await fetch(`${this.API_BASE}/posts/${postId}`);
+                    const post = await response.json();
+
+                    let content = `<h1>${post.title}</h1>
+                        <p class="text-slate-400 mb-6">${new Date(post.created_at).toLocaleDateString('es-ES')} · ${post.views} vistas</p>`;
+
+                    // Si hay bloques, renderizarlos
+                    if (post.blocks) {
+                        try {
+                            const blocksData = JSON.parse(post.blocks);
+                            content += this.renderBlocks(blocksData);
+                        } catch (e) {
+                            // Fallback al contenido original
+                            content += `<div>${post.content}</div>`;
+                        }
+                    } else {
+                        content += `<div>${post.content}</div>`;
+                    }
+
+                    document.getElementById('postModalContent').innerHTML = content;
+                    this.loadComments(postId);
+                    document.getElementById('postModal').classList.add('active');
+                } catch (error) {
+                    console.error('Error:', error);
+                }
+            },
+
+            renderBlocks(blocks) {
+                return blocks.map(block => {
+                    switch(block.type) {
+                        case 'text':
+                            return `<div class="mb-4">${block.content}</div>`;
+                        case 'image':
+                            const align = block.align || 'center';
+                            return `<div class="mb-4 text-${align}">
+                                <img src="${block.url}" alt="Imagen" style="max-width: 100%; border-radius: 0.75rem;">
+                            </div>`;
+                        case 'video':
+                            return `<div class="mb-4"><iframe class="w-full h-96 rounded-lg" src="${block.url}" frameborder="0" allowfullscreen></iframe></div>`;
+                        case 'quote':
+                            return `<blockquote class="mb-4">${block.content}</blockquote>`;
+                        case 'download':
+                            return `<div class="mb-4"><a href="${block.url}" class="btn-primary text-white px-6 py-3 rounded-lg inline-block">📥 ${block.label || 'Descargar'}</a></div>`;
+                        case 'html':
+                            return `<div class="mb-4">${block.html}</div>`;
+                        default:
+                            return '';
+                    }
+                }).join('');
+            },
+
+            closePostModal() {
+                document.getElementById('postModal').classList.remove('active');
+            },
+
+            // ========== EDITOR DE BLOQUES ==========
+            showCreatePostModal() {
+                this.blocks = [];
+                this.blockCounter = 0;
+                document.getElementById('postTitle').value = '';
+                document.getElementById('postDescription').value = '';
+                document.getElementById('blocksContainer').innerHTML = '';
+                document.getElementById('postFormModal').classList.add('active');
+            },
+
+            closePostFormModal() {
+                document.getElementById('postFormModal').classList.remove('active');
+            },
+
+            addTextBlock() {
+                const id = this.blockCounter++;
+                const block = { id, type: 'text', content: '' };
+                this.blocks.push(block);
+                this.renderBlockUI(block);
+            },
+
+            addImageBlock() {
+                const id = this.blockCounter++;
+                const block = { id, type: 'image', url: '', align: 'center' };
+                this.blocks.push(block);
+                this.renderBlockUI(block);
+            },
+
+            addVideoBlock() {
+                const id = this.blockCounter++;
+                const block = { id, type: 'video', url: '' };
+                this.blocks.push(block);
+                this.renderBlockUI(block);
+            },
+
+            addQuoteBlock() {
+                const id = this.blockCounter++;
+                const block = { id, type: 'quote', content: '' };
+                this.blocks.push(block);
+                this.renderBlockUI(block);
+            },
+
+            addDownloadBlock() {
+                const id = this.blockCounter++;
+                const block = { id, type: 'download', url: '', label: 'Descargar archivo' };
+                this.blocks.push(block);
+                this.renderBlockUI(block);
+            },
+
+            addHTMLBlock() {
+                const id = this.blockCounter++;
+                const block = { id, type: 'html', html: '' };
+                this.blocks.push(block);
+                this.renderBlockUI(block);
+            },
+
+            renderBlockUI(block) {
+                const container = document.getElementById('blocksContainer');
+                const blockEl = document.createElement('div');
+                blockEl.className = 'block';
+                blockEl.id = `block-${block.id}`;
+
+                let content = `
+                    <div class="block-toolbar">
+                        <button class="block-button" onclick="app.deleteBlock(${block.id})">🗑️ Eliminar</button>
+                        <button class="block-button" onclick="app.moveBlockUp(${block.id})">⬆️ Arriba</button>
+                        <button class="block-button" onclick="app.moveBlockDown(${block.id})">⬇️ Abajo</button>
+                    </div>
+                `;
+
+                if (block.type === 'text') {
+                    content += `
+                        <div class="format-toolbar">
+                            <button type="button" class="format-btn" onclick="app.formatText(${block.id}, 'bold')"><b>Negrita</b></button>
+                            <button type="button" class="format-btn" onclick="app.formatText(${block.id}, 'italic')"><i>Cursiva</i></button>
+                            <button type="button" class="format-btn" onclick="app.formatText(${block.id}, 'underline')"><u>Subrayado</u></button>
+                            <button type="button" class="format-btn" onclick="app.formatText(${block.id}, 'h1')">H1</button>
+                            <button type="button" class="format-btn" onclick="app.formatText(${block.id}, 'h2')">H2</button>
+                            <button type="button" class="format-btn" onclick="app.formatText(${block.id}, 'h3')">H3</button>
+                            <button type="button" class="format-btn" onclick="app.formatText(${block.id}, 'quote')">Cita</button>
+                        </div>
+                        <textarea id="text-${block.id}" class="text-editor w-full" placeholder="Escribe tu contenido aquí..."></textarea>
+                    `;
+                } else if (block.type === 'image') {
+                    content += `
+                        <div class="mb-3">
+                            <label class="text-xs font-semibold">URL de la Imagen</label>
+                            <input type="url" id="img-${block.id}" class="w-full px-3 py-2 bg-slate-700 border border-slate-600 text-white rounded text-sm" placeholder="https://...">
+                        </div>
+                        <div class="mb-3">
+                            <label class="text-xs font-semibold">Posición</label>
+                            <select id="align-${block.id}" class="w-full px-3 py-2 bg-slate-700 border border-slate-600 text-white rounded text-sm">
+                                <option value="center">Centrada</option>
+                                <option value="left">Izquierda</option>
+                                <option value="right">Derecha</option>
+                            </select>
+                        </div>
+                    `;
+                } else if (block.type === 'video') {
+                    content += `
+                        <label class="text-xs font-semibold block mb-2">URL embed de YouTube/Vimeo</label>
+                        <input type="url" id="video-${block.id}" class="w-full px-3 py-2 bg-slate-700 border border-slate-600 text-white rounded text-sm" placeholder="https://www.youtube.com/embed/...">
+                    `;
+                } else if (block.type === 'quote') {
+                    content += `
+                        <textarea id="quote-${block.id}" class="text-editor w-full" placeholder="Escribe la cita..."></textarea>
+                    `;
+                } else if (block.type === 'download') {
+                    content += `
+                        <div class="mb-3">
+                            <label class="text-xs font-semibold">URL del archivo</label>
+                            <input type="url" id="dl-url-${block.id}" class="w-full px-3 py-2 bg-slate-700 border border-slate-600 text-white rounded text-sm" placeholder="https://...">
+                        </div>
+                        <div>
+                            <label class="text-xs font-semibold">Texto del botón</label>
+                            <input type="text" id="dl-label-${block.id}" class="w-full px-3 py-2 bg-slate-700 border border-slate-600 text-white rounded text-sm" placeholder="Descargar" value="Descargar archivo">
+                        </div>
+                    `;
+                } else if (block.type === 'html') {
+                    content += `
+                        <label class="text-xs font-semibold block mb-2">Código HTML personalizado</label>
+                        <textarea id="html-${block.id}" class="text-editor w-full" placeholder="<div>Tu HTML aquí</div>"></textarea>
+                    `;
+                }
+
+                blockEl.innerHTML = content;
+                container.appendChild(blockEl);
+            },
+
+            deleteBlock(blockId) {
+                this.blocks = this.blocks.filter(b => b.id !== blockId);
+                const el = document.getElementById(`block-${blockId}`);
+                if (el) el.remove();
+            },
+
+            moveBlockUp(blockId) {
+                const index = this.blocks.findIndex(b => b.id === blockId);
+                if (index > 0) {
+                    [this.blocks[index], this.blocks[index-1]] = [this.blocks[index-1], this.blocks[index]];
+                    this.reRenderBlocks();
+                }
+            },
+
+            moveBlockDown(blockId) {
+                const index = this.blocks.findIndex(b => b.id === blockId);
+                if (index < this.blocks.length - 1) {
+                    [this.blocks[index], this.blocks[index+1]] = [this.blocks[index+1], this.blocks[index]];
+                    this.reRenderBlocks();
+                }
+            },
+
+            reRenderBlocks() {
+                document.getElementById('blocksContainer').innerHTML = '';
+                this.blocks.forEach(block => this.renderBlockUI(block));
+            },
+
+            formatText(blockId, format) {
+                const textarea = document.getElementById(`text-${blockId}`);
+                const start = textarea.selectionStart;
+                const end = textarea.selectionEnd;
+                const text = textarea.value;
+                const selected = text.substring(start, end);
+
+                let formatted;
+                switch(format) {
+                    case 'bold': formatted = `<strong>${selected}</strong>`; break;
+                    case 'italic': formatted = `<em>${selected}</em>`; break;
+                    case 'underline': formatted = `<u>${selected}</u>`; break;
+                    case 'h1': formatted = `<h1>${selected}</h1>`; break;
+                    case 'h2': formatted = `<h2>${selected}</h2>`; break;
+                    case 'h3': formatted = `<h3>${selected}</h3>`; break;
+                    case 'quote': formatted = `<blockquote>${selected}</blockquote>`; break;
+                    default: formatted = selected;
+                }
+
+                textarea.value = text.substring(0, start) + formatted + text.substring(end);
+            },
+
+            async handlePostSubmit(postId = null) {
+                const title = document.getElementById('postTitle').value;
+                const description = document.getElementById('postDescription').value;
+
+                // Recolectar datos de bloques
+                this.blocks.forEach(block => {
+                    if (block.type === 'text') {
+                        block.content = document.getElementById(`text-${block.id}`).value;
+                    } else if (block.type === 'image') {
+                        block.url = document.getElementById(`img-${block.id}`).value;
+                        block.align = document.getElementById(`align-${block.id}`).value;
+                    } else if (block.type === 'video') {
+                        block.url = document.getElementById(`video-${block.id}`).value;
+                    } else if (block.type === 'quote') {
+                        block.content = document.getElementById(`quote-${block.id}`).value;
+                    } else if (block.type === 'download') {
+                        block.url = document.getElementById(`dl-url-${block.id}`).value;
+                        block.label = document.getElementById(`dl-label-${block.id}`).value;
+                    } else if (block.type === 'html') {
+                        block.html = document.getElementById(`html-${block.id}`).value;
+                    }
+                });
+
+                const postData = {
+                    title,
+                    description,
+                    content: title,
+                    blocks: this.blocks
+                };
+
+                try {
+                    const msgDiv = document.getElementById('postFormMessage');
+                    msgDiv.innerHTML = '<div class="loader"></div>';
+
+                    const method = postId ? 'PUT' : 'POST';
+                    const url = postId ? `${this.API_BASE}/posts/${postId}` : `${this.API_BASE}/posts`;
+
+                    const response = await fetch(url, {
+                        method,
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': `Bearer ${this.adminToken}`
+                        },
+                        body: JSON.stringify(postData)
+                    });
+
+                    if (response.ok) {
+                        const successMsg = postId ? 'Post actualizado correctamente' : 'Post publicado correctamente. Se notificó a los suscriptores.';
+                        msgDiv.innerHTML = `<div class="alert alert-success">✓ ${successMsg}</div>`;
+                        setTimeout(() => {
+                            this.closePostFormModal();
+                            this.loadAdminPosts();
+                            this.loadPosts();
+                        }, 1000);
+                    } else {
+                        msgDiv.innerHTML = '<div class="alert alert-error">❌ Error al guardar</div>';
+                    }
+                } catch (error) {
+                    console.error('Error:', error);
+                    document.getElementById('postFormMessage').innerHTML = '<div class="alert alert-error">Error de conexión</div>';
+                }
+            },
+
+            // ========== COMENTARIOS ==========
+            async loadComments(postId) {
+                try {
+                    const response = await fetch(`${this.API_BASE}/posts/${postId}/comments`);
+                    const comments = await response.json();
+
+                    if (comments.length === 0) {
+                        document.getElementById('commentsList').innerHTML = '<p class="text-slate-400">Sin comentarios. ¡Sé el primero!</p>';
+                        return;
+                    }
+
+                    document.getElementById('commentsList').innerHTML = comments.map(c => `
+                        <div class="bg-slate-800/50 p-4 rounded-lg">
+                            <div class="flex justify-between mb-2">
+                                <strong>${c.author_name}</strong>
+                                ${c.is_flagged ? '<span style="background: rgba(220, 38, 38, 0.15); border: 1px solid rgba(220, 38, 38, 0.3); color: #FCA5A5; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem;">⚠ Revisar</span>' : ''}
+                            </div>
+                            <p class="text-slate-400 text-sm mb-2">${c.author_email || 'Anónimo'}</p>
+                            <p class="text-slate-300">${c.content}</p>
+                            <p class="text-xs text-slate-500 mt-2">${new Date(c.created_at).toLocaleDateString()}</p>
+                        </div>
+                    `).join('');
+                } catch (error) {
+                    console.error('Error:', error);
+                }
+            },
+
+            async handleCommentSubmit(event) {
+                event.preventDefault();
+
+                const content = document.getElementById('commentText').value;
+                const email = document.getElementById('commentEmail').value;
+
+                try {
+                    const response = await fetch(`${this.API_BASE}/posts/${this.currentPostId}/comments`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            content,
+                            author_email: email || null,
+                            author_name: email ? email.split('@')[0] : 'Anónimo'
+                        })
+                    });
+
+                    if (response.ok) {
+                        document.getElementById('commentText').value = '';
+                        document.getElementById('commentEmail').value = '';
+                        this.loadComments(this.currentPostId);
+                    }
+                } catch (error) {
+                    console.error('Error:', error);
+                }
+            },
+
+            // ========== NEWSLETTER ==========
+            async handleNewsletterSubmit(event) {
+                event.preventDefault();
+
+                const email = document.getElementById('newsletterEmail').value;
+
+                try {
+                    const response = await fetch(`${this.API_BASE}/newsletter/subscribe`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ email })
+                    });
+
+                    const data = await response.json();
+                    document.getElementById('newsletterEmail').value = '';
+
+                    const msgDiv = document.getElementById('newsletterMessage');
+                    msgDiv.innerHTML = `<div class="alert alert-success mt-4">${data.message}</div>`;
+                    setTimeout(() => msgDiv.innerHTML = '', 4000);
+                } catch (error) {
+                    console.error('Error:', error);
+                }
+            },
+
+            // ========== ADMIN ==========
+            async handleAdminLogin(event) {
+                event.preventDefault();
+
+                const username = document.getElementById('adminUsername').value;
+                const password = document.getElementById('adminPassword').value;
+
+                try {
+                    const response = await fetch(`${this.API_BASE}/admin/login`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ username, password })
+                    });
+
+                    const data = await response.json();
+
+                    if (response.ok) {
+                        this.adminToken = data.token;
+                        localStorage.setItem('adminToken', this.adminToken);
+                        this.showAdminPanel();
+                        document.getElementById('loginMessage').innerHTML = '<div class="alert alert-success">✓ Acceso concedido</div>';
+                    } else {
+                        document.getElementById('loginMessage').innerHTML = '<div class="alert alert-error">❌ ' + data.error + '</div>';
+                    }
+                } catch (error) {
+                    console.error('Error:', error);
+                    document.getElementById('loginMessage').innerHTML = '<div class="alert alert-error">Error de conexión</div>';
+                }
+            },
+
+            handleAdminLogout() {
+                this.adminToken = null;
+                localStorage.removeItem('adminToken');
+                this.showView('posts');
+                alert('✓ Sesión cerrada');
+            },
+
+            showAdminPanel() {
+                this.showView('admin');
+                this.loadAdminPosts();
+            },
+
+            async loadAdminPosts() {
+                try {
+                    const response = await fetch(`${this.API_BASE}/posts`, {
+                        headers: { 'Authorization': `Bearer ${this.adminToken}` }
+                    });
+                    const posts = await response.json();
+
+                    document.getElementById('adminPostsList').innerHTML = posts.length === 0
+                        ? '<p class="text-slate-400">No hay posts</p>'
+                        : posts.map(post => `
+                            <div class="card p-4 rounded-lg flex justify-between items-center">
+                                <div>
+                                    <h4 class="font-bold">${post.title}</h4>
+                                    <p class="text-sm text-slate-500">${post.views} vistas · ${new Date(post.created_at).toLocaleDateString()}</p>
+                                </div>
+                                <div class="space-x-2">
+                                    <button onclick="app.editPost(${post.id})" class="px-4 py-2 bg-blue-600/20 text-blue-400 rounded">✏️ Editar</button>
+                                    <button onclick="app.deletePost(${post.id})" class="px-4 py-2 bg-red-600/20 text-red-400 rounded">🗑️ Eliminar</button>
+                                </div>
+                            </div>
+                        `).join('');
+                } catch (error) {
+                    console.error('Error:', error);
+                }
+            },
+
+            async editPost(postId) {
+                try {
+                    const response = await fetch(`${this.API_BASE}/posts/${postId}`);
+                    const post = await response.json();
+
+                    // Llenar formulario
+                    document.getElementById('postTitle').value = post.title;
+                    document.getElementById('postDescription').value = post.description || '';
+
+                    // Limpiar bloques y cargar los existentes
+                    this.blocks = [];
+                    this.blockCounter = 0;
+                    document.getElementById('blocksContainer').innerHTML = '';
+
+                    if (post.blocks) {
+                        try {
+                            const blocksData = JSON.parse(post.blocks);
+                            blocksData.forEach(block => {
+                                this.blocks.push(block);
+                                this.renderBlockUI(block);
+                            });
+                        } catch (e) {
+                            console.error('Error parsing blocks');
+                        }
+                    }
+
+                    // Cambiar botón de "Publicar" a "Actualizar"
+                    const publishBtn = document.querySelector('[onclick="app.handlePostSubmit()"]');
+                    publishBtn.textContent = 'Actualizar Post';
+                    publishBtn.onclick = () => app.handlePostSubmit(postId);
+
+                    this.showCreatePostModal();
+                } catch (error) {
+                    console.error('Error:', error);
+                    alert('Error al cargar el post');
+                }
+            },
+
+            async deletePost(postId) {
+                if (!confirm('¿Eliminar este post?')) return;
+
+                try {
+                    const response = await fetch(`${this.API_BASE}/posts/${postId}`, {
+                        method: 'DELETE',
+                        headers: { 'Authorization': `Bearer ${this.adminToken}` }
+                    });
+
+                    if (response.ok) {
+                        alert('✓ Post eliminado');
+                        this.loadAdminPosts();
+                        this.loadPosts();
+                    }
+                } catch (error) {
+                    console.error('Error:', error);
+                }
+            },
+
+            async loadAdminComments() {
+                try {
+                    const response = await fetch(`${this.API_BASE}/posts`);
+                    const posts = await response.json();
+
+                    let allComments = [];
+                    for (const post of posts) {
+                        const res = await fetch(`${this.API_BASE}/posts/${post.id}/comments`);
+                        const comments = await res.json();
+                        allComments = allComments.concat(
+                            comments.map(c => ({ ...c, post_id: post.id, post_title: post.title }))
+                        );
+                    }
+
+                    const flagged = allComments.filter(c => c.is_flagged);
+                    const list = document.getElementById('adminCommentsList');
+
+                    if (flagged.length === 0) {
+                        list.innerHTML = '<p class="text-slate-400">✓ No hay comentarios pendientes</p>';
+                        return;
+                    }
+
+                    list.innerHTML = flagged.map(c => `
+                        <div class="card p-4 rounded-lg">
+                            <p class="font-bold">${c.post_title}</p>
+                            <p class="text-slate-400 text-sm mt-2">"${c.content}"</p>
+                            <button onclick="app.deleteComment(${c.id})" class="mt-3 px-4 py-2 bg-red-600 text-white rounded text-sm">🗑️ Eliminar</button>
+                        </div>
+                    `).join('');
+                } catch (error) {
+                    console.error('Error:', error);
+                }
+            },
+
+            async deleteComment(commentId) {
+                try {
+                    const response = await fetch(`${this.API_BASE}/comments/${commentId}`, {
+                        method: 'DELETE',
+                        headers: { 'Authorization': `Bearer ${this.adminToken}` }
+                    });
+
+                    if (response.ok) {
+                        alert('✓ Comentario eliminado');
+                        this.loadAdminComments();
+                    }
+                } catch (error) {
+                    console.error('Error:', error);
+                }
+            },
+
+            async loadNewsletterList() {
+                try {
+                    const response = await fetch(`${this.API_BASE}/newsletter/subscribers`);
+                    const subscribers = await response.json();
+
+                    document.getElementById('newsletterCount').textContent = `Total: ${subscribers.length} suscriptores`;
+                    document.getElementById('newsletterList').innerHTML = subscribers.length === 0
+                        ? '<p class="text-slate-400">Sin suscriptores</p>'
+                        : subscribers.map(s => `
+                            <div class="bg-slate-800/50 p-3 rounded-lg text-sm">
+                                <p>${s.email}</p>
+                                <p class="text-xs text-slate-500">${new Date(s.subscribed_at).toLocaleDateString()}</p>
+                            </div>
+                        `).join('');
+                } catch (error) {
+                    console.error('Error:', error);
+                }
+            },
+
+            switchAdminTab(tab) {
+                document.querySelectorAll('.admin-tab').forEach(t => t.classList.add('hidden'));
+                document.getElementById('admin' + tab.charAt(0).toUpperCase() + tab.slice(1) + 'Tab').classList.remove('hidden');
+            }
+        };
+
+        // Inicializar
+        document.addEventListener('DOMContentLoaded', () => app.init());
+    </script>
+</body>
+</html>

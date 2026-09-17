@@ -1,0 +1,56 @@
+# ninja log v7
+102	262	8092236824744484	C:/Users/Fede- Para grabar/Documents/Sesion Local - Claude Code/GuitarPedalRack/build/CMakeFiles/cmake.verify_globs	441cd80ac3d31606
+221	330	8092186056492206	GuitarPedalRack_artefacts/JuceLibraryCode/GuitarPedalRack_resources.rc	4bef865ecf790e38
+221	330	8092186056492206	C:/Users/Fede- Para grabar/Documents/Sesion Local - Claude Code/GuitarPedalRack/build/GuitarPedalRack_artefacts/JuceLibraryCode/GuitarPedalRack_resources.rc	4bef865ecf790e38
+330	738	8092186056672227	CMakeFiles/GuitarPedalRack_rc_lib.dir/GuitarPedalRack_artefacts/JuceLibraryCode/GuitarPedalRack_resources.rc.res	7c906e69be1c03ff
+740	857	8092186061482297	GuitarPedalRack_artefacts/JuceLibraryCode/JuceHeader.h	77d130cf9fb5dfd
+740	857	8092186061482297	C:/Users/Fede- Para grabar/Documents/Sesion Local - Claude Code/GuitarPedalRack/build/GuitarPedalRack_artefacts/JuceLibraryCode/JuceHeader.h	77d130cf9fb5dfd
+338	12368	8092191442222016	CMakeFiles/GuitarPedalRack.dir/Source/PresetManager.cpp.obj	1c3ba61ea1ce829e
+329	12590	8092191442132028	CMakeFiles/GuitarPedalRack.dir/Source/AudioGraphManager.cpp.obj	781d465ecd597259
+348	533	8092192155138917	CMakeFiles/GuitarPedalRack.dir/31c1bc6e03219715a703a93a9d16ffcf/_toolchain/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.obj	5e027f1358fdd1c8
+310	13223	8092191441941997	CMakeFiles/GuitarPedalRack.dir/Source/Main.cpp.obj	160f4e5ac4b445b4
+356	7320	8092236827279662	CMakeFiles/GuitarPedalRack.dir/Source/MainComponent.cpp.obj	7d54d06c77376361
+338	479	8092192155048994	CMakeFiles/GuitarPedalRack.dir/31c1bc6e03219715a703a93a9d16ffcf/_toolchain/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.obj	9a5d7c8663ec1f91
+347	14075	8092191442312056	CMakeFiles/GuitarPedalRack.dir/C_/Users/Fede-_Para_grabar/Documents/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.obj	95fd0c0c0dac906d
+533	1375	8092192156998914	CMakeFiles/GuitarPedalRack.dir/C_/Users/Fede-_Para_grabar/Documents/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.obj	30d394e03c01493d
+1375	9948	8092192165418952	CMakeFiles/GuitarPedalRack.dir/C_/Users/Fede-_Para_grabar/Documents/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_events/juce_events.cpp.obj	1e4c08d064a708c9
+356	13753	8092192155218914	CMakeFiles/GuitarPedalRack.dir/C_/Users/Fede-_Para_grabar/Documents/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.obj	214759f28f28e7bb
+13705	13911	8092192288704990	CMakeFiles/GuitarPedalRack.dir/C_/Users/Fede-_Para_grabar/Documents/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.obj	1257081a8075e356
+356	19319	8092191442402010	CMakeFiles/GuitarPedalRack.dir/31c1bc6e03219715a703a93a9d16ffcf/_toolchain/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.obj	a423638b274008ba
+13754	18492	8092192289205000	CMakeFiles/GuitarPedalRack.dir/31c1bc6e03219715a703a93a9d16ffcf/_toolchain/JUCE/modules/juce_data_structures/juce_data_structures.cpp.obj	bc803967ed7652c1
+9948	19044	8092192251149822	CMakeFiles/GuitarPedalRack.dir/C_/Users/Fede-_Para_grabar/Documents/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_core/juce_core.cpp.obj	4244602f9790d191
+375	25151	8092192155418945	CMakeFiles/GuitarPedalRack.dir/C_/Users/Fede-_Para_grabar/Documents/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_graphics/juce_graphics.cpp.obj	ffead33bc5d55cb1
+13912	21961	8092192290775012	CMakeFiles/GuitarPedalRack.dir/C_/Users/Fede-_Para_grabar/Documents/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.obj	6e75d50199313ee6
+18492	26742	8092192336588760	CMakeFiles/GuitarPedalRack.dir/83bd9b626ea9fce057ca35c2f5403bcd/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.obj	46bb80e154842a8a
+366	28561	8092192155328936	CMakeFiles/GuitarPedalRack.dir/C_/Users/Fede-_Para_grabar/Documents/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.obj	32f581dbada2a592
+480	30070	8092192156468941	CMakeFiles/GuitarPedalRack.dir/83bd9b626ea9fce057ca35c2f5403bcd/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.obj	18ddb0abb0c5227d
+19045	28087	8092192342108753	CMakeFiles/GuitarPedalRack.dir/83bd9b626ea9fce057ca35c2f5403bcd/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.obj	55b45b0c1ba95f10
+7322	132264	8092236896941493	GuitarPedalRack_artefacts/Release/Guitar Pedal Rack.exe	17af6e2e17d65a93
+269	356	8092194534082514	RackSelfTest_artefacts/JuceLibraryCode/RackSelfTest_resources.rc	54090821f7d12a9f
+269	356	8092194534082514	C:/Users/Fede- Para grabar/Documents/Sesion Local - Claude Code/GuitarPedalRack/build/RackSelfTest_artefacts/JuceLibraryCode/RackSelfTest_resources.rc	54090821f7d12a9f
+357	519	8092194534232570	CMakeFiles/RackSelfTest_rc_lib.dir/RackSelfTest_artefacts/JuceLibraryCode/RackSelfTest_resources.rc.res	ce053626fdf9a3b5
+520	619	8092194536562763	RackSelfTest_artefacts/JuceLibraryCode/JuceHeader.h	90e764fba893fbbb
+520	619	8092194536562763	C:/Users/Fede- Para grabar/Documents/Sesion Local - Claude Code/GuitarPedalRack/build/RackSelfTest_artefacts/JuceLibraryCode/JuceHeader.h	90e764fba893fbbb
+664	1322	8092194537302790	CMakeFiles/RackSelfTest.dir/31c1bc6e03219715a703a93a9d16ffcf/_toolchain/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.obj	af3dd99a8345e2ce
+1322	2427	8092194543882776	CMakeFiles/RackSelfTest.dir/31c1bc6e03219715a703a93a9d16ffcf/_toolchain/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.obj	1abc400ec326b3de
+637	14043	8092194537032774	CMakeFiles/RackSelfTest.dir/Source/PresetManager.cpp.obj	5dff64d8c8dd9246
+629	15333	8092194536952754	CMakeFiles/RackSelfTest.dir/Source/AudioGraphManager.cpp.obj	eae638fe35835a41
+342	7791	8092200187518282	CMakeFiles/RackSelfTest.dir/Source/SelfTest.cpp.obj	57e102a8dabd42bd
+646	25161	8092194537122766	CMakeFiles/RackSelfTest.dir/C_/Users/Fede-_Para_grabar/Documents/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp.obj	bcce790fe1747189
+25162	27913	8092194782283730	CMakeFiles/RackSelfTest.dir/C_/Users/Fede-_Para_grabar/Documents/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_graphics/juce_graphics_Sheenbidi.c.obj	54dc4b2a737593
+2427	29011	8092194554932766	CMakeFiles/RackSelfTest.dir/C_/Users/Fede-_Para_grabar/Documents/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp.obj	a63295bf9d63c864
+27913	39035	8092194809793708	CMakeFiles/RackSelfTest.dir/C_/Users/Fede-_Para_grabar/Documents/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_events/juce_events.cpp.obj	c6db37ed58f05746
+39036	39743	8092194921020514	CMakeFiles/RackSelfTest.dir/C_/Users/Fede-_Para_grabar/Documents/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_core/juce_core_CompilationTime.cpp.obj	f62acc0fb0f41916
+39744	52690	8092194928094168	CMakeFiles/RackSelfTest.dir/31c1bc6e03219715a703a93a9d16ffcf/_toolchain/JUCE/modules/juce_data_structures/juce_data_structures.cpp.obj	5e56c9433a1c1cb8
+29012	78438	8092194820783753	CMakeFiles/RackSelfTest.dir/C_/Users/Fede-_Para_grabar/Documents/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_core/juce_core.cpp.obj	e78aa289a1997447
+52691	92507	8092195057567043	CMakeFiles/RackSelfTest.dir/C_/Users/Fede-_Para_grabar/Documents/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp.obj	d681ee6a0e82c41f
+655	93596	8092194537212784	CMakeFiles/RackSelfTest.dir/31c1bc6e03219715a703a93a9d16ffcf/_toolchain/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp.obj	3314fdc42eb66922
+78439	130130	8092195315059769	CMakeFiles/RackSelfTest.dir/83bd9b626ea9fce057ca35c2f5403bcd/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp.obj	cdfdd60d347e6402
+92508	132048	8092195455740827	CMakeFiles/RackSelfTest.dir/83bd9b626ea9fce057ca35c2f5403bcd/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp.obj	9b2b78d8ad32c9dd
+15334	136498	8092194684000683	CMakeFiles/RackSelfTest.dir/C_/Users/Fede-_Para_grabar/Documents/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_graphics/juce_graphics.cpp.obj	72be2601c0a1ee83
+14044	155394	8092194671100688	CMakeFiles/RackSelfTest.dir/C_/Users/Fede-_Para_grabar/Documents/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp.obj	fbbdef7c539d4bb1
+15715	156580	8092194687810688	CMakeFiles/RackSelfTest.dir/83bd9b626ea9fce057ca35c2f5403bcd/Sesion_Local_-_Claude_Code/_toolchain/JUCE/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.obj	a883fbbbb29619da
+7792	9072	8092200262007351	RackSelfTest_artefacts/Release/RackSelfTest.exe	f3956c84e8803c70
+82	246	8092239865569760	C:/Users/Fede- Para grabar/Documents/Sesion Local - Claude Code/GuitarPedalRack/build/CMakeFiles/cmake.verify_globs	441cd80ac3d31606
+328	7913	8092239868020132	CMakeFiles/RackSelfTest.dir/Source/SelfTest.cpp.obj	57e102a8dabd42bd
+7914	9179	8092239943881177	RackSelfTest_artefacts/Release/RackSelfTest.exe	f3956c84e8803c70

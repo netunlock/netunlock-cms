@@ -1,0 +1,2149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<KNOWNPLUGINS>
+  <PLUGIN name="Aphex Vintage Exciter Mono" format="VST3" category="Fx|Other"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e79ee436" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e486b"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="99dce310"/>
+  <PLUGIN name="Aphex Vintage Exciter Stereo" format="VST3" category="Fx|Other"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e7b56a36" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e491a"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="13777d16"/>
+  <PLUGIN name="API-550A Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="872a0bcb" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e4487"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="8191b891"/>
+  <PLUGIN name="API-550A Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="874091cb" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e452b"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="fb2c5297"/>
+  <PLUGIN name="API-550B Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="8aeb0ccb" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e45d0"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="89435e0f"/>
+  <PLUGIN name="API-550B Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="8b0192cb" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e4676"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="2ddf815"/>
+  <PLUGIN name="API-560 Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="6b1dcb18" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e4342"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="738990fa"/>
+  <PLUGIN name="API-560 Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="6b34511e" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e43dd"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="ed242b06"/>
+  <PLUGIN name="API-2500 Mono" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e9abda6e" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e471b"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="44e99138"/>
+  <PLUGIN name="API-2500 Stereo" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e9c2606e" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e47bd"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="be842b3e"/>
+  <PLUGIN name="AudioTrack Mono" format="VST3" category="Fx|Channel Strip"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="bfe085c2" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051fc3a"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="ce1d6398"/>
+  <PLUGIN name="AudioTrack Stereo" format="VST3" category="Fx|Channel Strip"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="bff70bc2" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051fcd4"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="47b7fd9e"/>
+  <PLUGIN name="Bass Rider Live Mono" format="VST3" category="Fx|Bass"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e176fea5" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e4cdc"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="dd011994"/>
+  <PLUGIN name="Bass Rider Live Stereo" format="VST3" category="Fx|Bass"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e18d84a5" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e4d77"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="569bb39a"/>
+  <PLUGIN name="Bass Rider Mono" format="VST3" category="Fx|Bass" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="bbecfea5" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e4b0c"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="9010a3de"/>
+  <PLUGIN name="Bass Rider Stereo" format="VST3" category="Fx|Bass" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="bc0384a5" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e4ba6"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="9ab3de4"/>
+  <PLUGIN name="C1 comp Mono" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="65e94c5e" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ea5c2"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="4f823b06"/>
+  <PLUGIN name="C1 comp Stereo" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="65ffd264" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ea65f"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="c91cd512"/>
+  <PLUGIN name="C1 comp-gate Mono" format="VST3" category="Fx|Dynamics"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="dca65958" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e87ef"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="6236b1f8"/>
+  <PLUGIN name="C1 comp-gate Stereo" format="VST3" category="Fx|Dynamics"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="dcbcdf58" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e8895"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="dbd14bfe"/>
+  <PLUGIN name="C1 comp-sc Mono" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="191c5964" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e5f71"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="a27949b0"/>
+  <PLUGIN name="C1 comp-sc Stereo" format="VST3" category="Fx|Dynamics"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="1932df64" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e6015"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="1c13e3b6"/>
+  <PLUGIN name="C1 gate Mono" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="6fe49828" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030508599"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="ffe905ae"/>
+  <PLUGIN name="C1 gate Stereo" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="6ffb1e2e" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030508637"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="79839fba"/>
+  <PLUGIN name="C4 Mono" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="bfaad650" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ed2a5"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="da549160"/>
+  <PLUGIN name="C4 Stereo" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b6c57c5a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ed340"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="5e6eb53b"/>
+  <PLUGIN name="C6 Mono" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="aeaa61f1" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ea716"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="f1e93f0"/>
+  <PLUGIN name="C6 Stereo" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="a5c507fb" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ea7c4"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="9338b7cb"/>
+  <PLUGIN name="C6-SideChain Mono" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="adb67e9f" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304eb8b5"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="d816c2d4"/>
+  <PLUGIN name="C6-SideChain Stereo" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="adcd049f" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304eb965"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="51b15cda"/>
+  <PLUGIN name="C360 5.0" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="54ffdef1" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051f768"
+          numInputs="5" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="1a4be491"/>
+  <PLUGIN name="C360 5.1" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="5503a0f1" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051f7f8"
+          numInputs="6" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="ae9053b1"/>
+  <PLUGIN name="Center Stereo" format="VST3" category="Fx|Spatial" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9028332f" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ecc41"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="d121e387"/>
+  <PLUGIN name="CHANNEV" format="VST3" category="Fx|Distortion" manufacturer="AnalogObsession"
+          version="2.0.0" file="C:\Program Files\Common Files\VST3\CHANNEV.vst3\Contents\x86_64-win\CHANNEV.vst3"
+          uniqueId="c1c920b0" isInstrument="0" fileTime="1867b63fda0" infoUpdateTime="1a030537b8d"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="51b509c9"/>
+  <PLUGIN name="CLA Bass Mono/Stereo" format="VST3" category="Fx|Bass"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="39dcb7e" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e5d66"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="c17fc180"/>
+  <PLUGIN name="CLA Bass Stereo" format="VST3" category="Fx|Bass" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="38b067e" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e5596"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="dc29967b"/>
+  <PLUGIN name="CLA Drums Mono/Stereo" format="VST3" category="Fx|Drums"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="d670c60f" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304eb7fd"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="6e3912bd"/>
+  <PLUGIN name="CLA Drums Stereo" format="VST3" category="Fx|Drums" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="d65e010f" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304eb294"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="88e2e7b8"/>
+  <PLUGIN name="CLA Effects Mono/Stereo" format="VST3" category="Fx|Effects"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="5e55be1e" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e835e"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="a6d26ec0"/>
+  <PLUGIN name="CLA Effects Stereo" format="VST3" category="Fx|Effects"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="5e42f91e" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e7a78"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="c17c43bb"/>
+  <PLUGIN name="CLA Guitars Mono/Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="23e6cd5a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ecb91"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="3c75ed19"/>
+  <PLUGIN name="CLA Guitars Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="23d4085a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ec286"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="571fc214"/>
+  <PLUGIN name="CLA Unplugged Mono/Stereo" format="VST3" category="Fx|Other"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9467c720" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e96d5"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="33900745"/>
+  <PLUGIN name="CLA Unplugged Stereo" format="VST3" category="Fx|Other"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="94550220" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e8fbe"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="4e39dc40"/>
+  <PLUGIN name="CLA Vocals Mono/Stereo" format="VST3" category="Fx|Vocals"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="5a1bbc36" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ea517"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="d034b91a"/>
+  <PLUGIN name="CLA Vocals Stereo" format="VST3" category="Fx|Vocals" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="5a08f736" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e9dfd"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="eade8e15"/>
+  <PLUGIN name="CLA-2A Mono" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9d81f54" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030510f38"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="5bebc5df"/>
+  <PLUGIN name="CLA-2A Stereo" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9eeab59" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030510fd7"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="d58660a4"/>
+  <PLUGIN name="CLA-3A Mono" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="d991f73" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051107a"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="63ab82bf"/>
+  <PLUGIN name="CLA-3A Stereo" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="dafab78" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030511119"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="dd461d84"/>
+  <PLUGIN name="CLA-76 Mono" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="d39f9424" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e41f3"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="f81fc928"/>
+  <PLUGIN name="CLA-76 Stereo" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="d3b62029" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e42a2"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="71ba63ed"/>
+  <PLUGIN name="DeBreath Mono" format="VST3" category="Fx|Vocals" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="81f0f33d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e4c42"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="3f96aed7"/>
+  <PLUGIN name="DeEsser Mono" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="fff9b4fa" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ece12"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="a69e6c48"/>
+  <PLUGIN name="DeEsser Stereo" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="103b00" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ecea5"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="20390654"/>
+  <PLUGIN name="Doppler Mono/Stereo" format="VST3" category="Fx|Spatial"
+          manufacturer="Waves" version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="f477a221" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ecd7a"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="9610372d"/>
+  <PLUGIN name="Doppler Stereo" format="VST3" category="Fx|Spatial" manufacturer="Waves"
+          version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="f464dd27" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ecce0"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="b0ba0c2e"/>
+  <PLUGIN name="Dorrough Mono" format="VST3" category="Fx|Analyzer" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9d07dd31" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ed12f"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="fc7a4b31"/>
+  <PLUGIN name="Dorrough Stereo" format="VST3" category="Fx|Analyzer" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9d1e6331" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ed1fe"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="7614e537"/>
+  <PLUGIN name="Dorrough360 5.0" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9cadc544" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ecf71"
+          numInputs="5" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="160fe32c"/>
+  <PLUGIN name="Dorrough360 5.1" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9cb18644" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ed05a"
+          numInputs="6" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="aa54522d"/>
+  <PLUGIN name="Doubler2 Mono" format="VST3" category="Fx|Modulation" manufacturer="Waves"
+          version="9.2.11.3" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b0a159e1" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030525e27"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="776d2986"/>
+  <PLUGIN name="Doubler2 Mono/Stereo" format="VST3" category="Fx|Modulation"
+          manufacturer="Waves" version="9.2.11.3" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b0caa4e1" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030525f72"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="d65dee91"/>
+  <PLUGIN name="Doubler2 Stereo" format="VST3" category="Fx|Modulation"
+          manufacturer="Waves" version="9.2.11.3" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b0b7dfe1" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030525ec2"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="f107c38c"/>
+  <PLUGIN name="Doubler4 Mono" format="VST3" category="Fx|Modulation" manufacturer="Waves"
+          version="9.2.11.3" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b8235be1" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03052614d"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="86d07482"/>
+  <PLUGIN name="Doubler4 Mono/Stereo" format="VST3" category="Fx|Modulation"
+          manufacturer="Waves" version="9.2.11.3" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b84ca6e1" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305262cc"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="e5c1398d"/>
+  <PLUGIN name="Doubler4 Stereo" format="VST3" category="Fx|Modulation"
+          manufacturer="Waves" version="9.2.11.3" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b839e1e1" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305261e7"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="6b0e88"/>
+  <PLUGIN name="EKramer BA Mono" format="VST3" category="Fx|Bass" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b74bfe55" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304edfe6"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="dcf211e5"/>
+  <PLUGIN name="EKramer BA Stereo" format="VST3" category="Fx|Bass" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b7628455" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ee368"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="568cabeb"/>
+  <PLUGIN name="EKramer DR Mono" format="VST3" category="Fx|Drums" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="becdfe57" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ee782"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="ec555ca5"/>
+  <PLUGIN name="EKramer DR Stereo" format="VST3" category="Fx|Drums" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="bee48457" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304eebaf"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="65eff6ab"/>
+  <PLUGIN name="EKramer FX Mono/Stereo" format="VST3" category="Fx|Effects"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c6794959" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ef397"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="5aa96c70"/>
+  <PLUGIN name="EKramer FX Stereo" format="VST3" category="Fx|Effects"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c6668459" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304eefa6"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="7553416b"/>
+  <PLUGIN name="EKramer GT Mono/Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="ca3a495a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304f0427"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="625b11d0"/>
+  <PLUGIN name="EKramer GT Stereo" format="VST3" category="Fx|Guitar" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="ca27845a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304efbea"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="7d04e6cb"/>
+  <PLUGIN name="EKramer VC Mono/Stereo" format="VST3" category="Fx|Vocals"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="2894969" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304f112d"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="d5c3c270"/>
+  <PLUGIN name="EKramer VC Stereo" format="VST3" category="Fx|Vocals" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="2768469" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304f0b47"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="f06d976b"/>
+  <PLUGIN name="Element Stereo" format="VST3" category="Instrument|Waves"
+          manufacturer="Waves" version="9.2.4.16" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="2b9a3d49" isInstrument="1" fileTime="143725e0180" infoUpdateTime="1a03050c4f2"
+          numInputs="0" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="c8a47344"/>
+  <PLUGIN name="Enigma Mono/Stereo" format="VST3" category="Fx|Modulation"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="64d25062" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304f0561"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="86ceb32e"/>
+  <PLUGIN name="Enigma Stereo" format="VST3" category="Fx|Modulation" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="64bf9167" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304f04cd"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="a17888e8"/>
+  <PLUGIN name="ExaktLite" format="VST3" category="Instrument|Synth" manufacturer="Sonicbits"
+          version="v2.3.0" file="C:\Program Files\Common Files\VST3\ExaktLite.vst3\Contents\x86_64-win\ExaktLite.vst3"
+          uniqueId="1985e1e0" isInstrument="1" fileTime="195c38b9e30" infoUpdateTime="1a030537b80"
+          numInputs="0" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="2e4b79b9"/>
+  <PLUGIN name="GEQ Classic Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.2.90.12" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b3606170" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304fb970"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="4704c07e"/>
+  <PLUGIN name="GEQ Classic Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.2.90.12" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b376e770" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304fba4e"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="c09f5a84"/>
+  <PLUGIN name="GEQ Modern Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.2.90.12" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="fc6cc919" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305206ba"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="bd25c55c"/>
+  <PLUGIN name="GEQ Modern Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.2.90.12" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="fc834f19" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305207c1"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="36c05f62"/>
+  <PLUGIN name="GTR Amp 2Cab Mono" format="VST3" category="Fx|Guitar" manufacturer="Waves"
+          version="9.2.80.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="10330df1" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304f16f3"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="73f97319"/>
+  <PLUGIN name="GTR Amp Mono" format="VST3" category="Fx|Guitar" manufacturer="Waves"
+          version="9.2.80.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="758e0e2c" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304fb33f"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="43b5e459"/>
+  <PLUGIN name="GTR Amp Mono/Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.80.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="75b7592c" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304fb89f"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="a2a6a964"/>
+  <PLUGIN name="GTR Amp Stereo" format="VST3" category="Fx|Guitar" manufacturer="Waves"
+          version="9.2.80.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="75a49432" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304fb5ee"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="bd507e65"/>
+  <PLUGIN name="GTR Solo Tool Rack Mono/Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.80.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="6339aa0d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305084e6"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="891bd83"/>
+  <PLUGIN name="GTR Solo Tool Rack Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.80.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="6326e50d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030506f7b"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="233b927e"/>
+  <PLUGIN name="GTR Stomp 2 Mono" format="VST3" category="Fx|Guitar" manufacturer="Waves"
+          version="9.2.80.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="99325d5d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304f30e8"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="9ec3b416"/>
+  <PLUGIN name="GTR Stomp 2 Mono/Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.80.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="995ba85d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304f63dd"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="fdb47921"/>
+  <PLUGIN name="GTR Stomp 2 Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.80.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9948e35d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304f4a6b"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="185e4e1c"/>
+  <PLUGIN name="GTR Stomp 4 Mono" format="VST3" category="Fx|Guitar" manufacturer="Waves"
+          version="9.2.80.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="a0b45d5d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304f7d5f"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="ae26fed4"/>
+  <PLUGIN name="GTR Stomp 4 Mono/Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.80.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="a0dda85d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304fb0a3"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="d17c3df"/>
+  <PLUGIN name="GTR Stomp 4 Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.80.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="a0cae35d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304f96f8"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="27c198da"/>
+  <PLUGIN name="GTR Stomp 6 Mono" format="VST3" category="Fx|Guitar" manufacturer="Waves"
+          version="9.2.80.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="24e5d5d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030501abd"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="7631ca7a"/>
+  <PLUGIN name="GTR Stomp 6 Mono/Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.80.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="277a85d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030504df0"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="d5228f85"/>
+  <PLUGIN name="GTR Stomp 6 Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.80.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="264e35d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030503456"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="efcc6480"/>
+  <PLUGIN name="GTR Tool Rack Mono/Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.80.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4cb6a72c" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030500106"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="da75ffb0"/>
+  <PLUGIN name="GTR Tool Rack Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.80.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4ca3e22c" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304fddaf"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="f51fd4ab"/>
+  <PLUGIN name="GTR Tuner Mono" format="VST3" category="Fx|Guitar" manufacturer="Waves"
+          version="9.2.80.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e8f83e51" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030520d0a"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="80bfd33c"/>
+  <PLUGIN name="H-Comp Mono" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="fb691fe7" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e5e1e"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="59bf0e6a"/>
+  <PLUGIN name="H-Comp Stereo" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="fb7fabec" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e5ec5"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="d359a92f"/>
+  <PLUGIN name="H-Delay Mono" format="VST3" category="Fx|Delay" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="6e24e2a1" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305086e2"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="2b807915"/>
+  <PLUGIN name="H-Delay Mono/Stereo" format="VST3" category="Fx|Delay"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="6e4e2da1" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03050882d"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="8a713e20"/>
+  <PLUGIN name="H-Delay Stereo" format="VST3" category="Fx|Delay" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="6e3b68a7" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030508788"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="a51b1321"/>
+  <PLUGIN name="H-EQ Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.10.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="ee089b6f" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030508a5c"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="936ab7f2"/>
+  <PLUGIN name="H-EQ Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.10.2" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="f4241872" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030508b10"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="d081de3"/>
+  <PLUGIN name="IDR Mono" format="VST3" category="Fx|Mastering" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="dd524e73" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030508c77"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="572a0bef"/>
+  <PLUGIN name="IDR Stereo" format="VST3" category="Fx|Mastering" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e25fd892" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030508ca3"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="d11b57cf"/>
+  <PLUGIN name="IDR360 5.0" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="aae4a015" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030511b33"
+          numInputs="5" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="a4dc65b"/>
+  <PLUGIN name="IDR360 5.1" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="aae86115" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030511bc2"
+          numInputs="6" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="9e92355c"/>
+  <PLUGIN name="InPhase Live Mono" format="VST3" category="Fx|Tools" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="490e504" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051d6ab"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="c6c4cb40"/>
+  <PLUGIN name="InPhase Live Stereo" format="VST3" category="Fx|Tools"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4a76b04" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051d787"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="405f6546"/>
+  <PLUGIN name="InPhase LT Live Mono" format="VST3" category="Fx|Tools"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="df06e504" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051ccc0"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="79d4558a"/>
+  <PLUGIN name="InPhase LT Live Stereo" format="VST3" category="Fx|Tools"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="df1d6b04" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051cd65"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="f36eef90"/>
+  <PLUGIN name="InPhase LT Mono" format="VST3" category="Fx|Tools" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="db45e504" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051cb75"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="7222b02b"/>
+  <PLUGIN name="InPhase LT Stereo" format="VST3" category="Fx|Tools" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="db5c6b04" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051cc1a"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="ebbd4a31"/>
+  <PLUGIN name="InPhase Mono" format="VST3" category="Fx|Tools" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="391ee505" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051de6f"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="327bd673"/>
+  <PLUGIN name="InPhase Stereo" format="VST3" category="Fx|Tools" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="39356b0b" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051df47"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="ac16707f"/>
+  <PLUGIN name="IR-L efficient Stereo" format="VST3" category="Fx|Reverb"
+          manufacturer="Waves" version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="383f3c4f" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e61f1"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="6b27247c"/>
+  <PLUGIN name="IR-L full Stereo" format="VST3" category="Fx|Reverb" manufacturer="Waves"
+          version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="3d0f4252" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e7179"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="72d97746"/>
+  <PLUGIN name="IR-L Mono" format="VST3" category="Fx|Reverb" manufacturer="Waves"
+          version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4031be55" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e60f8"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="f1905035"/>
+  <PLUGIN name="IR-L Mono/Stereo" format="VST3" category="Fx|Reverb" manufacturer="Waves"
+          version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="405b0955" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e62e7"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="50811540"/>
+  <PLUGIN name="IR1 efficient Stereo" format="VST3" category="Fx|Reverb"
+          manufacturer="Waves" version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="dfb213a4" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e6cfb"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="dacf156d"/>
+  <PLUGIN name="IR1 full Stereo" format="VST3" category="Fx|Reverb" manufacturer="Waves"
+          version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="f2791680" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e84a5"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="e295ba7e"/>
+  <PLUGIN name="IR1 Mono" format="VST3" category="Fx|Reverb" manufacturer="Waves"
+          version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e8a39439" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e6bf8"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="61a96d25"/>
+  <PLUGIN name="IR1 Mono/Stereo" format="VST3" category="Fx|Reverb" manufacturer="Waves"
+          version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e8ccdf68" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e6f21"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="c09a325f"/>
+  <PLUGIN name="IR360 discrete Mono/5.0" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c7133d49" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ead25"
+          numInputs="1" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="3d09ccf2"/>
+  <PLUGIN name="IR360 eff discrete 5.0" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c68d163c" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ea91c"
+          numInputs="5" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="636a3425"/>
+  <PLUGIN name="IR360 eff discrete 5.1" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c690d73c" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304eaa7a"
+          numInputs="6" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="f7aea326"/>
+  <PLUGIN name="IR360 eff discrete Stereo/5.0" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c701753c" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304eabcf"
+          numInputs="2" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="57b3a544"/>
+  <PLUGIN name="IR360 eff s.field Stereo/5.0" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="99f5753c" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e6e22"
+          numInputs="2" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="fb5fe4d0"/>
+  <PLUGIN name="IR360 sound field 5.0" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="998f1f4b" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e6875"
+          numInputs="5" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="716a965"/>
+  <PLUGIN name="IR360 sound field 5.1" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9992e04b" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e6b0a"
+          numInputs="6" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="9b5b1866"/>
+  <PLUGIN name="IR360 sound field Mono/5.0" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9a16434b" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e7046"
+          numInputs="1" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="e0b64589"/>
+  <PLUGIN name="IR360 sound field Stereo/5.0" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9dc47e4b" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e8741"
+          numInputs="2" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="311bfe3"/>
+  <PLUGIN name="IRLive Mono" format="VST3" category="Fx|Reverb" manufacturer="Waves"
+          version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="18836abf" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e63db"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="8026e9e0"/>
+  <PLUGIN name="IRLive Mono/Stereo" format="VST3" category="Fx|Reverb"
+          manufacturer="Waves" version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="18acb5bf" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e65d7"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="df17aeeb"/>
+  <PLUGIN name="IRLive Stereo" format="VST3" category="Fx|Reverb" manufacturer="Waves"
+          version="9.2.70.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="1899f6c4" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e64da"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="f9c184a5"/>
+  <PLUGIN name="J37 Mono" format="VST3" category="Fx|Distortion" manufacturer="Waves"
+          version="9.2.17.15" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b0d75249" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030521314"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="36a27723"/>
+  <PLUGIN name="J37 Stereo" format="VST3" category="Fx|Distortion" manufacturer="Waves"
+          version="9.2.17.15" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b5e4dc68" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030521735"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="b093c303"/>
+  <PLUGIN name="JJP-Bass Mono" format="VST3" category="Fx|Bass" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="590b5c5e" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03050946c"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="c7abb078"/>
+  <PLUGIN name="JJP-Bass Mono/Stereo" format="VST3" category="Fx|Bass"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="5934a75e" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03050a57b"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="269c7583"/>
+  <PLUGIN name="JJP-Bass Stereo" format="VST3" category="Fx|Bass" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="5921e25e" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030509cf6"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="41464a7e"/>
+  <PLUGIN name="JJP-Cymb-Perc Mono/Stereo" format="VST3" category="Fx|Drums"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="a5bc968a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03050e7f3"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="926c6896"/>
+  <PLUGIN name="JJP-Cymb-Perc Stereo" format="VST3" category="Fx|Drums"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="a5a9d18a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03050e0e4"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="ad163d91"/>
+  <PLUGIN name="JJP-Drums Mono" format="VST3" category="Fx|Drums" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="718f56ef" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03050afa6"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="d732eba2"/>
+  <PLUGIN name="JJP-Drums Mono/Stereo" format="VST3" category="Fx|Drums"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="71b8a1ef" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03050c3ed"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="3623b0ad"/>
+  <PLUGIN name="JJP-Drums Stereo" format="VST3" category="Fx|Drums" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="71a5dcef" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03050b9bf"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="50cd85a8"/>
+  <PLUGIN name="JJP-Guitars Mono/Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="7fefa93a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03050d9c8"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="4d641825"/>
+  <PLUGIN name="JJP-Guitars Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="7fdce43a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03050cf62"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="680ded20"/>
+  <PLUGIN name="JJP-Strings-Keys Mono/Stereo" format="VST3" category="Fx|Fx"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="ac049fbb" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03050fa00"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="aa609ec7"/>
+  <PLUGIN name="JJP-Strings-Keys Stereo" format="VST3" category="Fx|Fx"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="abf1dabb" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03050f10f"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="c50a73c2"/>
+  <PLUGIN name="JJP-Vocals Mono/Stereo" format="VST3" category="Fx|Vocals"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b2389816" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030510d5b"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="c19d5643"/>
+  <PLUGIN name="JJP-Vocals Stereo" format="VST3" category="Fx|Vocals" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b225d316" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051039b"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="dc472b3e"/>
+  <PLUGIN name="Kramer HLS Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="3a782d0a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305088db"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="72e10b63"/>
+  <PLUGIN name="Kramer HLS Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="3a8eb30a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03050899b"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="ec7ba569"/>
+  <PLUGIN name="Kramer PIE Mono" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="3434d7ff" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051d27d"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="eb726ccb"/>
+  <PLUGIN name="Kramer PIE Stereo" format="VST3" category="Fx|Dynamics"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="344b5dff" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051d323"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="650d06d1"/>
+  <PLUGIN name="Kramer Tape Mono" format="VST3" category="Fx|Distortion"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4581ad73" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030523839"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="d0eb3db8"/>
+  <PLUGIN name="Kramer Tape Stereo" format="VST3" category="Fx|Distortion"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="45983373" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030523907"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="4a85d7be"/>
+  <PLUGIN name="L1 limiter Mono" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="191aefbc" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030511689"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="36360f73"/>
+  <PLUGIN name="L1 limiter Stereo" format="VST3" category="Fx|Dynamics"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="193175bc" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051171c"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="afd0a979"/>
+  <PLUGIN name="L1+ Ultramaximizer Stereo" format="VST3" category="Fx|Dynamics"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="56929f2c" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030511ea9"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="5f82e72"/>
+  <PLUGIN name="L2 Mono" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="1faa9b11" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030511c57"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="81f646e2"/>
+  <PLUGIN name="L2 Stereo" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="16c5411b" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030511ce9"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="6106abd"/>
+  <PLUGIN name="L3 MultiMaximizer Mono" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="8f30538" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030511f4d"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="9624dad0"/>
+  <PLUGIN name="L3 MultiMaximizer Stereo" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9098b38" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030511fec"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="fbf74d6"/>
+  <PLUGIN name="L3 UltraMaximizer Mono" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="ef28f421" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030511a0a"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="5e119666"/>
+  <PLUGIN name="L3 UltraMaximizer Stereo" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="ef3f7a21" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030511a9e"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="d7ac306c"/>
+  <PLUGIN name="L3-LL Multi Mono" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="be81ab5a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051ed0e"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="8ceabf27"/>
+  <PLUGIN name="L3-LL Multi Stereo" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="be98315a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051edac"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="685592d"/>
+  <PLUGIN name="L3-LL Ultra Mono" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9cc0a262" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051ebd5"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="47ac0bc9"/>
+  <PLUGIN name="L3-LL Ultra Stereo" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9cd72862" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051ec6a"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="c146a5cf"/>
+  <PLUGIN name="L12X Solid State Amplifier" format="VST3" category="Fx|Distortion"
+          manufacturer="Audiority" version="1.0" file="C:\Program Files\Common Files\VST3\Audiority\L12X Solid State Amplifier.vst3"
+          uniqueId="e220bde9" isInstrument="0" fileTime="16f9f96e500" infoUpdateTime="1a030537c76"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="63912758"/>
+  <PLUGIN name="L316 Mono" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="fb756ef" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051209f"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="be9879b9"/>
+  <PLUGIN name="L316 Stereo" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="15d2d3f2" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051214c"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="3835dfaa"/>
+  <PLUGIN name="L360 5.0" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c8b24680" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030511d7d"
+          numInputs="5" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="b78f1ff6"/>
+  <PLUGIN name="L360 5.1" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c8b60880" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030511e12"
+          numInputs="6" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="4bd38f16"/>
+  <PLUGIN name="LFE360 5.1" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="2b516c58" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305118e8"
+          numInputs="6" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="89b28f01"/>
+  <PLUGIN name="LFE360 Mono" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="2ba7fb99" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030511973"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="dbd88f21"/>
+  <PLUGIN name="LinEQ Broadband Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b60315be" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030511554"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="8f2cb00c"/>
+  <PLUGIN name="LinEQ Broadband Stereo" format="VST3" category="Fx|EQ"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b6199bbe" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305115f2"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="8c74a12"/>
+  <PLUGIN name="LinEQ Lowband Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="f99f12c6" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305121e5"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="19aa75ef"/>
+  <PLUGIN name="LinEQ Lowband Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="f9b598c6" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051227c"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="93450ff5"/>
+  <PLUGIN name="LinMB Mono" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="fb0308ec" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305111bb"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="1b2ab660"/>
+  <PLUGIN name="LinMB Stereo" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="fb1f93e3" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051125a"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="94c5677e"/>
+  <PLUGIN name="LoAir 5.0/5.1" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="ec1a029e" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051138b"
+          numInputs="5" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="cce95901"/>
+  <PLUGIN name="LoAir 5.1" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="ebecf69f" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305112f5"
+          numInputs="6" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="d9b424f6"/>
+  <PLUGIN name="LoAir Mono" format="VST3" category="Fx|Effects" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="ec7b8edc" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051141d"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="2bdaf861"/>
+  <PLUGIN name="LoAir Stereo" format="VST3" category="Fx|Effects" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="ec9819d3" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305114af"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="a575a97f"/>
+  <PLUGIN name="M360 Manager 5.0" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="365d5a1e" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051ce13"
+          numInputs="5" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="9968a954"/>
+  <PLUGIN name="M360 Manager 5.0/5.1" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="368e271e" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051cf67"
+          numInputs="5" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="20e24c61"/>
+  <PLUGIN name="M360 Manager 5.1" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="36611b1e" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051cebe"
+          numInputs="6" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="2dad1855"/>
+  <PLUGIN name="M360 Mixdown 5.0" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="5bef6421" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051d826"
+          numInputs="5" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="e6593e4b"/>
+  <PLUGIN name="M360 Mixdown 5.1" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="5bf32521" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051d8c4"
+          numInputs="6" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="7a9dad4c"/>
+  <PLUGIN name="Malibu" format="VST3" category="Fx|Reverb|Modulation|Guitar|Tremolo"
+          manufacturer="VZtec" version="0.1.0" file="C:\Program Files\Common Files\VST3\Malibu.vst3"
+          uniqueId="14a88bfc" isInstrument="0" fileTime="18ec8c68060" infoUpdateTime="1a03053786d"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="c3fce52f"/>
+  <PLUGIN name="MannyM Delay Mono/Stereo" format="VST3" category="Fx|Delay"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="122ee2cc" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030516697"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="585fe2ea"/>
+  <PLUGIN name="MannyM Delay Stereo" format="VST3" category="Fx|Delay"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="121c1dcc" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051587c"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="7309b7e5"/>
+  <PLUGIN name="MannyM Distortion Mono" format="VST3" category="Fx|Distortion"
+          manufacturer="Waves" version="9.2.90.7" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4e1597d0" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051ab64"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="748973d3"/>
+  <PLUGIN name="MannyM Distortion Stereo" format="VST3" category="Fx|Distortion"
+          manufacturer="Waves" version="9.2.90.7" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4e2c1dd0" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051b441"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="ee240dd9"/>
+  <PLUGIN name="MannyM EQ Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="15c698d8" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030516fb9"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="120c369"/>
+  <PLUGIN name="MannyM EQ Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="15dd1ed8" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030517701"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="7abb5d6f"/>
+  <PLUGIN name="MannyM Reverb Mono" format="VST3" category="Fx|Reverb"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4693a5cc" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030518122"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="65262ac3"/>
+  <PLUGIN name="MannyM Reverb Mono/Stereo" format="VST3" category="Fx|Reverb"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="46bcf0cc" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305196a3"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="c416efce"/>
+  <PLUGIN name="MannyM Reverb Stereo" format="VST3" category="Fx|Reverb"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="46aa2bcc" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030518bd7"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="dec0c4c9"/>
+  <PLUGIN name="MannyM Tone Shaper Mono" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e44a7d6" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305138d4"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="f1bd7a7a"/>
+  <PLUGIN name="MannyM Tone Shaper Stereo" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e5b2dd6" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030514a5e"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="6b581480"/>
+  <PLUGIN name="MannyM TripleD Mono" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.2.90.13" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4a54a7d9" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030519c91"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="6cd7d06d"/>
+  <PLUGIN name="MannyM TripleD Stereo" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.2.90.13" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4a6b2dd9" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051a26f"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="e6726a73"/>
+  <PLUGIN name="Maserati ACG Mono/Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="bcdcfe47" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030521cb3"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="f9e96404"/>
+  <PLUGIN name="Maserati ACG Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="bcca3947" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305219fc"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="149338ff"/>
+  <PLUGIN name="Maserati B72 Mono" format="VST3" category="Fx|Bass" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c074b347" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03052209f"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="a2aa4458"/>
+  <PLUGIN name="Maserati B72 Mono/Stereo" format="VST3" category="Fx|Bass"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c09dfe47" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030522849"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="19b0963"/>
+  <PLUGIN name="Maserati B72 Stereo" format="VST3" category="Fx|Bass" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c08b3947" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030522475"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="1c44de5e"/>
+  <PLUGIN name="Maserati DRM Mono" format="VST3" category="Fx|Drums" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="45b347" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030524918"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="25763fa7"/>
+  <PLUGIN name="Maserati DRM Stereo" format="VST3" category="Fx|Drums"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="5c3947" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030524a76"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="9f10d9ad"/>
+  <PLUGIN name="Maserati GRP Mono" format="VST3" category="Fx|Mastering"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="f8fcca74" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03050539c"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="ed8bd63b"/>
+  <PLUGIN name="Maserati GRP Stereo" format="VST3" category="Fx|Mastering"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="f9135074" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305059ed"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="67267041"/>
+  <PLUGIN name="Maserati GTi Mono/Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="fcadfe47" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03052466f"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="7cb55f53"/>
+  <PLUGIN name="Maserati GTi Stereo" format="VST3" category="Fx|Guitar"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="fc9b3947" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030523fcd"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="975f344e"/>
+  <PLUGIN name="Maserati HMX Mono/Stereo" format="VST3" category="Fx|Effects"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="d723fe47" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030523347"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="2fc4e99d"/>
+  <PLUGIN name="Maserati HMX Stereo" format="VST3" category="Fx|Effects"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="d7113947" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030522f2b"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="4a6ebe98"/>
+  <PLUGIN name="Maserati VX1 Mono/Stereo" format="VST3" category="Fx|Vocals"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="bb1fe47" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030525453"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="9b7bf4cf"/>
+  <PLUGIN name="Maserati VX1 Stereo" format="VST3" category="Fx|Vocals"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b9f3947" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030524fd1"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="b625c9ca"/>
+  <PLUGIN name="MaxxBass Mono" format="VST3" category="Fx|Bass" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4b0dd9be" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305127f1"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="70a5f040"/>
+  <PLUGIN name="MaxxBass Stereo" format="VST3" category="Fx|Bass" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4b245fbe" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030512881"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="ea408a46"/>
+  <PLUGIN name="MaxxVolume Mono" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="fc8f0cfb" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030508bae"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="ea5a282"/>
+  <PLUGIN name="MaxxVolume Stereo" format="VST3" category="Fx|Dynamics"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="fca592fb" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030508c47"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="88403c88"/>
+  <PLUGIN name="MetaFlanger Mono" format="VST3" category="Fx|Modulation"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="f285dde8" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304f1329"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="4c2da8f1"/>
+  <PLUGIN name="MetaFlanger Mono/Stereo" format="VST3" category="Fx|Modulation"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="f2af28e8" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304f1448"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="ab1e6dfc"/>
+  <PLUGIN name="MetaFlanger Stereo" format="VST3" category="Fx|Modulation"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="f29c63e8" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304f13b9"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="c5c842f7"/>
+  <PLUGIN name="MondoMod Mono" format="VST3" category="Fx|Modulation" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="46536051" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051673d"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="bfecbe9d"/>
+  <PLUGIN name="MondoMod Mono/Stereo" format="VST3" category="Fx|Modulation"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="467cab51" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030516868"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="1edd83a8"/>
+  <PLUGIN name="MondoMod Stereo" format="VST3" category="Fx|Modulation"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4669e651" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305167d0"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="398758a3"/>
+  <PLUGIN name="Morphoder Mono" format="VST3" category="Fx|Modulation"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="841cec21" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030525c49"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="2d35a04a"/>
+  <PLUGIN name="Morphoder Mono/Stereo" format="VST3" category="Fx|Modulation"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="84463721" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030525d89"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="8c266555"/>
+  <PLUGIN name="Morphoder Stereo" format="VST3" category="Fx|Modulation"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="84337221" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030525ce9"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="a6d03a50"/>
+  <PLUGIN name="MV2 Mono" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="1d742ef3" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305124ec"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="44bd8507"/>
+  <PLUGIN name="MV2 Stereo" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="2281b912" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030512582"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="beaed0e7"/>
+  <PLUGIN name="MV360 5.0" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="d72678c0" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051b4ef"
+          numInputs="5" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="f4083c02"/>
+  <PLUGIN name="MV360 5.1" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="d72a39c1" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051b591"
+          numInputs="6" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="884cab04"/>
+  <PLUGIN name="NLS Buss Mono" format="VST3" category="Fx|Distortion" manufacturer="Waves"
+          version="9.2.40.3" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="a83befb9" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305209cd"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="a35f47b1"/>
+  <PLUGIN name="NLS Buss Stereo" format="VST3" category="Fx|Distortion"
+          manufacturer="Waves" version="9.2.40.3" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="a85275b9" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030520aa8"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="1cf9e1b7"/>
+  <PLUGIN name="NLS Channel Mono" format="VST3" category="Fx|Distortion"
+          manufacturer="Waves" version="9.2.40.3" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e519eb26" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030520005"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="a5a90d16"/>
+  <PLUGIN name="NLS Channel Stereo" format="VST3" category="Fx|Distortion"
+          manufacturer="Waves" version="9.2.40.3" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e5307126" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305201fc"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="1f43a71c"/>
+  <PLUGIN name="NS1 Mono" format="VST3" category="Fx|Restoration" manufacturer="Waves"
+          version="9.1.3.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="3430be40" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e49cb"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="9067890b"/>
+  <PLUGIN name="NS1 Stereo" format="VST3" category="Fx|Restoration" manufacturer="Waves"
+          version="9.1.3.5" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="393e485f" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304e4a6e"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="a58d4eb"/>
+  <PLUGIN name="OneKnob Brighter Mono" format="VST3" category="Fx|Other"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="1caee5b4" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051bd64"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="d098897e"/>
+  <PLUGIN name="OneKnob Brighter Stereo" format="VST3" category="Fx|Other"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="1cc56bb4" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051bdf9"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="4a332384"/>
+  <PLUGIN name="OneKnob Driver Mono" format="VST3" category="Fx|Other"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="2430e5b6" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051bfbd"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="dffbd43e"/>
+  <PLUGIN name="OneKnob Driver Stereo" format="VST3" category="Fx|Other"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="24476bb6" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051c04d"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="59966e44"/>
+  <PLUGIN name="OneKnob Filter Mono" format="VST3" category="Fx|Other"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="33b442d5" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051eaa7"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="3b3a4ea3"/>
+  <PLUGIN name="OneKnob Filter Stereo" format="VST3" category="Fx|Other"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="33cac8d5" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051eb3a"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="b4d4e8a9"/>
+  <PLUGIN name="OneKnob Louder Mono" format="VST3" category="Fx|Other"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4238e5be" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051c0e6"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="1d88ff3e"/>
+  <PLUGIN name="OneKnob Louder Stereo" format="VST3" category="Fx|Other"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="424f6bbe" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051c177"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="97239944"/>
+  <PLUGIN name="OneKnob Phatter Mono" format="VST3" category="Fx|Other"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="253f1446" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030510dff"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="bd463083"/>
+  <PLUGIN name="OneKnob Phatter Stereo" format="VST3" category="Fx|Other"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="25559a46" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030510e90"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="36e0ca89"/>
+  <PLUGIN name="OneKnob Pressure Mono" format="VST3" category="Fx|Other"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="206fe5c2" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051be94"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="d84a2eeb"/>
+  <PLUGIN name="OneKnob Pressure Stereo" format="VST3" category="Fx|Other"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="20866bc2" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051bf27"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="51e4c8f1"/>
+  <PLUGIN name="OneKnob Wetter Mono" format="VST3" category="Fx|Other"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="6b83e5c9" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051c346"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="722b1a5e"/>
+  <PLUGIN name="OneKnob Wetter Mono/Stereo" format="VST3" category="Fx|Other"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="6bad30c9" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051c6cc"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="d11bdf69"/>
+  <PLUGIN name="OneKnob Wetter Stereo" format="VST3" category="Fx|Other"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="6b9a6bc9" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051c50a"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="ebc5b464"/>
+  <PLUGIN name="OTT" format="VST3" category="Fx|Dynamics" manufacturer="Xfer Records"
+          version="1,3,7,0" file="C:\Program Files\Common Files\VST3\OTT.vst3"
+          uniqueId="7c12157" isInstrument="0" fileTime="1870fe6d9c0" infoUpdateTime="1a030537847"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="d720d336"/>
+  <PLUGIN name="PAZ- Analyzer Stereo" format="VST3" category="Fx|Analyzer"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="ff9bc805" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030526487"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="33874523"/>
+  <PLUGIN name="PAZ- Frequency Mono" format="VST3" category="Fx|Analyzer"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="489460a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305263f4"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="b9ef007d"/>
+  <PLUGIN name="PAZ- Frequency Stereo" format="VST3" category="Fx|Analyzer"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="f59bcc0a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030526362"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="14c30507"/>
+  <PLUGIN name="PAZ- Meters Mono" format="VST3" category="Fx|Analyzer"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="1c8c54fe" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030526cea"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="6bceffd3"/>
+  <PLUGIN name="PAZ- Meters Stereo" format="VST3" category="Fx|Analyzer"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="1ca2dafe" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030526d7b"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="e56999d9"/>
+  <PLUGIN name="PAZ- Position Stereo" format="VST3" category="Fx|Analyzer"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="37e7da02" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030526b14"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="883037b5"/>
+  <PLUGIN name="PS22 Split Mono/Stereo" format="VST3" category="Fx|Spatial"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="fd5ab969" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051d956"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="e86026cb"/>
+  <PLUGIN name="PS22 Split Stereo" format="VST3" category="Fx|Spatial"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="fd713f69" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051d9e8"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="61fac0d1"/>
+  <PLUGIN name="PS22 Spread Mono/Stereo" format="VST3" category="Fx|Spatial"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c8ccbf65" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051d144"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="7ca91c4f"/>
+  <PLUGIN name="PS22 Spread Stereo" format="VST3" category="Fx|Spatial"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c8e34565" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051d1d6"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="f643b655"/>
+  <PLUGIN name="PS22 Spread(10) Mono/Stereo" format="VST3" category="Fx|Spatial"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="97ffbf65" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051c8cd"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="18a3b67c"/>
+  <PLUGIN name="PS22 Spread(10) Stereo" format="VST3" category="Fx|Spatial"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="98164565" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051c95e"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="923e5082"/>
+  <PLUGIN name="PS22 XSplit Mono/Stereo" format="VST3" category="Fx|Spatial"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="1522bd6c" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051dd08"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="edab343"/>
+  <PLUGIN name="PS22 XSplit Stereo" format="VST3" category="Fx|Spatial"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="1539436c" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051dd9a"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="88754d49"/>
+  <PLUGIN name="PuigChild 660 Mono" format="VST3" category="Fx|Dynamics"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="fdb3a0cb" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304f11e1"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="1152ef2"/>
+  <PLUGIN name="PuigChild 670 Stereo" format="VST3" category="Fx|Dynamics"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="fdca26cb" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304f1295"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="7aafc8f8"/>
+  <PLUGIN name="PuigTec EQP1A Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4e6ae291" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051ca17"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="23c5d538"/>
+  <PLUGIN name="PuigTec EQP1A Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4e816891" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051cacc"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="9d606f3e"/>
+  <PLUGIN name="PuigTec MEQ5 Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="3d5ee299" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051c785"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="1075a1e8"/>
+  <PLUGIN name="PuigTec MEQ5 Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="3d756899" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051c834"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="8a103bee"/>
+  <PLUGIN name="Q-Capture Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c16daf3" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030520c6c"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="6c622936"/>
+  <PLUGIN name="Q-Clone Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="82a4dddc" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051f88c"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="71ccc45d"/>
+  <PLUGIN name="Q-Clone Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="82bb63e2" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051f91c"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="eb675e69"/>
+  <PLUGIN name="Q1 Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="f68b7f3d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ed3e6"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="e4cacd80"/>
+  <PLUGIN name="Q1 Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="eda62547" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ed486"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="68e4f15b"/>
+  <PLUGIN name="Q2 Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="194c7f3d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ed528"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="545d9fbe"/>
+  <PLUGIN name="Q2 Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="10672547" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ed5cc"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="d877c399"/>
+  <PLUGIN name="Q3 Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="3c0d7f3d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ed66e"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="c3f071fc"/>
+  <PLUGIN name="Q3 Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="33282547" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ed70f"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="480a95d7"/>
+  <PLUGIN name="Q4 Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="5ece7f3d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ed7b2"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="3383443a"/>
+  <PLUGIN name="Q4 Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="55e92547" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ed854"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="b79d6815"/>
+  <PLUGIN name="Q6 Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="a4507f3d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ed8fc"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="12a8e8b6"/>
+  <PLUGIN name="Q6 Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9b6b2547" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304ed9a4"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="96c30c91"/>
+  <PLUGIN name="Q8 Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e9d27f3d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304eda4c"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="f1ce8d32"/>
+  <PLUGIN name="Q8 Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e0ed2547" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304edaf1"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="75e8b10d"/>
+  <PLUGIN name="Q10 Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="35819aff" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304edb99"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="2ac7feba"/>
+  <PLUGIN name="Q10 Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="3a8f251e" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0304edc44"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="a4b94a9a"/>
+  <PLUGIN name="R360 5.0" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="df3b1740" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051ef90"
+          numInputs="5" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="e8dcda24"/>
+  <PLUGIN name="R360 5.1" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="df3ed940" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051f02d"
+          numInputs="6" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="7d214944"/>
+  <PLUGIN name="R360 Mono/5.0" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="180379af" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051f202"
+          numInputs="1" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="c296e702"/>
+  <PLUGIN name="R360 Mono/5.1" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="18073aaf" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051f29c"
+          numInputs="1" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="56db5603"/>
+  <PLUGIN name="R360 Stereo/5.0" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="1df5abb2" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051f0ca"
+          numInputs="2" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="dd4387e8"/>
+  <PLUGIN name="R360 Stereo/5.1" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="1df96cb2" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051f167"
+          numInputs="2" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="7187f6e9"/>
+  <PLUGIN name="RBass Mono" format="VST3" category="Fx|Bass" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9c4095bb" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051e6c8"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="6c7b0b57"/>
+  <PLUGIN name="RBass Stereo" format="VST3" category="Fx|Bass" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9c5d20b2" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051e758"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="e615bc75"/>
+  <PLUGIN name="RChannel Mono" format="VST3" category="Fx|Channel Strip"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4da163d2" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051f463"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="b24b1d37"/>
+  <PLUGIN name="RChannel Mono/Stereo" format="VST3" category="Fx|Channel Strip"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4dcaaed2" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051f5a4"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="113be242"/>
+  <PLUGIN name="RChannel Stereo" format="VST3" category="Fx|Channel Strip"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4db7e9d2" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051f503"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="2be5b73d"/>
+  <PLUGIN name="RCompressor Mono" format="VST3" category="Fx|Dynamics"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="16ac3c80" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030525617"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="aeab4e6e"/>
+  <PLUGIN name="RCompressor Stereo" format="VST3" category="Fx|Dynamics"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="16c2c280" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305256a9"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="2845e874"/>
+  <PLUGIN name="RDeEsser Mono" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e383e66d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051f32f"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="a9f51600"/>
+  <PLUGIN name="RDeEsser Stereo" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e39a6c6d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051f3be"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="238fb006"/>
+  <PLUGIN name="REDD17 Mono" format="VST3" category="Fx|Channel Strip"
+          manufacturer="Waves" version="9.2.2.14" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4ed0babe" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051e80e"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="f8f8d858"/>
+  <PLUGIN name="REDD17 Stereo" format="VST3" category="Fx|Channel Strip"
+          manufacturer="Waves" version="9.2.2.14" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4ee746c3" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051e8cd"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="7293731d"/>
+  <PLUGIN name="REDD37-51 Mono" format="VST3" category="Fx|Channel Strip"
+          manufacturer="Waves" version="9.2.2.14" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="8c1082be" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051e562"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="1cfb39bc"/>
+  <PLUGIN name="REDD37-51 Stereo" format="VST3" category="Fx|Channel Strip"
+          manufacturer="Waves" version="9.2.2.14" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="8c2708be" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051e62b"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="9695d3c2"/>
+  <PLUGIN name="Renaissance Axx Mono" format="VST3" category="Fx|Dynamics"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="d36d5885" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051f63c"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="4e586007"/>
+  <PLUGIN name="Renaissance Axx Stereo" format="VST3" category="Fx|Dynamics"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="d383de85" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051f6ce"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="c7f2fa0d"/>
+  <PLUGIN name="REQ 2 Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.2.40.6" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="21680dc" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051dffd"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="a4dfd509"/>
+  <PLUGIN name="REQ 2 Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.2.40.6" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="2330bd3" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051e094"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="1e7a8627"/>
+  <PLUGIN name="REQ 4 Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.2.40.6" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="998811a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051e129"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="b45f4ec9"/>
+  <PLUGIN name="REQ 4 Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.2.40.6" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9b50c11" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051e1c3"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="2df9ffe7"/>
+  <PLUGIN name="REQ 6 Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.2.40.6" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="111a8158" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051e3f9"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="c3dec889"/>
+  <PLUGIN name="REQ 6 Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.2.40.6" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="11370c4f" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051e4a7"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="3d7979a7"/>
+  <PLUGIN name="RS56 Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.2.16.12" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="ecdb27af" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051e283"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="e7ad6cee"/>
+  <PLUGIN name="RS56 Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.2.16.12" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="f2f6a4b2" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051e358"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="614ad2df"/>
+  <PLUGIN name="RVerb Mono/Stereo" format="VST3" category="Fx|Reverb" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="1be9bfac" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051ea0e"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="2c513722"/>
+  <PLUGIN name="RVerb Stereo" format="VST3" category="Fx|Reverb" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="1bdcffa3" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051e975"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="46fb2335"/>
+  <PLUGIN name="RVox Mono" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="2c06dfd4" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051b678"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="75ba002b"/>
+  <PLUGIN name="RVox Stereo" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="32225cd7" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051b707"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="ef57661c"/>
+  <PLUGIN name="S1 Imager Stereo" format="VST3" category="Fx|Spatial" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c1f50d4a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051bb91"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="8e2cbfa"/>
+  <PLUGIN name="S1 MS Matrix Stereo" format="VST3" category="Fx|Spatial"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="bd0b11a7" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051b798"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="a975bd7a"/>
+  <PLUGIN name="S1 Shuffler Stereo" format="VST3" category="Fx|Spatial"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="3cf143a9" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051bafc"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="2a004f69"/>
+  <PLUGIN name="S360 Imager 5.0" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="3dac63aa" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051d3d1"
+          numInputs="5" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="6a349a2e"/>
+  <PLUGIN name="S360 Imager 5.1" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="3db024aa" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051d47a"
+          numInputs="6" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="fe79092f"/>
+  <PLUGIN name="S360 Imager Mono/5.0" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="3a7287aa" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051d00c"
+          numInputs="1" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="3c2290f3"/>
+  <PLUGIN name="S360 Imager Mono/5.1" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="3a7648aa" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051d0b2"
+          numInputs="1" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="d066fff4"/>
+  <PLUGIN name="S360 Imager Stereo/5.0" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="3e20c2aa" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051d521"
+          numInputs="2" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="5e7e0b4d"/>
+  <PLUGIN name="S360 Imager Stereo/5.1" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="3e2483aa" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051d5c8"
+          numInputs="2" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="f2c27a4e"/>
+  <PLUGIN name="S360 Panner Mono/5.0" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="88b994b1" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051dbd7"
+          numInputs="1" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="ce54da27"/>
+  <PLUGIN name="S360 Panner Mono/5.1" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="88bd55b1" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051dc77"
+          numInputs="1" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="62994928"/>
+  <PLUGIN name="S360 Panner Stereo/5.0" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="88a6cfb1" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051da8c"
+          numInputs="2" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="e8feaf22"/>
+  <PLUGIN name="S360 Panner Stereo/5.1" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="88aa90b1" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051db30"
+          numInputs="2" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="7d431e23"/>
+  <PLUGIN name="Scheps 73 Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.2.23.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="7f79dd68" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051b84f"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="c8cb8440"/>
+  <PLUGIN name="Scheps 73 Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.2.23.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="7f906368" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051b917"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="42661e46"/>
+  <PLUGIN name="SoundShifter Graphic Mono" format="VST3" category="Fx|Time Stretch|OnlyOfflineProcess"
+          manufacturer="Waves" version="9.2.80.1" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="5c6cdf61" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030522a69"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="920de4d7"/>
+  <PLUGIN name="SoundShifter Graphic Stereo" format="VST3" category="Fx|Time Stretch|OnlyOfflineProcess"
+          manufacturer="Waves" version="9.2.80.1" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="5c836561" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030522b0a"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="ba87edd"/>
+  <PLUGIN name="SoundShifter Parametric Mono" format="VST3" category="Fx|Time Stretch|OnlyOfflineProcess"
+          manufacturer="Waves" version="9.2.80.1" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="93ea6b02" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03052029b"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="c340979"/>
+  <PLUGIN name="SoundShifter Parametric Stereo" format="VST3" category="Fx|Time Stretch|OnlyOfflineProcess"
+          manufacturer="Waves" version="9.2.80.1" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="93fd3002" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030520332"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="f18a347e"/>
+  <PLUGIN name="SoundShifter Pitch Mono" format="VST3" category="Fx|Pitch Shift"
+          manufacturer="Waves" version="9.2.80.1" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="85b7df61" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03052470c"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="e6afffec"/>
+  <PLUGIN name="SoundShifter Pitch Stereo" format="VST3" category="Fx|Pitch Shift"
+          manufacturer="Waves" version="9.2.80.1" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="85ce6561" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305247a1"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="604a99f2"/>
+  <PLUGIN name="SSLChannel Mono" format="VST3" category="Fx|Channel Strip"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b91b1b7d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030520525"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="1aba161b"/>
+  <PLUGIN name="SSLChannel Stereo" format="VST3" category="Fx|Channel Strip"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b931a17d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305205c9"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="9454b021"/>
+  <PLUGIN name="SSLComp Mono" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="7b57ce5e" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051fd6c"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="30b43b1c"/>
+  <PLUGIN name="SSLComp Stereo" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="7b6e5464" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051fdfd"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="aa4ed528"/>
+  <PLUGIN name="SSLEQ Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="62e35b9d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03052085d"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="9fce244a"/>
+  <PLUGIN name="SSLEQ Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="62ffe694" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305208f3"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="1968d568"/>
+  <PLUGIN name="SSLGChannel Mono" format="VST3" category="Fx|Channel Strip"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="bc4d96eb" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305203dc"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="19985b88"/>
+  <PLUGIN name="SSLGChannel Stereo" format="VST3" category="Fx|Channel Strip"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="bc641ceb" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030520480"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="9332f58e"/>
+  <PLUGIN name="SuperTap 2-Taps Mono" format="VST3" category="Fx|Delay"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="88f1a234" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051231a"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="b294e0cb"/>
+  <PLUGIN name="SuperTap 2-Taps Mono/Stereo" format="VST3" category="Fx|Delay"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="891aed34" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030512451"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="1185a5d6"/>
+  <PLUGIN name="SuperTap 2-Taps Stereo" format="VST3" category="Fx|Delay"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="89082834" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305123b4"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="2c2f7ad1"/>
+  <PLUGIN name="SuperTap 6-Taps Mono" format="VST3" category="Fx|Delay"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="97f5a234" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051261d"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="d15b7647"/>
+  <PLUGIN name="SuperTap 6-Taps Mono/Stereo" format="VST3" category="Fx|Delay"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="981eed34" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051275b"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="304c3b52"/>
+  <PLUGIN name="SuperTap 6-Taps Stereo" format="VST3" category="Fx|Delay"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="980c2834" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305126bb"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="4af6104d"/>
+  <PLUGIN name="TAL-Vocoder-2" format="VST3" category="Fx" manufacturer="TAL-Togu Audio Line"
+          version="3.0.4" file="C:\Program Files\Common Files\VST3\TAL-Vocoder-2.vst3\Contents\x86_64-win\TAL-Vocoder-2.vst3"
+          uniqueId="91e09a0c" isInstrument="0" fileTime="18fa02684b0" infoUpdateTime="1a0305272c8"
+          numInputs="4" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="3b9235c8"/>
+  <PLUGIN name="TDR Nova" format="VST3" category="Fx|EQ" manufacturer="Tokyo Dawn Labs"
+          version="2.1.6" file="C:\Program Files\Common Files\VST3\TDR Nova.vst3"
+          uniqueId="90cd7df2" isInstrument="0" fileTime="1872acf7df0" infoUpdateTime="1a0305272b5"
+          numInputs="3" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="da73ed21"/>
+  <PLUGIN name="The Kings Microphones Mono" format="VST3" category="Fx|EQ"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="85ff7008" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305235d8"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="6313e0b3"/>
+  <PLUGIN name="The Kings Microphones Stereo" format="VST3" category="Fx|EQ"
+          manufacturer="Waves" version="9.2.70.4" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="8615f608" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305236e0"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="dcae7ab9"/>
+  <PLUGIN name="TransX Multi Mono" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="3965e902" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030520e5b"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="f31b0be4"/>
+  <PLUGIN name="TransX Multi Stereo" format="VST3" category="Fx|Dynamics - Multiband"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="397c6f02" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030520ef1"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="6cb5a5ea"/>
+  <PLUGIN name="TransX Wide Mono" format="VST3" category="Fx|Dynamics"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="bcc8f2f6" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305254ec"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="64a90b"/>
+  <PLUGIN name="TransX Wide Stereo" format="VST3" category="Fx|Dynamics"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="bcdf78f6" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030525580"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="79ff4311"/>
+  <PLUGIN name="TrueVerb Mono" format="VST3" category="Fx|Reverb" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="1b81c70a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030524b12"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="ca9885fe"/>
+  <PLUGIN name="TrueVerb Mono/Stereo" format="VST3" category="Fx|Reverb"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="525120a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030523779"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="fb5f6acf"/>
+  <PLUGIN name="TrueVerb Stereo" format="VST3" category="Fx|Reverb" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="a7394d0a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030520dbe"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="55b01983"/>
+  <PLUGIN name="UltraPitch 3 Voices Mono" format="VST3" category="Fx|Pitch Shift"
+          manufacturer="Waves" version="9.2.70.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="663af924" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051f9bf"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="33785190"/>
+  <PLUGIN name="UltraPitch 3 Voices Mono/Stereo" format="VST3" category="Fx|Pitch Shift"
+          manufacturer="Waves" version="9.2.70.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="66644424" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051fa5b"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="9269169b"/>
+  <PLUGIN name="UltraPitch 6 Voices Mono" format="VST3" category="Fx|Pitch Shift"
+          manufacturer="Waves" version="9.2.70.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="717df924" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051fafb"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="4a8d41ad"/>
+  <PLUGIN name="UltraPitch 6 Voices Mono/Stereo" format="VST3" category="Fx|Pitch Shift"
+          manufacturer="Waves" version="9.2.70.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="71a74424" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051fb9a"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="a97e06b8"/>
+  <PLUGIN name="UltraPitch Shift Mono" format="VST3" category="Fx|Pitch Shift"
+          manufacturer="Waves" version="9.2.70.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e21bf924" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030520b44"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="315ea2cf"/>
+  <PLUGIN name="UltraPitch Shift Mono/Stereo" format="VST3" category="Fx|Pitch Shift"
+          manufacturer="Waves" version="9.2.70.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e2454424" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030520bde"
+          numInputs="1" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="904f67da"/>
+  <PLUGIN name="UM225 Stereo/5.0" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c03f6390" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305258a1"
+          numInputs="2" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="1d0d0f25"/>
+  <PLUGIN name="UM226 Stereo/5.1" format="VST3" category="Fx|Surround"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c04324af" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030525947"
+          numInputs="2" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="b15f95a7"/>
+  <PLUGIN name="ValhallaSupermassive" format="VST3" category="Fx" manufacturer="Valhalla DSP, LLC"
+          version="5.0.0" file="C:\Program Files\Common Files\VST3\ValhallaSupermassive.vst3"
+          uniqueId="7e8fe5d5" isInstrument="0" fileTime="19aa47c7050" infoUpdateTime="1a030527287"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="77982743"/>
+  <PLUGIN name="VComp Mono" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c8b118e6" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051b9c3"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="a841a3ee"/>
+  <PLUGIN name="VComp Stereo" format="VST3" category="Fx|Dynamics" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c8cda3dd" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051ba64"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="21dc550c"/>
+  <PLUGIN name="VEQ3 Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b7780837" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051bc30"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="31a3c30"/>
+  <PLUGIN name="VEQ3 Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="bd93853a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051bcc9"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="7cb7a221"/>
+  <PLUGIN name="VEQ4 Mono" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="b77bca2f" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305259ed"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="115e03c7"/>
+  <PLUGIN name="VEQ4 Stereo" format="VST3" category="Fx|EQ" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="bd974732" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030525a8c"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="8afb69b8"/>
+  <PLUGIN name="Vocal Doubler" format="VST3" category="Fx|Modulation|Vocals"
+          manufacturer="iZotope" version="1.3.0" file="C:\Program Files\Common Files\VST3\iZotope\Vocal Doubler.vst3"
+          uniqueId="86411d76" isInstrument="0" fileTime="18abd99c570" infoUpdateTime="1a030537b51"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="b5a488c9"/>
+  <PLUGIN name="Vocal Rider Live Mono" format="VST3" category="Fx|Vocals"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="3b00b5a2" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305117be"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="e84da27c"/>
+  <PLUGIN name="Vocal Rider Live Stereo" format="VST3" category="Fx|Vocals"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="3b173ba2" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030511857"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="61e83c82"/>
+  <PLUGIN name="Vocal Rider Mono" format="VST3" category="Fx|Vocals" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e1916fdc" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051ee4c"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="78ee1a5a"/>
+  <PLUGIN name="Vocal Rider Stereo" format="VST3" category="Fx|Vocals"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e1a7f5dc" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03051eeed"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="f288b460"/>
+  <PLUGIN name="W43 Mono" format="VST3" category="Fx|Restoration" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="8158e033" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030526018"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="4d792c73"/>
+  <PLUGIN name="W43 Stereo" format="VST3" category="Fx|Restoration" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="86666a52" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305260b7"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="c76a7853"/>
+  <PLUGIN name="WavesTune Lite Mono" format="VST3" category="Fx|Vocals"
+          manufacturer="Waves" version="9.2.80.1" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="f95cde35" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03052340c"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="19429636"/>
+  <PLUGIN name="WavesTune Lite Stereo" format="VST3" category="Fx|Vocals"
+          manufacturer="Waves" version="9.2.80.1" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="f9736435" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305234c3"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="92dd303c"/>
+  <PLUGIN name="WavesTune Mono" format="VST3" category="Fx|Vocals" manufacturer="Waves"
+          version="9.2.80.1" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e697de35" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030522912"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="f2ca5b5b"/>
+  <PLUGIN name="WavesTune Stereo" format="VST3" category="Fx|Vocals" manufacturer="Waves"
+          version="9.2.80.1" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e6ae6435" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305229c7"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="6c64f561"/>
+  <PLUGIN name="WLM Meter 5.0" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.2.90.11" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="bfa4bea5" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030526848"
+          numInputs="5" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="d9f119a7"/>
+  <PLUGIN name="WLM Meter 5.1" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.2.90.11" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="bfa87fa5" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030526907"
+          numInputs="6" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="6e3588a8"/>
+  <PLUGIN name="WLM Meter Mono" format="VST3" category="Fx|Analyzer" manufacturer="Waves"
+          version="9.2.90.11" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="bffed6a5" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305269c3"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="c05b81bf"/>
+  <PLUGIN name="WLM Meter Stereo" format="VST3" category="Fx|Analyzer"
+          manufacturer="Waves" version="9.2.90.11" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c0155ca5" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030526a81"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="39f61bc5"/>
+  <PLUGIN name="WLM Plus 5.0" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.2.21.12" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="de4ccb0" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03052654b"
+          numInputs="5" numOutputs="5" isShell="0" hasARAExtension="0"
+          uid="38409cd0"/>
+  <PLUGIN name="WLM Plus 5.1" format="VST3" category="Fx|Surround" manufacturer="Waves"
+          version="9.2.21.12" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="de88db0" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030526609"
+          numInputs="6" numOutputs="6" isShell="0" hasARAExtension="0"
+          uid="cc850bd1"/>
+  <PLUGIN name="WLM Plus Mono" format="VST3" category="Fx|Analyzer" manufacturer="Waves"
+          version="9.2.21.12" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e3ee4b0" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305266c8"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="1eab04e8"/>
+  <PLUGIN name="WLM Plus Stereo" format="VST3" category="Fx|Analyzer" manufacturer="Waves"
+          version="9.2.21.12" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="e556ab0" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030526785"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="98459eee"/>
+  <PLUGIN name="WNS Mono" format="VST3" category="Fx|Restoration" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="9d76f775" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030525754"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="5aa59996"/>
+  <PLUGIN name="WNS Stereo" format="VST3" category="Fx|Restoration" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="a2848194" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305257f9"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="d496e576"/>
+  <PLUGIN name="X-Click Mono" format="VST3" category="Fx|Restoration" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4f083d44" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030526e0e"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="32896573"/>
+  <PLUGIN name="X-Click Stereo" format="VST3" category="Fx|Restoration"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="4f1ec34a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030526e9c"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="ac23ff7f"/>
+  <PLUGIN name="X-Crackle Mono" format="VST3" category="Fx|Restoration"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="658f4244" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030527056"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="6a7fa68b"/>
+  <PLUGIN name="X-Crackle Stereo" format="VST3" category="Fx|Restoration"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="65a5c844" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a0305270e4"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="e41a4091"/>
+  <PLUGIN name="X-Hum Mono" format="VST3" category="Fx|Restoration" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="d567a3c1" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030526f31"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="3aa748ae"/>
+  <PLUGIN name="X-Hum Stereo" format="VST3" category="Fx|Restoration" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="d5842eb8" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030526fc3"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="b441f9cc"/>
+  <PLUGIN name="X-Noise Mono" format="VST3" category="Fx|Restoration" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c59e9a44" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03052717c"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="1942de69"/>
+  <PLUGIN name="X-Noise Stereo" format="VST3" category="Fx|Restoration"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c5b5204a" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a03052720f"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="92dd7875"/>
+  <PLUGIN name="Z-Noise Mono" format="VST3" category="Fx|Restoration" manufacturer="Waves"
+          version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c59e2d67" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030526bb9"
+          numInputs="1" numOutputs="1" isShell="0" hasARAExtension="0"
+          uid="2043e2c8"/>
+  <PLUGIN name="Z-Noise Stereo" format="VST3" category="Fx|Restoration"
+          manufacturer="Waves" version="9.1.0.9" file="C:\Program Files\Common Files\VST3\WaveShell-VST3 9.2_x64.vst3"
+          uniqueId="c5b4b36d" isInstrument="0" fileTime="143725e0180" infoUpdateTime="1a030526c59"
+          numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+          uid="99de7cd4"/>
+</KNOWNPLUGINS>

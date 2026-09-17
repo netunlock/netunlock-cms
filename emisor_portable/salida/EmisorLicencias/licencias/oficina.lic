@@ -1,0 +1,12 @@
+{
+  "datos": {
+    "cliente": "oficina",
+    "hwid": "D9DB-754D-DEE5-EA33",
+    "emitida": "2026-09-08",
+    "vence": "2026-10-08",
+    "plan": "completa",
+    "notas": "emitida con el emisor portable"
+  },
+  "firma": "41a22c08180956661dd2ad6d0e53d76c6041939df59ad04a09ebb660ced4c6e0af9b232212fcd3d4a47c37209791694bebd19a7e7fa27e4fb2966880de16ed0d",
+  "clave": "COTIZ-AIE2QABFOKNQGYMQYRMKDQZ3QHF72L6OH5NFSVCBBFAIARZUU63WKQHCWZV3EJS2FQQCLU3YTLPKZG23KAKWOTM4PMIV4KRHSOQTUTLVA24QO"
+}

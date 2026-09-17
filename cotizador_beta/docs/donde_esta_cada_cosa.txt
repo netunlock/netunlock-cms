@@ -1,0 +1,64 @@
+Todo cuelga de `Documentos\Sesion Local - Claude Code`. Estas son las 4 ubicaciones que te importan:
+
+## 1️⃣ El archivo que le mandás al cliente
+
+```
+C:\Users\Fede- Para grabar\Documents\Sesion Local - Claude Code\entregas\CotizadorAberturas_v2.1.0.zip
+```
+
+21 MB. Es lo único que sale de tu PC. Lo mandás por WhatsApp, Drive o mail.
+
+## 2️⃣ El `.exe` ya descomprimido, para probarlo vos
+
+```
+C:\Users\Fede- Para grabar\Documents\Sesion Local - Claude Code\cotizador_aberturas\dist\CotizadorAberturas\CotizadorAberturas.exe
+```
+
+Doble clic y abre. Es exactamente lo mismo que hay adentro del zip.
+
+## 3️⃣ El proyecto (código fuente)
+
+```
+C:\Users\Fede- Para grabar\Documents\Sesion Local - Claude Code\cotizador_aberturas
+```
+
+Acá corrés el keygen y el compilador:
+
+```bash
+cd "C:\Users\Fede- Para grabar\Documents\Sesion Local - Claude Code\cotizador_aberturas"
+```
+
+```bash
+python -m tools.keygen
+```
+
+```bash
+python build_exe.py --version 2.2.0
+```
+
+## 4️⃣ 🔑 Tu clave privada — **la más importante**
+
+```
+C:\Users\Fede- Para grabar\.cotizador_emisor\clave_privada.json
+```
+
+194 bytes. **Hacele copia de seguridad ahora** (pendrive, Drive privado, donde sea). Si se te pierde no podés emitirle ni renovarle la licencia a nadie, ni siquiera a los clientes que ya tenés — habría que reinstalarles todo con claves nuevas.
+
+Y nunca la compartas: quien la tenga puede generar licencias gratis para cualquier PC. Está fuera de la carpeta del proyecto justamente para que no se cuele en un zip por accidente.
+
+---
+
+### Otras dos, por si las buscás
+
+**Licencias que ya emitiste** (respaldo + historial para `--vencimientos`):
+```
+...\cotizador_aberturas\licencias\
+```
+
+**Datos que genera el `.exe` al usarse** — acá es donde van los presupuestos del cliente, y lo que **no** se toca al actualizar:
+```
+C:\Users\<usuario>\AppData\Local\CotizadorAberturas\datos\     ← base de datos y PDF
+C:\Users\<usuario>\AppData\Roaming\CotizadorAberturas\         ← licencia.lic
+```
+
+> Ojo: en tu PC esas carpetas ya tienen datos de mis pruebas, y la licencia activa es la de prueba a nombre de "Aberturas del Sur SRL". Si querés arrancar limpio, borrá `AppData\Local\CotizadorAberturas`.

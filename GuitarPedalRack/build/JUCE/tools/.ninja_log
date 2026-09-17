@@ -1,0 +1,14 @@
+# ninja log v7
+60	255	8092236814539788	C:/Users/Fede- Para grabar/Documents/Sesion Local - Claude Code/GuitarPedalRack/build/JUCE/tools/CMakeFiles/cmake.verify_globs	3e48e87284b5aff7
+249	1417	8092185677595249	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_Sheenbidi.c.obj	d26a5cad5733ad6d
+216	9527	8092185677270089	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/juce_build_tools/juce_build_tools.cpp.obj	4c3000570c3a6ab7
+1420	9568	8092185689315276	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_events/juce_events.cpp.obj	6c1e28016fe6e3e2
+208	9740	8092185677190079	extras/Build/juceaide/CMakeFiles/juceaide.dir/Main.cpp.obj	3e935a24830352b1
+9569	9869	8092185770798829	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_core/juce_core_CompilationTime.cpp.obj	6fc0277fe0d24378
+9741	14060	8092185772518790	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_data_structures/juce_data_structures.cpp.obj	21221ca2e4002509
+9534	17728	8092185770448807	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_core/juce_core.cpp.obj	24a0643a220a59ad
+232	21847	8092185677440092	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics.cpp.obj	783f586c170a8a47
+240	25835	8092185677520076	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics_Harfbuzz.cpp.obj	f084f725fc2689ec
+224	29079	8092185677360084	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_gui_basics/juce_gui_basics.cpp.obj	68fdc7424c1aa06d
+29082	35013	8092185965928353	extras/Build/juceaide/juceaide_artefacts/Debug/juceaide.exe	200963d07362877b
+53	217	8092239858384077	C:/Users/Fede- Para grabar/Documents/Sesion Local - Claude Code/GuitarPedalRack/build/JUCE/tools/CMakeFiles/cmake.verify_globs	3e48e87284b5aff7

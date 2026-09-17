@@ -1,0 +1,104 @@
+COTIZADOR DE ABERTURAS DE ALUMINIO
+===================================
+
+Gracias por bajarlo. Esto es lo que tenés que saber para arrancar.
+
+
+TENÉS 3 DÍAS DE PRUEBA GRATIS
+------------------------------
+
+Se activan solos la primera vez que lo abrís. No hay que registrarse ni poner
+ningún dato: abrís el programa y funciona completo, sin recortes.
+
+Abajo a la izquierda, en la barra gris, vas a ver cuántos días te quedan.
+
+Una sola cosa cambia mientras dura la prueba: todo lo que imprimas o exportes
+sale con la leyenda "VERSIÓN DE PRUEBA" cruzada en rojo. Es a propósito, y te
+lo digo de frente: la prueba es para que midas, cargues tus precios y veas si
+te sirve, no para mandar presupuestos con ella. Apenas ponés la clave la marca
+desaparece, y los presupuestos que hayas hecho durante la prueba los volvés a
+generar limpios en un segundo, sin cargar nada de nuevo.
+
+Cuando se terminen, el programa te va a pedir una clave. Escribime a:
+
+    cotizadoraberturas@gmail.com
+
+con el CÓDIGO DE EQUIPO que muestra la pantalla (son cuatro grupos de cuatro
+caracteres) y te mando la clave.
+
+Lo que hayas cargado NO se pierde: los presupuestos, los precios y las
+fórmulas quedan donde están, y siguen ahí cuando actives.
+
+
+CÓMO SE INSTALA
+---------------
+
+1. Descomprimí el .zip en una carpeta tuya. El Escritorio o Documentos
+   sirven. NO lo pongas en "Archivos de programa": Windows no lo deja
+   escribir ahí y después no se puede actualizar.
+
+2. Entrá a la carpeta y hacé doble clic en CotizadorAberturas.exe
+
+3. La primera vez Windows puede mostrar un aviso azul de seguridad.
+   Hacé clic en "Más información" y después en "Ejecutar de todas formas".
+   Pasa porque el programa no tiene firma digital comercial.
+
+No hace falta instalar Python, ni Office, ni nada. No necesita internet.
+
+
+LO PRIMERO QUE TENÉS QUE HACER: CARGAR TUS PRECIOS
+---------------------------------------------------
+
+El programa viene con los dos catálogos de MDT — Metales del Talar cargados:
+
+                              Clásica    Actual
+    perfiles con su peso        142        106
+    tipologías                   14         16
+    medidas de corte            108        255
+
+Los perfiles, las medidas de corte y las tipologías son las que publica el
+fabricante. Los PRECIOS vienen todos en CERO, a propósito: el catálogo del
+fabricante no publica precios y cada carpintería compra a su lista.
+
+Así que lo primero es cargar los tuyos, en Materiales y Costos:
+
+    Líneas y precios  ->  el precio del kilo, por color
+    Vidrios           ->  el precio del m² de cada vidrio
+    Accesorios        ->  el precio de cada accesorio
+
+Los kits de accesorios ya vienen armados con sus cantidades calculadas. En
+cuanto pongas los precios, el presupuesto sale entero.
+
+
+DOS COSAS SOBRE LAS MEDIDAS DE CORTE
+-------------------------------------
+
+1. Varias tablas del catálogo traen las jambas con la medida del ancho y el
+   umbral con la del alto, al revés de como el mismo catálogo da el premarco
+   dos filas más arriba. Están cargadas CORREGIDAS, y cada renglón lo dice en
+   la columna Aclaración.
+
+2. El catálogo lista alternativas en la misma tabla: marco recto, curvo y de
+   75 mm uno debajo del otro, o el perfil para vidrio simple junto al de DVH.
+   Como se usa uno solo, queda activa la primera y las demás quedan con
+   CANTIDAD 0 y una nota que dice de qué son alternativa. Si usás una de esas,
+   entrá a Fórmulas de despiece y ponele la cantidad.
+
+Como siempre, y con cualquier programa: verificá los largos contra la tabla
+del fabricante antes de cortar material.
+
+
+DÓNDE QUEDAN TUS DATOS
+-----------------------
+
+    C:\Users\<tu usuario>\AppData\Local\CotizadorAberturas\
+
+Ahí están los presupuestos, los precios, las fórmulas y las copias de
+seguridad. No están adentro de la carpeta del programa, así que actualizarlo
+no te toca nada.
+
+
+CONSULTAS
+---------
+
+    cotizadoraberturas@gmail.com

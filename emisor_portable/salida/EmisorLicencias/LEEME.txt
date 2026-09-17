@@ -1,0 +1,87 @@
+EMISOR DE LICENCIAS — COTIZADOR DE ABERTURAS
+=============================================
+
+ESTO NO SE LE DA A NADIE.
+
+Quien tenga estos dos archivos y la contraseña puede emitir licencias del
+Cotizador para siempre, y no hay forma de anularlas sin invalidar también las
+que ya entregaste.
+
+
+QUÉ TIENE QUE HABER EN EL PENDRIVE
+-----------------------------------
+
+    EmisorLicencias.exe     el programa
+    emisor.llave            tu clave privada, cifrada con tu contraseña
+
+Los dos. Uno sin el otro no sirve para nada: el .exe solo no tiene ninguna
+clave adentro, y la llave sola es un archivo cifrado.
+
+Además, a medida que vayas emitiendo, se van creando solos:
+
+    registro.json           historial de todo lo que emitiste
+    licencias\              un archivo .lic de respaldo por cliente
+
+
+CÓMO SE USA
+-----------
+
+1. El cliente te pasa su CÓDIGO DE EQUIPO. Lo ve en el Cotizador, en
+   Ajustes -> Licencia. Son cuatro grupos de cuatro caracteres, así:
+
+       00C0-5CF4-A01D-964C
+
+2. Abrís EmisorLicencias.exe y ponés la contraseña. Tarda un segundo en
+   abrir: es a propósito, y más abajo está explicado por qué.
+
+3. Pegás el código de equipo, el nombre del cliente y los días de validez
+   (0 = perpetua). Si ese equipo ya tuvo licencias, te lo avisa y te completa
+   el nombre solo.
+
+4. Clic en "Emitir clave". La clave se copia sola al portapapeles: la pegás
+   en WhatsApp y listo.
+
+5. El cliente la pega en Ajustes -> Licencia -> Activar.
+
+
+POR QUÉ TARDA UN SEGUNDO EN ABRIR
+----------------------------------
+
+La contraseña no es una pantalla que tapa un botón: es la llave con la que
+está cifrada tu clave privada. Sin la contraseña correcta, emisor.llave es
+ruido — no hay nada que saltear abriéndolo con el Bloc de notas.
+
+Ese segundo es el costo de derivar la clave a partir de la contraseña, y está
+puesto a propósito: hace que probar contraseñas de a millones cueste años en
+vez de minutos. En esta PC, probar un millón de contraseñas llevaría unas 200
+horas de procesador.
+
+
+SI PERDÉS EL PENDRIVE
+----------------------
+
+Tu clave privada original NO está en el pendrive: sigue en tu PC, en
+
+    C:\Users\<tu usuario>\.cotizador_emisor\clave_privada.json
+
+Con eso podés armar un pendrive nuevo cuando quieras. Guardá también una copia
+de ese archivo en otro lado (no en el mismo pendrive): si lo perdés a él, te
+quedás sin poder emitir licencias nunca más, y cambiar el par de claves
+invalida todas las que ya entregaste.
+
+Si el pendrive se pierde, lo que un tercero se lleva es la llave cifrada. Con
+la contraseña que tiene puesta hoy eso le costaría mucho tiempo, pero si te
+quedás preocupado lo que corresponde es cambiar la contraseña (crear_llave.py
+de nuevo) y rehacer el pendrive.
+
+
+PARA CAMBIAR LA CONTRASEÑA
+---------------------------
+
+En tu PC, en la carpeta del proyecto:
+
+    cd emisor_portable
+    python crear_llave.py
+
+Te pide la contraseña nueva y reemplaza emisor.llave. Después copiás ese
+archivo al pendrive. No hace falta recompilar el .exe.

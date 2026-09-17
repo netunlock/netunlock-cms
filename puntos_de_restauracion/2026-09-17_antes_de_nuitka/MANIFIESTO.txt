@@ -1,0 +1,7 @@
+Punto de restauración creado el 2026-09-17 08:24
+VERSION del beta en ese momento: 3.3.0
+
+a43e8003261de6c8b3b1806740fcf9afed0008a1a8cb0183f781d2444da19547      319488  base_de_trabajo_cotizador_beta.db
+67c676b1347aee9aa1eb045981a8f046a6735aa3b454ceb030dfbc61e70cc182    33446918  CotizadorAberturas_v3.3.0.zip
+ec42a64c270aff2bfd640b4ba0622274d703629b730d85de996aaf0bed4cfa48     1072487  fuentes_cotizador_beta.zip
+12c4120bd62280eb772d89cbe3f8e2466f98cc746e98dc3bd68474a4d414243b      385496  Manual de Usuario v3.3.0.pdf
