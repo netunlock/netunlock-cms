@@ -518,11 +518,6 @@
                 this.loadPosts();
                 this.loadPublicAds();
                 this.handleRoute();
-
-                if (this.adminToken) {
-                    this.showAdminPanel();
-                }
-
                 window.addEventListener('hashchange', () => this.handleRoute());
             },
 
@@ -534,6 +529,9 @@
                 } else if (hash.startsWith('post/')) {
                     const postSlug = hash.split('/')[1];
                     this.loadPostBySlug(postSlug);
+                } else {
+                    // Por defecto mostrar vista de posts públicos
+                    this.showView('posts');
                 }
             },
 
