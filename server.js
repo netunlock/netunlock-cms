@@ -68,6 +68,17 @@ function initializeDatabase() {
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       email TEXT UNIQUE NOT NULL,
       subscribed_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    )`,
+
+    // Publicidad / Ads
+    `CREATE TABLE IF NOT EXISTS ads (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      title TEXT NOT NULL,
+      image_url TEXT,
+      link_url TEXT NOT NULL,
+      position TEXT DEFAULT 'sidebar',
+      active INTEGER DEFAULT 1,
+      created_at DATETIME DEFAULT CURRENT_TIMESTAMP
     )`
   ];
 
@@ -224,6 +235,71 @@ app.get('/api/newsletter/subscribers', (req, res) => {
       res.status(500).json({ error: err.message });
     } else {
       res.json(rows || []);
+    }
+  });
+});
+
+// ============================================
+// RUTAS: PUBLICIDAD / ADS
+// ============================================
+
+app.get('/api/ads', (req, res) => {
+  db.all('SELECT * FROM ads WHERE active = 1 ORDER BY created_at DESC', (err, rows) => {
+    if (err) {
+      res.status(500).json({ error: err.message });
+    } else {
+      res.json(rows || []);
+    }
+  });
+});
+
+app.post('/api/ads', verifyAdminToken, (req, res) => {
+  const { title, image_url, link_url, position } = req.body;
+
+  if (!title || !link_url) {
+    return res.status(400).json({ error: 'Título y link son requeridos' });
+  }
+
+  db.run(
+    `INSERT INTO ads (title, image_url, link_url, position)
+     VALUES (?, ?, ?, ?)`,
+    [title, image_url || null, link_url, position || 'sidebar'],
+    function(err) {
+      if (err) {
+        res.status(500).json({ error: err.message });
+      } else {
+        res.status(201).json({ id: this.lastID, message: 'Anuncio creado' });
+      }
+    }
+  );
+});
+
+app.put('/api/ads/:id', verifyAdminToken, (req, res) => {
+  const { id } = req.params;
+  const { title, image_url, link_url, position, active } = req.body;
+
+  db.run(
+    `UPDATE ads SET title = ?, image_url = ?, link_url = ?, position = ?, active = ?
+     WHERE id = ?`,
+    [title, image_url, link_url, position, active, id],
+    (err) => {
+      if (err) {
+        res.status(500).json({ error: err.message });
+      } else {
+        res.json({ message: 'Anuncio actualizado' });
+      }
+    }
+  );
+});
+
+app.delete('/api/ads/:id', verifyAdminToken, (req, res) => {
+  const { id } = req.params;
+
+  db.run('DELETE FROM ads WHERE id = ?', [id], (err) => {
+    if (err) {
+      res.status(500).json({ error: err.message });
+    } else {
+      res.json({ message: 'Anuncio eliminado' });
     }
   });
 });

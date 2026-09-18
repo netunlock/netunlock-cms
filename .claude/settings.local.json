@@ -61,7 +61,16 @@
       "Bash(curl -X DELETE \"https://cotizador-forum.fgpereyra-92.workers.dev/api/admin/preguntas/1?token=admin123\" -H \"Content-Type: application/json\" -s)",
       "Bash(mkdir -p \"C:\\\\Users\\\\Fede- Para grabar\\\\Documents\\\\Sesion Local - Claude Code\\\\.claude\")",
       "Bash(npm install *)",
-      "Bash(git init *)"
+      "Bash(git init *)",
+      "mcp__claude-in-chrome__tabs_create_mcp",
+      "mcp__claude-in-chrome__browser_batch",
+      "Bash(curl -I https://netunlock-cms.pages.dev)",
+      "Bash(curl -s https://netunlock-cms.fgpereyra-92.workers.dev)",
+      "Bash(curl -s https://netunlock-cms.onrender.com/)",
+      "Bash(curl -s https://netunlock-cms.onrender.com/api/posts)",
+      "Bash(git commit -m 'Add edit modal title change and comment citation feature *)",
+      "Bash(git commit -m 'Fix post edit modal and add featured image display *)",
+      "Bash(git commit -m 'Add advertising/monetization system *)"
     ]
   }
 }

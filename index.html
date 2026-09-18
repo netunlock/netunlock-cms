@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
+    <!-- Google AdSense (Reemplaza tu_id_de_editor) -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-xxxxxxxxxxxxxxxx"
+        crossorigin="anonymous"></script>
+
     <style>
         * {
             font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -330,6 +334,7 @@
                 <button onclick="app.switchAdminTab('posts')" class="px-4 py-2 border-b-2 border-indigo-500 font-semibold">📝 Posts</button>
                 <button onclick="app.switchAdminTab('comments')" class="px-4 py-2 border-b-2 border-transparent font-semibold hover:border-slate-700">💬 Comentarios</button>
                 <button onclick="app.switchAdminTab('newsletter')" class="px-4 py-2 border-b-2 border-transparent font-semibold hover:border-slate-700">📧 Newsletter</button>
+                <button onclick="app.switchAdminTab('ads')" class="px-4 py-2 border-b-2 border-transparent font-semibold hover:border-slate-700">📺 Publicidad</button>
             </div>
 
             <!-- TAB: POSTS -->
@@ -353,6 +358,14 @@
                     <h3 class="text-2xl font-bold mb-4">Suscriptores</h3>
                     <p id="newsletterCount" class="text-lg text-slate-400 mb-4">Cargando...</p>
                     <div id="newsletterList" class="space-y-2 max-h-96 overflow-y-auto"></div>
+                </div>
+            </div>
+
+            <!-- TAB: PUBLICIDAD -->
+            <div id="adminAdsTab" class="admin-tab hidden">
+                <button onclick="app.showAdForm()" class="mb-8 btn-primary text-white px-6 py-3 rounded-lg font-semibold">+ Agregar Anuncio</button>
+                <div id="adminAdsList" class="space-y-4">
+                    <div class="text-center text-slate-400">Cargando anuncios...</div>
                 </div>
             </div>
         </div>
@@ -424,6 +437,44 @@
         </div>
     </div>
 
+    <!-- MODAL: CREAR/EDITAR ANUNCIO -->
+    <div id="adFormModal" class="modal">
+        <div class="modal-content">
+            <h2 class="text-2xl font-bold mb-6">Agregar Anuncio</h2>
+
+            <form onsubmit="app.handleAdSubmit(event)" class="space-y-4">
+                <div>
+                    <label class="block text-sm font-semibold mb-2">Título del Anuncio *</label>
+                    <input type="text" id="adTitle" class="w-full px-4 py-2 rounded-lg bg-slate-800 border border-slate-700 text-white focus:outline-none" required>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold mb-2">URL de la Imagen (opcional)</label>
+                    <input type="url" id="adImage" class="w-full px-4 py-2 rounded-lg bg-slate-800 border border-slate-700 text-white focus:outline-none" placeholder="https://...">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold mb-2">URL del Link *</label>
+                    <input type="url" id="adLink" class="w-full px-4 py-2 rounded-lg bg-slate-800 border border-slate-700 text-white focus:outline-none" required placeholder="https://...">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold mb-2">Posición</label>
+                    <select id="adPosition" class="w-full px-4 py-2 rounded-lg bg-slate-800 border border-slate-700 text-white focus:outline-none">
+                        <option value="sidebar">Sidebar</option>
+                        <option value="top">Arriba</option>
+                        <option value="bottom">Abajo</option>
+                    </select>
+                </div>
+
+                <div class="flex gap-4">
+                    <button type="submit" class="btn-primary text-white px-6 py-3 rounded-lg font-semibold">Guardar Anuncio</button>
+                    <button type="button" onclick="app.closeAdForm()" class="px-6 py-3 rounded-lg border border-slate-700 font-semibold hover:bg-slate-800">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
     <script>
         // ============================================
         // APLICACIÓN PRINCIPAL
@@ -435,9 +486,11 @@
             currentPostId: null,
             blocks: [],
             blockCounter: 0,
+            publicAds: [],
 
             init() {
                 this.loadPosts();
+                this.loadPublicAds();
                 this.handleRoute();
 
                 if (this.adminToken) {
@@ -1155,9 +1208,116 @@
                 }
             },
 
+            // ========== PUBLICIDAD / ADS ==========
+            async loadAdminAds() {
+                try {
+                    const response = await fetch(`${this.API_BASE}/ads?admin=true`);
+                    const ads = await response.json();
+
+                    const list = document.getElementById('adminAdsList');
+                    if (ads.length === 0) {
+                        list.innerHTML = '<p class="text-slate-400">Sin anuncios</p>';
+                        return;
+                    }
+
+                    list.innerHTML = ads.map(ad => `
+                        <div class="card p-4 rounded-lg">
+                            <div class="flex justify-between items-start">
+                                <div class="flex-grow">
+                                    <h4 class="font-bold">${ad.title}</h4>
+                                    <p class="text-sm text-slate-400">${ad.position} · ${ad.active ? '✓ Activo' : '✗ Inactivo'}</p>
+                                </div>
+                                <div class="space-x-2">
+                                    <button onclick="app.deleteAd(${ad.id})" class="px-4 py-2 bg-red-600/20 text-red-400 rounded text-sm">🗑️</button>
+                                </div>
+                            </div>
+                        </div>
+                    `).join('');
+                } catch (error) {
+                    console.error('Error:', error);
+                }
+            },
+
+            showAdForm() {
+                document.getElementById('adTitle').value = '';
+                document.getElementById('adImage').value = '';
+                document.getElementById('adLink').value = '';
+                document.getElementById('adPosition').value = 'sidebar';
+                document.getElementById('adFormModal').classList.add('active');
+            },
+
+            closeAdForm() {
+                document.getElementById('adFormModal').classList.remove('active');
+            },
+
+            async handleAdSubmit(event) {
+                event.preventDefault();
+
+                const title = document.getElementById('adTitle').value;
+                const image_url = document.getElementById('adImage').value;
+                const link_url = document.getElementById('adLink').value;
+                const position = document.getElementById('adPosition').value;
+
+                try {
+                    const response = await fetch(`${this.API_BASE}/ads`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': `Bearer ${this.adminToken}`
+                        },
+                        body: JSON.stringify({ title, image_url, link_url, position })
+                    });
+
+                    if (response.ok) {
+                        this.closeAdForm();
+                        this.loadAdminAds();
+                        alert('✓ Anuncio agregado');
+                    } else {
+                        alert('Error al guardar anuncio');
+                    }
+                } catch (error) {
+                    console.error('Error:', error);
+                    alert('Error al guardar anuncio');
+                }
+            },
+
+            async deleteAd(adId) {
+                if (!confirm('¿Eliminar este anuncio?')) return;
+
+                try {
+                    const response = await fetch(`${this.API_BASE}/ads/${adId}`, {
+                        method: 'DELETE',
+                        headers: { 'Authorization': `Bearer ${this.adminToken}` }
+                    });
+
+                    if (response.ok) {
+                        this.loadAdminAds();
+                        alert('✓ Anuncio eliminado');
+                    }
+                } catch (error) {
+                    console.error('Error:', error);
+                }
+            },
+
+            async loadPublicAds() {
+                try {
+                    const response = await fetch(`${this.API_BASE}/ads`);
+                    const ads = await response.json();
+                    this.publicAds = ads || [];
+                } catch (error) {
+                    console.error('Error cargando ads:', error);
+                    this.publicAds = [];
+                }
+            },
+
             switchAdminTab(tab) {
                 document.querySelectorAll('.admin-tab').forEach(t => t.classList.add('hidden'));
                 document.getElementById('admin' + tab.charAt(0).toUpperCase() + tab.slice(1) + 'Tab').classList.remove('hidden');
+
+                // Cargar datos específicos de la tab
+                if (tab === 'ads') {
+                    this.loadAdminAds();
+                }
             }
         };
 
