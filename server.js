@@ -10,6 +10,7 @@
 import express from 'express';
 import sqlite3 from 'sqlite3';
 import cors from 'cors';
+import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
@@ -18,18 +19,25 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+const DB_PATH = process.env.DB_PATH || path.join(__dirname, 'data', 'netunlock.db');
 
 // Middleware
 app.use(cors());
 app.use(express.json());
+app.use((req, res, next) => {
+  if (/\.db(-journal)?$/i.test(req.path)) return res.status(404).end();
+  next();
+});
 app.use(express.static(__dirname));
 
+fs.mkdirSync(path.dirname(DB_PATH), { recursive: true });
+
 // Inicializar base de datos SQLite
-const db = new sqlite3.Database(':memory:', (err) => {
+const db = new sqlite3.Database(DB_PATH, (err) => {
   if (err) {
     console.error('❌ Error al conectar DB:', err);
   } else {
-    console.log('✅ Base de datos SQLite iniciada en memoria');
+    console.log(`✅ Base de datos SQLite en ${DB_PATH}`);
     initializeDatabase();
   }
 });
@@ -87,22 +95,6 @@ function initializeDatabase() {
       if (err) console.error('Error creating table:', err);
     });
   });
-
-  // Insertar post de ejemplo
-  db.run(
-    `INSERT INTO posts (title, description, content, image_url, views)
-     VALUES (?, ?, ?, ?, ?)`,
-    [
-      'Bienvenido a NetUnlock CMS',
-      'Tu plataforma de gestión de contenidos profesional',
-      'Este es tu primer post. Puedes editarlo o eliminarlo desde el panel de admin.\n\nLos posts pueden incluir:\n- Títulos y descripciones\n- Contenido formateado\n- Imágenes\n- Videos embebidos\n- Comentarios de visitantes\n\n¡Empieza a crear contenido ahora!',
-      'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop',
-      5
-    ],
-    (err) => {
-      if (!err) console.log('✅ Post de ejemplo insertado');
-    }
-  );
 
   console.log('✅ Tablas inicializadas');
 }
