@@ -563,6 +563,14 @@
                 this.loadPosts();
                 this.loadPublicAds();
                 this.handleRoute();
+                setTimeout(() => this.hideEmptyAds(), 4000);
+            },
+
+            hideEmptyAds() {
+                document.querySelectorAll('.ad-wrap').forEach(wrap => {
+                    const ins = wrap.querySelector('ins.adsbygoogle');
+                    if (!ins || !ins.querySelector('iframe')) wrap.style.display = 'none';
+                });
             },
 
             go(path) {
