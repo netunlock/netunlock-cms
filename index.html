@@ -67,29 +67,32 @@
             background-clip: text;
         }
 
-        /* Google AdSense Responsive */
-        .adsbygoogle {
-            display: inline-block !important;
+        .ad-wrap {
+            margin: 2.5rem auto;
+            max-width: 728px;
+            text-align: center;
         }
 
-        /* Limitar altura de ads en móviles */
-        @media (max-width: 768px) {
-            .adsbygoogle {
-                max-height: 250px !important;
-            }
-
-            ins.adsbygoogle {
-                min-width: 280px !important;
-                max-width: 100% !important;
-                width: 100% !important;
-            }
+        .ad-label {
+            font-size: 0.7rem;
+            color: rgba(148, 163, 184, 0.6);
+            margin-bottom: 0.25rem;
         }
 
-        /* Desktop: permitir más espacio */
+        .ad-wrap ins.adsbygoogle {
+            display: block;
+            max-height: 120px;
+            overflow: hidden;
+        }
+
         @media (min-width: 769px) {
-            .adsbygoogle {
-                max-height: 300px !important;
+            .ad-wrap ins.adsbygoogle {
+                max-height: 180px;
             }
+        }
+
+        .ad-wrap:has(ins[data-ad-status="unfilled"]) {
+            display: none;
         }
 
         .modal {
@@ -289,7 +292,7 @@
         <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
             <h1 class="text-2xl font-bold text-glow">NetUnlock CMS Pro</h1>
             <div class="flex gap-4">
-                <button onclick="app.showView('posts')" class="px-4 py-2 rounded-lg hover:bg-slate-800 transition">Recursos</button>
+                <a href="/" data-link class="px-4 py-2 rounded-lg hover:bg-slate-800 transition">Recursos</a>
             </div>
         </div>
     </nav>
@@ -298,21 +301,9 @@
     <div id="postsView" class="view active pt-20">
         <div class="max-w-6xl mx-auto px-4 py-12">
             <h1 class="text-5xl font-black mb-4">Centro de Recursos</h1>
-            <p class="text-xl text-slate-300 mb-12">Contenido profesional y personalizado para tu negocio.</p>
+            <p class="text-xl text-slate-300 mb-8">Contenido profesional y personalizado para tu negocio.</p>
 
-            <!-- Google AdSense: Anuncio Responsive Top (Discreto en móviles) -->
-            <div style="margin: 1.5rem 0; background: rgba(30, 41, 59, 0.2); padding: 0.75rem; border-radius: 0.75rem; text-align: center; border: 1px solid rgba(99, 102, 241, 0.2);">
-                <p style="font-size: 0.75rem; color: rgba(148, 163, 184, 0.7); margin: 0 0 0.5rem 0;">Publicidad</p>
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-6762464723926833"
-                     data-ad-slot="1234567890"
-                     data-ad-format="auto"
-                     data-full-width-responsive="true"></ins>
-                <script>
-                     (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
+            <div id="categoryFilters" class="flex flex-wrap gap-2 mb-8"></div>
 
             <div id="postsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
                 <div class="col-span-full text-center text-slate-400">
@@ -321,9 +312,9 @@
                 </div>
             </div>
 
-            <!-- Google AdSense: Anuncio Responsive Middle (Entre contenido) -->
-            <div style="margin: 2.5rem 0; background: rgba(30, 41, 59, 0.2); padding: 0.75rem; border-radius: 0.75rem; text-align: center; border: 1px solid rgba(99, 102, 241, 0.2);">
-                <p style="font-size: 0.75rem; color: rgba(148, 163, 184, 0.7); margin: 0 0 0.5rem 0;">Publicidad</p>
+            <!-- Google AdSense: anuncio debajo de los posts; se oculta si no hay anuncio disponible -->
+            <div class="ad-wrap">
+                <p class="ad-label">Publicidad</p>
                 <ins class="adsbygoogle"
                      style="display:block"
                      data-ad-client="ca-pub-6762464723926833"
@@ -351,6 +342,10 @@
                 </form>
                 <div id="newsletterMessage"></div>
             </div>
+
+            <footer class="text-center mt-12">
+                <a href="/admin" data-link class="text-xs text-slate-600 hover:text-slate-400">dev</a>
+            </footer>
         </div>
     </div>
 
@@ -439,6 +434,11 @@
                 <input type="text" id="postDescription" class="w-full px-4 py-2 rounded-lg bg-slate-800 border border-slate-700 text-white focus:outline-none">
             </div>
 
+            <div class="mb-6">
+                <label class="block text-sm font-semibold mb-2">Categoría</label>
+                <select id="postCategory" class="w-full px-4 py-2 rounded-lg bg-slate-800 border border-slate-700 text-white focus:outline-none"></select>
+            </div>
+
             <!-- EDITOR DE BLOQUES -->
             <div class="mb-6">
                 <div class="flex justify-between items-center mb-4">
@@ -467,14 +467,19 @@
         </div>
     </div>
 
-    <!-- MODAL: VER POST -->
-    <div id="postModal" class="modal">
-        <div class="modal-content">
-            <button onclick="app.closePostModal()" class="float-right text-2xl mb-4">✕</button>
-            <div id="postModalContent" class="post-preview"></div>
+    <!-- VISTA: POST INDIVIDUAL -->
+    <div id="postPageView" class="view pt-20">
+        <div class="max-w-3xl mx-auto px-4 py-12">
+            <a href="/" data-link class="text-indigo-400 hover:text-indigo-300 text-sm">← Volver a recursos</a>
 
-            <!-- COMENTARIOS -->
-            <div class="mt-8 pt-8 border-t border-slate-700">
+            <div id="postPageContent" class="post-preview mt-6"></div>
+
+            <div class="mt-12 pt-8 border-t border-slate-700">
+                <h3 class="text-2xl font-bold mb-4">Calificación</h3>
+                <div id="ratingWidget"></div>
+            </div>
+
+            <div class="mt-12 pt-8 border-t border-slate-700">
                 <h3 class="text-2xl font-bold mb-6">Comentarios</h3>
 
                 <form onsubmit="app.handleCommentSubmit(event)" class="mb-8 p-4 bg-slate-800/50 rounded-lg">
@@ -541,23 +546,49 @@
             blockCounter: 0,
             publicAds: [],
 
+            currentCategory: 'Todas',
+            allPosts: [],
+
             init() {
+                document.addEventListener('click', (e) => {
+                    const link = e.target.closest('a[data-link]');
+                    if (link && link.origin === window.location.origin) {
+                        e.preventDefault();
+                        this.go(link.pathname);
+                    }
+                });
+                window.addEventListener('popstate', () => this.handleRoute());
+
+                this.loadCategories();
                 this.loadPosts();
                 this.loadPublicAds();
                 this.handleRoute();
-                window.addEventListener('hashchange', () => this.handleRoute());
+            },
+
+            go(path) {
+                window.history.pushState({}, '', path);
+                this.handleRoute();
+                window.scrollTo(0, 0);
             },
 
             handleRoute() {
-                const hash = window.location.hash.slice(1);
+                const path = window.location.pathname;
+                const hash = window.location.hash;
 
-                if (hash === 'admin') {
+                if (hash.startsWith('#post/')) {
+                    window.history.replaceState({}, '', '/post/' + hash.slice(6));
+                    return this.handleRoute();
+                }
+                if (hash === '#admin') {
+                    window.history.replaceState({}, '', '/admin');
+                    return this.handleRoute();
+                }
+
+                if (path === '/admin') {
                     this.toggleAdminLogin();
-                } else if (hash.startsWith('post/')) {
-                    const postSlug = hash.split('/')[1];
-                    this.loadPostBySlug(postSlug);
+                } else if (path.startsWith('/post/')) {
+                    this.loadPostBySlug(decodeURIComponent(path.slice('/post/'.length)));
                 } else {
-                    // Por defecto mostrar vista de posts públicos
                     this.showView('posts');
                 }
             },
@@ -583,51 +614,90 @@
             },
 
             // ========== POSTS PÚBLICOS ==========
-            async loadPosts() {
+            async loadCategories() {
                 try {
-                    const response = await fetch(`${this.API_BASE}/posts`);
-                    const posts = await response.json();
+                    const response = await fetch(`${this.API_BASE}/categories`);
+                    const categories = await response.json();
+                    this.categories = categories;
 
-                    const grid = document.getElementById('postsGrid');
-                    if (posts.length === 0) {
-                        grid.innerHTML = '<div class="col-span-full text-center text-slate-400">No hay posts aún</div>';
-                        return;
-                    }
-
-                    grid.innerHTML = posts.map(post => {
-                        const slug = this.generateSlug(post.title);
-                        const firstImage = this.getFirstImageFromBlocks(post.blocks);
-                        return `
-                        <div class="card p-0 rounded-2xl cursor-pointer overflow-hidden flex flex-col h-full" onclick="app.openPostModal(${post.id})">
-                            ${firstImage ? `<img src="${firstImage}" alt="${post.title}" style="width: 100%; height: 200px; object-fit: cover;">` : ''}
-                            <div class="p-6 flex flex-col flex-grow">
-                                <h3 class="text-xl font-bold mb-2">${post.title}</h3>
-                                <p class="text-slate-400 text-sm mb-4 flex-grow">${post.description || post.content.substring(0, 80) + '...'}</p>
-                                <div class="flex justify-between items-center text-xs text-slate-500">
-                                    <span>👁 ${post.views} vistas</span>
-                                    <span>${new Date(post.created_at).toLocaleDateString('es-ES')}</span>
-                                </div>
-                                <a href="#post/${slug}" class="text-indigo-400 text-xs hover:text-indigo-300 mt-3 inline-block">Compartir enlace →</a>
-                            </div>
-                        </div>
-                    `}).join('');
+                    document.getElementById('postCategory').innerHTML = categories
+                        .map(c => `<option value="${c}">${c}</option>`).join('');
+                    this.renderCategoryFilters();
                 } catch (error) {
                     console.error('Error:', error);
                 }
             },
 
-            // ========== MODAL DE POST ==========
-            async openPostModal(postId) {
+            renderCategoryFilters() {
+                const options = ['Todas', ...(this.categories || [])];
+                document.getElementById('categoryFilters').innerHTML = options.map(c => {
+                    const active = c === this.currentCategory;
+                    return `<button onclick="app.setCategory('${c}')" class="px-4 py-2 rounded-full text-sm border transition ${active ? 'bg-indigo-600 border-indigo-600 text-white' : 'border-slate-700 text-slate-300 hover:bg-slate-800'}">${c}</button>`;
+                }).join('');
+            },
+
+            setCategory(category) {
+                this.currentCategory = category;
+                this.renderCategoryFilters();
+                this.renderPostCards();
+            },
+
+            async loadPosts() {
+                try {
+                    const response = await fetch(`${this.API_BASE}/posts`);
+                    this.allPosts = await response.json();
+                    this.renderPostCards();
+                } catch (error) {
+                    console.error('Error:', error);
+                }
+            },
+
+            renderPostCards() {
+                const grid = document.getElementById('postsGrid');
+                const posts = this.currentCategory === 'Todas'
+                    ? this.allPosts
+                    : this.allPosts.filter(p => (p.category || 'General') === this.currentCategory);
+
+                if (posts.length === 0) {
+                    grid.innerHTML = '<div class="col-span-full text-center text-slate-400">No hay posts en esta categoría</div>';
+                    return;
+                }
+
+                grid.innerHTML = posts.map(post => {
+                    const slug = this.generateSlug(post.title);
+                    const firstImage = this.getFirstImageFromBlocks(post.blocks);
+                    const rating = post.rating_count
+                        ? `★ ${post.avg_rating} (${post.rating_count})`
+                        : 'Sin calificaciones';
+                    return `
+                    <a href="/post/${slug}" data-link class="card block p-0 rounded-2xl overflow-hidden flex flex-col h-full">
+                        ${firstImage ? `<img src="${firstImage}" alt="${post.title}" style="width: 100%; height: 200px; object-fit: cover;">` : ''}
+                        <div class="p-6 flex flex-col flex-grow">
+                            <span class="text-xs font-semibold text-indigo-400 mb-2">${post.category || 'General'}</span>
+                            <h3 class="text-xl font-bold mb-2">${post.title}</h3>
+                            <p class="text-slate-400 text-sm mb-4 flex-grow">${post.description || post.content.substring(0, 80) + '...'}</p>
+                            <div class="flex justify-between items-center text-xs text-slate-500">
+                                <span>${rating}</span>
+                                <span>${new Date(post.created_at).toLocaleDateString('es-ES')}</span>
+                            </div>
+                        </div>
+                    </a>
+                `}).join('');
+            },
+
+            // ========== PÁGINA DE POST ==========
+            async showPostPage(postId) {
                 this.currentPostId = postId;
                 try {
                     const response = await fetch(`${this.API_BASE}/posts/${postId}`);
                     const post = await response.json();
 
-                    const postUrl = window.location.origin + window.location.pathname + '#post/' + this.generateSlug(post.title);
+                    const postUrl = window.location.origin + '/post/' + this.generateSlug(post.title);
                     const shareText = encodeURIComponent(`Mira esto: ${post.title}`);
                     const shareUrl = encodeURIComponent(postUrl);
 
-                    let content = `<h1>${post.title}</h1>
+                    let content = `<span class="text-xs font-semibold text-indigo-400">${post.category || 'General'}</span>
+                        <h1>${post.title}</h1>
                         <p class="text-slate-400 mb-4">${new Date(post.created_at).toLocaleDateString('es-ES')} · ${post.views} vistas</p>
                         <div class="flex gap-3 mb-6 flex-wrap">
                             <a href="https://wa.me/?text=${shareText}%20${shareUrl}" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg text-sm transition">
@@ -657,12 +727,58 @@
                         content += `<div>${post.content}</div>`;
                     }
 
-                    document.getElementById('postModalContent').innerHTML = content;
+                    document.getElementById('postPageContent').innerHTML = content;
+                    document.title = `${post.title} | NetUnlock`;
+                    this.showView('postPage');
+                    this.loadRating(postId);
                     this.loadComments(postId);
-                    document.getElementById('postModal').classList.add('active');
                 } catch (error) {
                     console.error('Error:', error);
                 }
+            },
+
+            async loadRating(postId) {
+                const box = document.getElementById('ratingWidget');
+                const mine = Number(this.readStorage('rated_' + postId)) || 0;
+                try {
+                    const response = await fetch(`${this.API_BASE}/posts/${postId}/rating`);
+                    const { average, count } = await response.json();
+                    const stars = [1, 2, 3, 4, 5].map(n =>
+                        `<button type="button" onclick="app.ratePost(${postId}, ${n})" class="text-3xl ${n <= Math.round(average) ? 'text-amber-400' : 'text-slate-600'} hover:text-amber-300 transition">★</button>`
+                    ).join('');
+                    const summary = count
+                        ? `Promedio ${average} de 5 (${count} ${count === 1 ? 'voto' : 'votos'})`
+                        : 'Sé el primero en calificar';
+                    box.innerHTML = `<div class="flex gap-1">${stars}</div>
+                        <p class="text-sm text-slate-400 mt-2">${summary}${mine ? ` · Tu voto: ${mine} ★` : ''}</p>`;
+                } catch (error) {
+                    box.innerHTML = '<p class="text-slate-400">No se pudo cargar la calificación</p>';
+                }
+            },
+
+            async ratePost(postId, rating) {
+                try {
+                    const response = await fetch(`${this.API_BASE}/posts/${postId}/rating`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ rating })
+                    });
+                    if (response.ok) {
+                        this.writeStorage('rated_' + postId, rating);
+                        this.loadRating(postId);
+                        this.loadPosts();
+                    }
+                } catch (error) {
+                    console.error('Error:', error);
+                }
+            },
+
+            readStorage(key) {
+                try { return localStorage.getItem(key); } catch (e) { return null; }
+            },
+
+            writeStorage(key, value) {
+                try { localStorage.setItem(key, value); } catch (e) { /* sin almacenamiento: solo se pierde el voto local */ }
             },
 
             renderBlocks(blocks) {
@@ -687,10 +803,6 @@
                             return '';
                     }
                 }).join('');
-            },
-
-            closePostModal() {
-                document.getElementById('postModal').classList.remove('active');
             },
 
             generateSlug(title) {
@@ -720,9 +832,10 @@
                     const post = posts.find(p => this.generateSlug(p.title) === slug);
 
                     if (post) {
-                        this.openPostModal(post.id);
+                        this.showPostPage(post.id);
                     } else {
-                        console.error('Post no encontrado');
+                        document.getElementById('postPageContent').innerHTML = '<p class="text-slate-400">Este post no existe.</p>';
+                        this.showView('postPage');
                     }
                 } catch (error) {
                     console.error('Error:', error);
@@ -735,6 +848,7 @@
                 this.blockCounter = 0;
                 document.getElementById('postTitle').value = '';
                 document.getElementById('postDescription').value = '';
+                document.getElementById('postCategory').value = 'General';
                 document.getElementById('blocksContainer').innerHTML = '';
                 document.getElementById('postFormModal').classList.add('active');
             },
@@ -796,13 +910,7 @@
                 blockEl.className = 'block';
                 blockEl.id = `block-${block.id}`;
 
-                let content = `
-                    <div class="block-toolbar">
-                        <button class="block-button" onclick="app.deleteBlock(${block.id})">🗑️ Eliminar</button>
-                        <button class="block-button" onclick="app.moveBlockUp(${block.id})">⬆️ Arriba</button>
-                        <button class="block-button" onclick="app.moveBlockDown(${block.id})">⬇️ Abajo</button>
-                    </div>
-                `;
+                let content = '';
 
                 if (block.type === 'text') {
                     content += `
@@ -858,6 +966,14 @@
                         <textarea id="html-${block.id}" class="text-editor w-full" placeholder="<div>Tu HTML aquí</div>"></textarea>
                     `;
                 }
+
+                content += `
+                    <div class="block-toolbar mt-4">
+                        <button class="block-button" onclick="app.moveBlockUp(${block.id})">⬆️ Arriba</button>
+                        <button class="block-button" onclick="app.moveBlockDown(${block.id})">⬇️ Abajo</button>
+                        <button class="block-button" onclick="app.deleteBlock(${block.id})">🗑️ Eliminar</button>
+                    </div>
+                `;
 
                 blockEl.innerHTML = content;
                 container.appendChild(blockEl);
@@ -938,6 +1054,7 @@
                 const postData = {
                     title,
                     description,
+                    category: document.getElementById('postCategory').value,
                     content: title,
                     blocks: this.blocks
                 };
@@ -1140,6 +1257,7 @@
                     // Llenar formulario
                     document.getElementById('postTitle').value = post.title;
                     document.getElementById('postDescription').value = post.description || '';
+                    document.getElementById('postCategory').value = post.category || 'General';
 
                     // Limpiar bloques y cargar los existentes
                     this.blocks = [];

@@ -54,9 +54,19 @@ function initializeDatabase() {
       description TEXT,
       content TEXT NOT NULL,
       blocks TEXT,
+      category TEXT DEFAULT 'General',
       views INTEGER DEFAULT 0,
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
       updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+    )`,
+
+    // Calificaciones (1 a 5 estrellas, una por visitante)
+    `CREATE TABLE IF NOT EXISTS post_ratings (
+      post_id INTEGER NOT NULL,
+      ip TEXT NOT NULL,
+      rating INTEGER NOT NULL,
+      created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      PRIMARY KEY (post_id, ip)
     )`,
 
     // Comentarios
@@ -96,6 +106,9 @@ function initializeDatabase() {
     });
   });
 
+  // Bases creadas antes de existir la columna de categoría
+  db.run("ALTER TABLE posts ADD COLUMN category TEXT DEFAULT 'General'", () => {});
+
   console.log('✅ Tablas inicializadas');
 }
 
@@ -103,9 +116,22 @@ function initializeDatabase() {
 // RUTAS: POSTS PÚBLICOS
 // ============================================
 
+const CATEGORIES = ['General', 'Tutoriales', 'Recursos', 'Noticias'];
+
+function normalizeCategory(category) {
+  return CATEGORIES.includes(category) ? category : 'General';
+}
+
+app.get('/api/categories', (req, res) => {
+  res.json(CATEGORIES);
+});
+
 app.get('/api/posts', (req, res) => {
   db.all(
-    'SELECT * FROM posts ORDER BY created_at DESC',
+    `SELECT p.*,
+       (SELECT ROUND(AVG(rating), 1) FROM post_ratings WHERE post_id = p.id) AS avg_rating,
+       (SELECT COUNT(*) FROM post_ratings WHERE post_id = p.id) AS rating_count
+     FROM posts p ORDER BY p.created_at DESC`,
     (err, rows) => {
       if (err) {
         res.status(500).json({ error: err.message });
@@ -193,6 +219,49 @@ app.delete('/api/comments/:id', (req, res) => {
       res.json({ message: 'Comentario eliminado' });
     }
   });
+});
+
+// ============================================
+// RUTAS: CALIFICACIONES
+// ============================================
+
+function clientIp(req) {
+  const forwarded = req.headers['x-forwarded-for'];
+  return forwarded ? forwarded.split(',')[0].trim() : req.socket.remoteAddress;
+}
+
+app.get('/api/posts/:id/rating', (req, res) => {
+  db.get(
+    'SELECT ROUND(AVG(rating), 1) AS average, COUNT(*) AS count FROM post_ratings WHERE post_id = ?',
+    [req.params.id],
+    (err, row) => {
+      if (err) {
+        res.status(500).json({ error: err.message });
+      } else {
+        res.json({ average: row.average || 0, count: row.count });
+      }
+    }
+  );
+});
+
+app.post('/api/posts/:id/rating', (req, res) => {
+  const rating = Number(req.body.rating);
+  if (!Number.isInteger(rating) || rating < 1 || rating > 5) {
+    return res.status(400).json({ error: 'La calificación debe ser de 1 a 5' });
+  }
+
+  db.run(
+    `INSERT INTO post_ratings (post_id, ip, rating) VALUES (?, ?, ?)
+     ON CONFLICT(post_id, ip) DO UPDATE SET rating = excluded.rating, created_at = CURRENT_TIMESTAMP`,
+    [req.params.id, clientIp(req), rating],
+    (err) => {
+      if (err) {
+        res.status(500).json({ error: err.message });
+      } else {
+        res.json({ message: 'Calificación guardada' });
+      }
+    }
+  );
 });
 
 // ============================================
@@ -334,7 +403,7 @@ function verifyAdminToken(req, res, next) {
 
 // Crear post (admin)
 app.post('/api/posts', verifyAdminToken, (req, res) => {
-  const { title, description, content, blocks } = req.body;
+  const { title, description, content, blocks, category } = req.body;
 
   if (!title || !content) {
     return res.status(400).json({ error: 'Título y contenido requeridos' });
@@ -343,9 +412,9 @@ app.post('/api/posts', verifyAdminToken, (req, res) => {
   const blocksJSON = blocks ? JSON.stringify(blocks) : null;
 
   db.run(
-    `INSERT INTO posts (title, description, content, blocks)
-     VALUES (?, ?, ?, ?)`,
-    [title, description || '', content, blocksJSON],
+    `INSERT INTO posts (title, description, content, blocks, category)
+     VALUES (?, ?, ?, ?, ?)`,
+    [title, description || '', content, blocksJSON, normalizeCategory(category)],
     function(err) {
       if (err) {
         res.status(500).json({ error: err.message });
@@ -374,14 +443,14 @@ function notifySubscribersNewPost(postId, postTitle) {
 // Actualizar post (admin)
 app.put('/api/posts/:id', verifyAdminToken, (req, res) => {
   const { id } = req.params;
-  const { title, description, content, blocks } = req.body;
+  const { title, description, content, blocks, category } = req.body;
 
   const blocksJSON = blocks ? JSON.stringify(blocks) : null;
 
   db.run(
-    `UPDATE posts SET title = ?, description = ?, content = ?, blocks = ?, updated_at = CURRENT_TIMESTAMP
+    `UPDATE posts SET title = ?, description = ?, content = ?, blocks = ?, category = ?, updated_at = CURRENT_TIMESTAMP
      WHERE id = ?`,
-    [title, description, content, blocksJSON, id],
+    [title, description, content, blocksJSON, normalizeCategory(category), id],
     (err) => {
       if (err) {
         res.status(500).json({ error: err.message });
@@ -408,6 +477,10 @@ app.delete('/api/posts/:id', verifyAdminToken, (req, res) => {
 // ============================================
 // INICIAR SERVIDOR
 // ============================================
+
+app.get(/^\/(?!api\/).*/, (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
 
 app.listen(PORT, () => {
   console.log(`\n🚀 NetUnlock CMS Backend ejecutándose en http://localhost:${PORT}`);
